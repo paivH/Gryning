@@ -495,7 +495,7 @@ async function loadWeather() {
       + `&current=temperature_2m,apparent_temperature,weather_code`
       + `&hourly=temperature_2m,weather_code,precipitation_probability`
       + `&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,sunrise,sunset`
-      + `&timezone=Europe%2FStockholm&forecast_days=1`;
+      + `&timezone=Europe%2FStockholm&forecast_days=2`;
     const r = await fetch(url);
     const d = await r.json();
 
@@ -512,9 +512,9 @@ async function loadWeather() {
     $('wx-sunrise').textContent = d.daily.sunrise[0].slice(11, 16);
     $('wx-sunset').textContent = d.daily.sunset[0].slice(11, 16);
 
-    // next 5 hours
-    const nowH = new Date().getHours();
-    const idx = d.hourly.time.findIndex((t) => new Date(t).getHours() > nowH) ;
+    // next 5 hours (crosses midnight thanks to forecast_days=2)
+    const nowT = Date.now();
+    const idx = d.hourly.time.findIndex((t) => new Date(t).getTime() > nowT);
     const start = idx === -1 ? 0 : idx;
     const hoursEl = $('wx-hours');
     hoursEl.innerHTML = '';
@@ -645,11 +645,29 @@ async function fetchFeed(feed) {
   return [];
 }
 
+let newsRetryTimer = null;
+
 async function loadNews() {
-  const perFeed = await Promise.all(CONFIG.feeds.map(fetchFeed));
-  const items = perFeed.flat();
+  let items = [];
+
+  // 0) same-origin news.json, written by the GitHub Action — no CORS, works everywhere
+  try {
+    const r = await fetch('news.json?t=' + Date.now());
+    if (r.ok) {
+      const d = await r.json();
+      items = (d.items || []).map((i) => ({ src: i.src, title: i.title, date: new Date(i.date) }));
+    }
+  } catch (e) { /* fall through to live fetch */ }
+
+  // 1) live RSS via proxies (fallback if news.json missing or empty)
   if (!items.length) {
-    $('news-list').innerHTML = '<div class="headline"><span class="txt">Nyheter otillgängliga</span></div>';
+    const perFeed = await Promise.all(CONFIG.feeds.map(fetchFeed));
+    items = perFeed.flat();
+  }
+  if (!items.length) {
+    $('news-list').innerHTML = '<div class="headline"><span class="txt">Nyheter otillgängliga · försöker igen strax</span></div>';
+    clearTimeout(newsRetryTimer);
+    newsRetryTimer = setTimeout(loadNews, 90 * 1000);
     return;
   }
   // interleave sources, newest first within each

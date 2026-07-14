@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#0b0e14">
+<title>Gryning</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200;300;400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-a: #0b0e14;
+    --bg-b: #0b0e14;
+    --glow: rgba(232, 184, 114, 0);
+    --ink: #e6e1d8;
+    --ink-dim: #8b93a7;
+    --ink-faint: #545b6b;
+    --amber: #e8b872;
+    --line: rgba(139, 147, 167, 0.16);
+    --card: rgba(139, 147, 167, 0.07);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Inter', system-ui, sans-serif;
+    color: var(--ink);
+    background: var(--bg-a);
+    -webkit-font-smoothing: antialiased;
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: default;
+  }
+
+  #sky {
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(180deg, var(--bg-a) 0%, var(--bg-b) 100%);
+    transition: background 60s linear;
+    z-index: -2;
+  }
+
+  #glow {
+    position: fixed;
+    left: 50%;
+    bottom: -40vh;
+    width: 130vw;
+    height: 80vh;
+    transform: translateX(-50%);
+    background: radial-gradient(ellipse at center, var(--glow) 0%, transparent 65%);
+    transition: opacity 60s linear;
+    z-index: -1;
+    pointer-events: none;
+  }
+
+  #app {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 4vmin 5vmin;
+    gap: 2.5vmin;
+    transition: opacity 1.2s ease;
+  }
+
+  /* ---------- header: clock ---------- */
+  header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 3vmin;
+    flex-wrap: wrap;
+  }
+
+  #clock {
+    font-family: 'Inter Tight', 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: clamp(64px, 17vmin, 190px);
+    line-height: 0.95;
+    letter-spacing: -0.03em;
+    font-variant-numeric: tabular-nums;
+  }
+
+  #clock .sec {
+    font-size: 0.28em;
+    font-weight: 300;
+    color: var(--ink-faint);
+    letter-spacing: 0;
+  }
+
+  #dateblock {
+    text-align: right;
+    padding-top: 1.6vmin;
+    min-width: 30vmin;
+  }
+
+  #date {
+    font-size: clamp(15px, 2.8vmin, 26px);
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+
+  #nameday {
+    margin-top: 0.8vmin;
+    font-size: clamp(12px, 2.1vmin, 19px);
+    color: var(--ink-dim);
+  }
+
+  #nameday .red {
+    color: var(--amber);
+    font-weight: 600;
+  }
+
+  /* ---------- weather ---------- */
+  #weather {
+    display: flex;
+    align-items: center;
+    gap: 4vmin;
+    flex-wrap: wrap;
+  }
+
+  #wx-now {
+    display: flex;
+    align-items: baseline;
+    gap: 1.5vmin;
+  }
+
+  #wx-temp {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 300;
+    font-size: clamp(42px, 9vmin, 92px);
+    letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums;
+  }
+
+  #wx-desc {
+    font-size: clamp(13px, 2.3vmin, 21px);
+    color: var(--ink-dim);
+    max-width: 24vmin;
+    line-height: 1.3;
+  }
+
+  #wx-meta {
+    display: flex;
+    gap: 3.5vmin;
+    font-size: clamp(12px, 2vmin, 18px);
+    color: var(--ink-dim);
+    font-variant-numeric: tabular-nums;
+  }
+
+  #wx-meta b {
+    display: block;
+    color: var(--ink);
+    font-weight: 500;
+    font-size: 1.25em;
+    margin-top: 0.3vmin;
+  }
+
+  #wx-hours {
+    display: flex;
+    gap: 0;
+    margin-left: auto;
+    border-left: 1px solid var(--line);
+    padding-left: 2vmin;
+  }
+
+  .hour {
+    text-align: center;
+    padding: 0 1.6vmin;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .hour .h { font-size: clamp(10px, 1.7vmin, 15px); color: var(--ink-faint); }
+  .hour .i { font-size: clamp(16px, 3vmin, 28px); margin: 0.5vmin 0; }
+  .hour .t { font-size: clamp(12px, 2vmin, 18px); font-weight: 500; }
+
+  /* ---------- middle: trains + f1 ---------- */
+  #row2 {
+    display: flex;
+    gap: 2.5vmin;
+    flex-wrap: wrap;
+  }
+
+  .panel {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 2.2vmin 2.6vmin;
+  }
+
+  .panel h2 {
+    font-size: clamp(10px, 1.7vmin, 14px);
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin-bottom: 1.4vmin;
+  }
+
+  #trains { flex: 2 1 300px; }
+
+  #train-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1vmin;
+  }
+
+  .dep {
+    display: flex;
+    align-items: baseline;
+    gap: 2vmin;
+    font-size: clamp(14px, 2.4vmin, 22px);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .dep .when {
+    font-weight: 600;
+    min-width: 5.5ch;
+    color: var(--amber);
+  }
+
+  .dep .when.later { color: var(--ink); }
+  .dep .dest { color: var(--ink-dim); flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .dep .line-badge {
+    font-size: 0.72em;
+    font-weight: 600;
+    color: var(--ink-faint);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 0.1em 0.5em;
+  }
+
+  #f1 { flex: 1 1 220px; }
+
+  #f1-body {
+    font-size: clamp(14px, 2.4vmin, 22px);
+    line-height: 1.45;
+  }
+
+  #f1-body .race { font-weight: 600; }
+  #f1-body .count { color: var(--amber); font-weight: 600; font-variant-numeric: tabular-nums; }
+  #f1-body .sub { color: var(--ink-dim); font-size: 0.82em; margin-top: 0.6vmin; }
+
+  /* ---------- news ---------- */
+  #news { flex: 1; min-height: 0; }
+
+  #news-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vmin;
+    overflow: hidden;
+  }
+
+  .headline {
+    display: flex;
+    align-items: baseline;
+    gap: 1.8vmin;
+    font-size: clamp(14px, 2.5vmin, 23px);
+    line-height: 1.35;
+  }
+
+  .headline .src {
+    font-size: 0.62em;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    color: var(--ink-faint);
+    min-width: 4.5ch;
+    text-transform: uppercase;
+  }
+
+  .headline .txt {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* ---------- footer status ---------- */
+  footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: clamp(9px, 1.5vmin, 12px);
+    color: var(--ink-faint);
+    letter-spacing: 0.06em;
+  }
+
+  /* ---------- night mode ---------- */
+  body.night #app > *:not(header) { opacity: 0; pointer-events: none; }
+  body.night #dateblock { opacity: 0.35; }
+  body.night #clock { color: #6a7080; }
+  body.night { background: #000; }
+  body.night #sky, body.night #glow { opacity: 0; }
+
+  #app > *:not(header), #dateblock, #clock, #sky, #glow {
+    transition: opacity 1.5s ease, color 1.5s ease;
+  }
+
+  .hidden { display: none !important; }
+
+  @media (max-width: 700px) {
+    #wx-hours { border-left: none; padding-left: 0; margin-left: 0; }
+    #dateblock { text-align: left; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; }
+  }
+</style>
+</head>
+<body>
+<div id="sky"></div>
+<div id="glow"></div>
+
+<div id="app">
+  <header>
+    <div id="clock">--:--</div>
+    <div id="dateblock">
+      <div id="date"></div>
+      <div id="nameday"></div>
+    </div>
+  </header>
+
+  <div id="weather">
+    <div id="wx-now">
+      <div id="wx-temp">--°</div>
+      <div id="wx-desc"></div>
+    </div>
+    <div id="wx-meta">
+      <div>Högst / lägst<b id="wx-hilo">-- / --</b></div>
+      <div>Regn idag<b id="wx-rain">--</b></div>
+      <div>Sol upp<b id="wx-sunrise">--:--</b></div>
+      <div>Sol ner<b id="wx-sunset">--:--</b></div>
+    </div>
+    <div id="wx-hours"></div>
+  </div>
+
+  <div id="row2">
+    <div class="panel" id="trains">
+      <h2>Pendeltåg · Jakobsberg</h2>
+      <div id="train-list"><div class="dep"><span class="dest">Hämtar avgångar …</span></div></div>
+    </div>
+    <div class="panel" id="f1">
+      <h2>Nästa F1-race</h2>
+      <div id="f1-body">Hämtar …</div>
+    </div>
+  </div>
+
+  <div class="panel" id="news">
+    <h2>Nyheter</h2>
+    <div id="news-list"><div class="headline"><span class="txt">Hämtar rubriker …</span></div></div>
+  </div>
+
+  <footer>
+    <span id="status">GRYNING</span>
+    <span id="updated"></span>
+  </footer>
+</div>
+
+<script>
+/* ============================================================
+   GRYNING — bedside morning dashboard
+   Single file. No keys. No backend. GitHub Pages friendly.
+   ============================================================ */
+
+const CONFIG = {
+  // Jakobsberg, Stockholm
+  lat: 59.4229,
+  lon: 17.8358,
+  // SL station name to match (pendeltåg)
+  slStationName: 'Jakobsberg',
+  // Only show departures toward the city? Set to null for all.
+  // Matches against destination text, e.g. 'Stockholm|Södertälje|Tumba'
+  slDestinationFilter: null,
+  // Night mode: clock-only, screen almost black
+  nightStart: 22,   // 22:00
+  nightEnd: 6,      // 06:00
+  // RSS feeds (name shown, url). Fetched via CORS proxy.
+  feeds: [
+    { name: 'SVT', url: 'https://www.svt.se/nyheter/rss.xml' },
+    { name: 'BBC', url: 'https://feeds.bbci.co.uk/news/world/rss.xml' },
+  ],
+  maxHeadlines: 6,
+  corsProxy: 'https://api.allorigins.win/raw?url=',
+  // refresh intervals (ms)
+  weatherEvery: 15 * 60 * 1000,
+  newsEvery: 15 * 60 * 1000,
+  trainsEvery: 60 * 1000,
+  f1Every: 6 * 60 * 60 * 1000,
+};
+
+const $ = (id) => document.getElementById(id);
+const pad = (n) => String(n).padStart(2, '0');
+
+/* ---------- clock, date, night mode ---------- */
+
+let sunTimes = null; // { sunrise: Date, sunset: Date }
+
+function tickClock() {
+  const now = new Date();
+  $('clock').innerHTML = `${pad(now.getHours())}:${pad(now.getMinutes())}<span class="sec"> ${pad(now.getSeconds())}</span>`;
+  $('date').textContent = now.toLocaleDateString('sv-SE', {
+    weekday: 'long', day: 'numeric', month: 'long',
+  });
+  applyNightMode(now);
+  paintSky(now);
+}
+
+function isNight(now) {
+  const h = now.getHours();
+  const { nightStart, nightEnd } = CONFIG;
+  return nightStart > nightEnd
+    ? (h >= nightStart || h < nightEnd)
+    : (h >= nightStart && h < nightEnd);
+}
+
+let nightOverrideUntil = 0;
+
+function applyNightMode(now) {
+  const night = isNight(now) && Date.now() > nightOverrideUntil;
+  document.body.classList.toggle('night', night);
+}
+
+// Tap anywhere at night to wake the full dashboard for 60 s
+document.addEventListener('pointerdown', () => {
+  nightOverrideUntil = Date.now() + 60 * 1000;
+  applyNightMode(new Date());
+});
+
+/* ---------- sky: background follows the real sun ---------- */
+
+function paintSky(now) {
+  // Phase: minutes relative to sunrise/sunset, if known
+  let top = '#0b0e14', bottom = '#0b0e14', glow = 'rgba(232,184,114,0)';
+  if (sunTimes) {
+    const t = now.getTime();
+    const rise = sunTimes.sunrise.getTime();
+    const set = sunTimes.sunset.getTime();
+    const H = 60 * 60 * 1000;
+
+    if (t > rise - H && t < rise + H) {
+      // dawn: warm glow rises
+      const p = (t - (rise - H)) / (2 * H); // 0..1
+      glow = `rgba(232, 168, 110, ${(0.22 * Math.sin(p * Math.PI)).toFixed(3)})`;
+      top = '#10131c';
+      bottom = mix('#0b0e14', '#2a2030', Math.sin(p * Math.PI));
+    } else if (t >= rise + H && t < set - H) {
+      // day: cool, slightly lifted
+      top = '#12161f';
+      bottom = '#171c27';
+    } else if (t >= set - H && t < set + H) {
+      // dusk
+      const p = (t - (set - H)) / (2 * H);
+      glow = `rgba(214, 140, 100, ${(0.16 * Math.sin(p * Math.PI)).toFixed(3)})`;
+      top = '#0e111a';
+      bottom = mix('#0b0e14', '#241d29', Math.sin(p * Math.PI));
+    }
+  }
+  const root = document.documentElement.style;
+  root.setProperty('--bg-a', top);
+  root.setProperty('--bg-b', bottom);
+  root.setProperty('--glow', glow);
+}
+
+function mix(a, b, p) {
+  const A = a.match(/\w\w/g).map((x) => parseInt(x, 16));
+  const B = b.match(/\w\w/g).map((x) => parseInt(x, 16));
+  return '#' + A.map((v, i) => pad(Math.round(v + (B[i] - v) * p).toString(16))).join('');
+}
+
+/* ---------- weather: Open-Meteo (no key) ---------- */
+
+const WMO = {
+  0: ['☀️', 'Klart'], 1: ['🌤️', 'Mest klart'], 2: ['⛅', 'Halvklart'], 3: ['☁️', 'Mulet'],
+  45: ['🌫️', 'Dimma'], 48: ['🌫️', 'Frostdimma'],
+  51: ['🌦️', 'Lätt duggregn'], 53: ['🌦️', 'Duggregn'], 55: ['🌧️', 'Tätt duggregn'],
+  61: ['🌦️', 'Lätt regn'], 63: ['🌧️', 'Regn'], 65: ['🌧️', 'Kraftigt regn'],
+  66: ['🌧️', 'Underkylt regn'], 67: ['🌧️', 'Underkylt regn'],
+  71: ['🌨️', 'Lätt snö'], 73: ['🌨️', 'Snö'], 75: ['❄️', 'Kraftig snö'], 77: ['❄️', 'Snökorn'],
+  80: ['🌦️', 'Regnskurar'], 81: ['🌧️', 'Regnskurar'], 82: ['⛈️', 'Kraftiga skurar'],
+  85: ['🌨️', 'Snöbyar'], 86: ['🌨️', 'Snöbyar'],
+  95: ['⛈️', 'Åska'], 96: ['⛈️', 'Åska med hagel'], 99: ['⛈️', 'Åska med hagel'],
+};
+const wmo = (c) => WMO[c] || ['🌡️', ''];
+
+async function loadWeather() {
+  try {
+    const url = `https://api.open-meteo.com/v1/forecast?latitude=${CONFIG.lat}&longitude=${CONFIG.lon}`
+      + `&current=temperature_2m,apparent_temperature,weather_code`
+      + `&hourly=temperature_2m,weather_code,precipitation_probability`
+      + `&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,sunrise,sunset`
+      + `&timezone=Europe%2FStockholm&forecast_days=1`;
+    const r = await fetch(url);
+    const d = await r.json();
+
+    const [icon, desc] = wmo(d.current.weather_code);
+    $('wx-temp').textContent = `${Math.round(d.current.temperature_2m)}°`;
+    $('wx-desc').textContent = `${icon} ${desc} · känns som ${Math.round(d.current.apparent_temperature)}°`;
+    $('wx-hilo').textContent = `${Math.round(d.daily.temperature_2m_max[0])}° / ${Math.round(d.daily.temperature_2m_min[0])}°`;
+    $('wx-rain').textContent = `${d.daily.precipitation_probability_max[0] ?? 0}%`;
+
+    sunTimes = {
+      sunrise: new Date(d.daily.sunrise[0]),
+      sunset: new Date(d.daily.sunset[0]),
+    };
+    $('wx-sunrise').textContent = d.daily.sunrise[0].slice(11, 16);
+    $('wx-sunset').textContent = d.daily.sunset[0].slice(11, 16);
+
+    // next 5 hours
+    const nowH = new Date().getHours();
+    const idx = d.hourly.time.findIndex((t) => new Date(t).getHours() > nowH) ;
+    const start = idx === -1 ? 0 : idx;
+    const hoursEl = $('wx-hours');
+    hoursEl.innerHTML = '';
+    for (let i = start; i < Math.min(start + 5, d.hourly.time.length); i++) {
+      const [hi] = wmo(d.hourly.weather_code[i]);
+      const el = document.createElement('div');
+      el.className = 'hour';
+      el.innerHTML = `<div class="h">${d.hourly.time[i].slice(11, 16)}</div>`
+        + `<div class="i">${hi}</div>`
+        + `<div class="t">${Math.round(d.hourly.temperature_2m[i])}°</div>`;
+      hoursEl.appendChild(el);
+    }
+    stamp();
+  } catch (e) {
+    $('wx-desc').textContent = 'Väder otillgängligt';
+  }
+}
+
+/* ---------- Swedish name day + red days ---------- */
+
+async function loadNameday() {
+  try {
+    const n = new Date();
+    const url = `https://sholiday.faboul.se/dagar/v2.1/${n.getFullYear()}/${pad(n.getMonth() + 1)}/${pad(n.getDate())}`;
+    const r = await fetch(url);
+    const d = await r.json();
+    const day = d.dagar[0];
+    const names = (day.namnsdag || []).join(' & ');
+    let html = names ? `Namnsdag: ${names}` : '';
+    if (day['röd dag'] === 'Ja' && day.helgdag) {
+      html = `<span class="red">${day.helgdag}</span>` + (html ? ' · ' + html : '');
+    }
+    $('nameday').innerHTML = html;
+  } catch (e) { /* silent */ }
+}
+
+/* ---------- SL pendeltåg (open Transport API, no key) ---------- */
+
+async function slFetch(path) {
+  const base = 'https://transport.integration.sl.se/v1';
+  try {
+    const r = await fetch(base + path);
+    if (!r.ok) throw new Error(r.status);
+    return await r.json();
+  } catch (e) {
+    // some browsers/networks block it — retry via CORS proxy
+    const r = await fetch(CONFIG.corsProxy + encodeURIComponent(base + path));
+    return await r.json();
+  }
+}
+
+async function findSiteId() {
+  const cached = localStorage.getItem('gryning.siteId');
+  if (cached) return cached;
+  const sites = await slFetch('/sites?expand=false');
+  const hit = sites.find((s) => s.name && s.name.toLowerCase() === CONFIG.slStationName.toLowerCase())
+    || sites.find((s) => s.name && s.name.toLowerCase().includes(CONFIG.slStationName.toLowerCase()));
+  if (!hit) throw new Error('station not found');
+  localStorage.setItem('gryning.siteId', hit.id);
+  return hit.id;
+}
+
+async function loadTrains() {
+  try {
+    const siteId = await findSiteId();
+    const d = await slFetch(`/sites/${siteId}/departures?transport=TRAIN&forecast=60`);
+    let deps = d.departures || [];
+    if (CONFIG.slDestinationFilter) {
+      const re = new RegExp(CONFIG.slDestinationFilter, 'i');
+      deps = deps.filter((x) => re.test(x.destination || ''));
+    }
+    deps = deps.slice(0, 4);
+    const list = $('train-list');
+    list.innerHTML = '';
+    if (!deps.length) {
+      list.innerHTML = '<div class="dep"><span class="dest">Inga avgångar just nu</span></div>';
+      return;
+    }
+    for (const x of deps) {
+      const el = document.createElement('div');
+      el.className = 'dep';
+      const disp = x.display || (x.expected || x.scheduled || '').slice(11, 16);
+      const soon = /min|nu/i.test(disp);
+      el.innerHTML = `<span class="when ${soon ? '' : 'later'}">${disp}</span>`
+        + `<span class="dest">${x.destination || ''}</span>`
+        + `<span class="line-badge">${(x.line && x.line.designation) || 'J'}</span>`;
+      list.appendChild(el);
+    }
+    stamp();
+  } catch (e) {
+    $('train-list').innerHTML = '<div class="dep"><span class="dest">SL otillgängligt just nu</span></div>';
+  }
+}
+
+/* ---------- news via RSS ---------- */
+
+async function loadNews() {
+  const items = [];
+  for (const feed of CONFIG.feeds) {
+    try {
+      const r = await fetch(CONFIG.corsProxy + encodeURIComponent(feed.url));
+      const text = await r.text();
+      const xml = new DOMParser().parseFromString(text, 'text/xml');
+      const nodes = [...xml.querySelectorAll('item')].slice(0, 4);
+      for (const n of nodes) {
+        items.push({
+          src: feed.name,
+          title: n.querySelector('title')?.textContent?.trim() || '',
+          date: new Date(n.querySelector('pubDate')?.textContent || 0),
+        });
+      }
+    } catch (e) { /* skip feed */ }
+  }
+  if (!items.length) {
+    $('news-list').innerHTML = '<div class="headline"><span class="txt">Nyheter otillgängliga</span></div>';
+    return;
+  }
+  // interleave sources, newest first within each
+  items.sort((a, b) => b.date - a.date);
+  const bySrc = {};
+  items.forEach((i) => (bySrc[i.src] ||= []).push(i));
+  const order = Object.values(bySrc);
+  const mixed = [];
+  for (let i = 0; mixed.length < CONFIG.maxHeadlines; i++) {
+    let added = false;
+    for (const arr of order) {
+      if (arr[i]) { mixed.push(arr[i]); added = true; }
+      if (mixed.length >= CONFIG.maxHeadlines) break;
+    }
+    if (!added) break;
+  }
+  const list = $('news-list');
+  list.innerHTML = '';
+  for (const it of mixed) {
+    const el = document.createElement('div');
+    el.className = 'headline';
+    el.innerHTML = `<span class="src">${it.src}</span><span class="txt"></span>`;
+    el.querySelector('.txt').textContent = it.title;
+    list.appendChild(el);
+  }
+  stamp();
+}
+
+/* ---------- F1 next race (Jolpica / Ergast) ---------- */
+
+async function loadF1() {
+  try {
+    const r = await fetch('https://api.jolpi.ca/ergast/f1/current.json?limit=30');
+    const d = await r.json();
+    const races = d.MRData.RaceTable.Races;
+    const now = Date.now();
+    const next = races.find((x) => new Date(`${x.date}T${x.time || '12:00:00Z'}`).getTime() > now);
+    if (!next) { $('f1-body').textContent = 'Säsongen är slut 🏁'; return; }
+    const start = new Date(`${next.date}T${next.time || '12:00:00Z'}`);
+    const days = Math.ceil((start - now) / 86400000);
+    const when = days === 0 ? 'idag!'
+      : days === 1 ? 'imorgon'
+      : `om <span class="count">${days} dagar</span>`;
+    $('f1-body').innerHTML = `<div class="race">${next.raceName}</div>`
+      + `<div>${when}</div>`
+      + `<div class="sub">${next.Circuit.circuitName} · ${start.toLocaleDateString('sv-SE', { day: 'numeric', month: 'short' })} ${start.toLocaleTimeString('sv-SE', { hour: '2-digit', minute: '2-digit' })}</div>`;
+    stamp();
+  } catch (e) {
+    $('f1').classList.add('hidden');
+  }
+}
+
+/* ---------- misc ---------- */
+
+function stamp() {
+  $('updated').textContent = 'uppdaterad ' + new Date().toLocaleTimeString('sv-SE', { hour: '2-digit', minute: '2-digit' });
+}
+
+// keep screen awake where supported (Fully Kiosk handles this too)
+async function keepAwake() {
+  try { await navigator.wakeLock.request('screen'); } catch (e) { /* fine */ }
+}
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible') keepAwake();
+});
+
+/* ---------- boot ---------- */
+
+tickClock();
+setInterval(tickClock, 1000);
+loadWeather();
+loadNameday();
+loadTrains();
+loadNews();
+loadF1();
+keepAwake();
+
+setInterval(loadWeather, CONFIG.weatherEvery);
+setInterval(loadNews, CONFIG.newsEvery);
+setInterval(loadTrains, CONFIG.trainsEvery);
+setInterval(loadF1, CONFIG.f1Every);
+setInterval(loadNameday, 6 * 60 * 60 * 1000);
+</script>
+</body>
+</html>

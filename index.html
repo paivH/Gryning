@@ -95,8 +95,12 @@
   #dateblock {
     text-align: right;
     padding-top: 1.6vmin;
-    min-width: 30vmin;
+    flex: 1 1 12ch;
+    min-width: 0;
+    overflow: hidden;
   }
+
+  #date, #nameday { overflow-wrap: break-word; }
 
   #date {
     font-size: clamp(15px, 2.8vmin, 26px);
@@ -607,23 +611,43 @@ async function loadTrains() {
 
 /* ---------- news via RSS ---------- */
 
-async function loadNews() {
-  const items = [];
-  for (const feed of CONFIG.feeds) {
+async function fetchFeed(feed) {
+  // 1) rss2json — returns parsed JSON, most reliable
+  try {
+    const r = await fetch('https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(feed.url));
+    const d = await r.json();
+    if (d.items && d.items.length) {
+      return d.items.slice(0, 4).map((i) => ({
+        src: feed.name, title: i.title, date: new Date(i.pubDate),
+      }));
+    }
+  } catch (e) { /* try next */ }
+  // 2) raw XML through CORS proxies
+  const proxies = [
+    'https://api.allorigins.win/raw?url=',
+    'https://corsproxy.io/?url=',
+  ];
+  for (const p of proxies) {
     try {
-      const r = await fetch(CONFIG.corsProxy + encodeURIComponent(feed.url));
+      const r = await fetch(p + encodeURIComponent(feed.url));
       const text = await r.text();
       const xml = new DOMParser().parseFromString(text, 'text/xml');
       const nodes = [...xml.querySelectorAll('item')].slice(0, 4);
-      for (const n of nodes) {
-        items.push({
+      if (nodes.length) {
+        return nodes.map((n) => ({
           src: feed.name,
           title: n.querySelector('title')?.textContent?.trim() || '',
           date: new Date(n.querySelector('pubDate')?.textContent || 0),
-        });
+        }));
       }
-    } catch (e) { /* skip feed */ }
+    } catch (e) { /* try next proxy */ }
   }
+  return [];
+}
+
+async function loadNews() {
+  const perFeed = await Promise.all(CONFIG.feeds.map(fetchFeed));
+  const items = perFeed.flat();
   if (!items.length) {
     $('news-list').innerHTML = '<div class="headline"><span class="txt">Nyheter otillgängliga</span></div>';
     return;

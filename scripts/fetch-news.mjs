@@ -5,8 +5,9 @@
 import { writeFileSync } from 'node:fs';
 
 const FEEDS = [
-  { name: 'SVT', url: 'https://www.svt.se/nyheter/rss.xml' },
-  { name: 'BBC', url: 'https://feeds.bbci.co.uk/news/world/rss.xml' },
+  { name: 'BBC', section: 'Världen', url: 'https://feeds.bbci.co.uk/news/world/rss.xml' },
+  { name: 'SVT', section: 'Sverige · Stockholm', url: 'https://www.svt.se/nyheter/rss.xml' },
+  { name: 'STHLM', section: 'Sverige · Stockholm', url: 'https://www.svt.se/nyheter/lokalt/stockholm/rss.xml' },
 ];
 
 const PER_FEED = 5;
@@ -21,6 +22,8 @@ const decode = (s) =>
     .replace(/&#0?39;|&apos;/g, "'")
     .trim();
 
+const stripTags = (s) => s.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+
 const items = [];
 
 for (const feed of FEEDS) {
@@ -30,19 +33,22 @@ for (const feed of FEEDS) {
     });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const xml = await res.text();
-    const matches = [
-      ...xml.matchAll(
-        /<item>[\s\S]*?<title>([\s\S]*?)<\/title>[\s\S]*?<pubDate>([\s\S]*?)<\/pubDate>[\s\S]*?<\/item>/g
-      ),
-    ].slice(0, PER_FEED);
-    for (const m of matches) {
+    const blocks = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].slice(0, PER_FEED);
+    const pick = (b, tag) => {
+      const m = b.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)</${tag}>`));
+      return m ? decode(m[1]) : '';
+    };
+    for (const [, b] of blocks) {
       items.push({
         src: feed.name,
-        title: decode(m[1]),
-        date: new Date(decode(m[2])).toISOString(),
+        section: feed.section,
+        title: pick(b, 'title'),
+        date: new Date(pick(b, 'pubDate')).toISOString(),
+        link: pick(b, 'link'),
+        desc: stripTags(pick(b, 'description')).slice(0, 500),
       });
     }
-    console.log(`${feed.name}: ${matches.length} items`);
+    console.log(`${feed.name}: ${blocks.length} items`);
   } catch (e) {
     console.error(`${feed.name} failed: ${e.message}`);
   }

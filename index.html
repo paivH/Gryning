@@ -250,13 +250,39 @@
   #f1-body .sub { color: var(--ink-dim); font-size: 0.82em; margin-top: 0.6vmin; }
 
   /* ---------- news ---------- */
-  #news { flex: 1; min-height: 0; }
+  #news {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
 
-  #news-list {
+  #news-sections {
+    flex: 1;
+    min-height: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(46vw, 420px), 1fr));
+    gap: 2vmin 4.5vmin;
+    overflow: hidden;
+    align-content: start;
+  }
+
+  .news-col {
+    min-width: 0;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     gap: 1.5vmin;
-    overflow: hidden;
+  }
+
+  .news-col h3 {
+    font-size: clamp(10px, 1.6vmin, 13px);
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--amber);
+    opacity: 0.75;
   }
 
   .headline {
@@ -265,7 +291,10 @@
     gap: 1.8vmin;
     font-size: clamp(14px, 2.5vmin, 23px);
     line-height: 1.35;
+    cursor: pointer;
   }
+
+  .headline:active .txt { color: var(--amber); }
 
   .headline .src {
     font-size: 0.62em;
@@ -281,6 +310,80 @@
     overflow: hidden;
     text-overflow: ellipsis;
   }
+
+  .headline { cursor: pointer; -webkit-tap-highlight-color: transparent; }
+  .headline:active .txt { color: var(--amber); }
+
+  /* ---------- article popup ---------- */
+  #modal {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(4, 6, 10, 0.72);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: 20;
+    padding: 4vmin;
+  }
+
+  #modal.open { display: flex; }
+
+  #modal-card {
+    background: #141824;
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 4vmin 4.5vmin;
+    max-width: min(680px, 92vw);
+    max-height: 78vh;
+    overflow-y: auto;
+    box-shadow: 0 24px 80px rgba(0, 0, 0, 0.55);
+  }
+
+  #m-src {
+    font-size: clamp(10px, 1.7vmin, 14px);
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 1.6vmin;
+  }
+
+  #m-title {
+    font-size: clamp(18px, 3.4vmin, 30px);
+    font-weight: 600;
+    line-height: 1.25;
+    margin-bottom: 2vmin;
+  }
+
+  #m-desc {
+    font-size: clamp(14px, 2.4vmin, 20px);
+    line-height: 1.55;
+    color: var(--ink-dim);
+  }
+
+  #modal-actions {
+    display: flex;
+    gap: 2.5vmin;
+    margin-top: 3vmin;
+    align-items: center;
+  }
+
+  #m-link, #m-close {
+    font: inherit;
+    font-size: clamp(13px, 2.1vmin, 17px);
+    font-weight: 500;
+    color: var(--ink);
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 1.2vmin 2.4vmin;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #m-link { color: var(--amber); }
 
   /* ---------- footer status ---------- */
   footer {
@@ -353,14 +456,25 @@
   </div>
 
   <div class="panel" id="news">
-    <h2>Nyheter</h2>
-    <div id="news-list"><div class="headline"><span class="txt">Hämtar rubriker …</span></div></div>
+    <div id="news-sections"><div class="headline"><span class="txt">Hämtar rubriker …</span></div></div>
   </div>
 
   <footer>
     <span id="status">GRYNING</span>
     <span id="updated"></span>
   </footer>
+</div>
+
+<div id="modal">
+  <div id="modal-card">
+    <div id="m-src"></div>
+    <div id="m-title"></div>
+    <div id="m-desc"></div>
+    <div id="modal-actions">
+      <a id="m-link" href="#" target="_blank" rel="noopener">Öppna artikel ↗</a>
+      <button id="m-close" type="button">Stäng</button>
+    </div>
+  </div>
 </div>
 
 <script>
@@ -381,12 +495,13 @@ const CONFIG = {
   // Night mode: clock-only, screen almost black
   nightStart: 22,   // 22:00
   nightEnd: 6,      // 06:00
-  // RSS feeds (name shown, url). Fetched via CORS proxy.
+  // RSS feeds (name shown, section groups them into columns)
   feeds: [
-    { name: 'SVT', url: 'https://www.svt.se/nyheter/rss.xml' },
-    { name: 'BBC', url: 'https://feeds.bbci.co.uk/news/world/rss.xml' },
+    { name: 'BBC', section: 'Världen', url: 'https://feeds.bbci.co.uk/news/world/rss.xml' },
+    { name: 'SVT', section: 'Sverige · Stockholm', url: 'https://www.svt.se/nyheter/rss.xml' },
+    { name: 'STHLM', section: 'Sverige · Stockholm', url: 'https://www.svt.se/nyheter/lokalt/stockholm/rss.xml' },
   ],
-  maxHeadlines: 6,
+  maxPerSection: 4,
   corsProxy: 'https://api.allorigins.win/raw?url=',
   // refresh intervals (ms)
   weatherEvery: 15 * 60 * 1000,
@@ -487,7 +602,24 @@ const WMO = {
   85: ['🌨️', 'Snöbyar'], 86: ['🌨️', 'Snöbyar'],
   95: ['⛈️', 'Åska'], 96: ['⛈️', 'Åska med hagel'], 99: ['⛈️', 'Åska med hagel'],
 };
-const wmo = (c) => WMO[c] || ['🌡️', ''];
+const wmo = (c, when) => {
+  const [icon, desc] = WMO[c] || ['🌡️', ''];
+  if (isDarkAt(when) && c <= 2) {
+    return [c === 2 ? '☁️' : '🌙', c === 0 ? 'Klart' : desc];
+  }
+  return [icon, desc];
+};
+
+// true if the sky is dark at time t (uses today's sunrise/sunset, shifted for tomorrow's small hours)
+function isDarkAt(t) {
+  if (!sunTimes || !t) return false;
+  const ms = t instanceof Date ? t.getTime() : new Date(t).getTime();
+  const day = 24 * 60 * 60 * 1000;
+  for (const shift of [0, day]) {
+    if (ms >= sunTimes.sunrise.getTime() + shift && ms <= sunTimes.sunset.getTime() + shift) return false;
+  }
+  return true;
+}
 
 async function loadWeather() {
   try {
@@ -499,16 +631,17 @@ async function loadWeather() {
     const r = await fetch(url);
     const d = await r.json();
 
-    const [icon, desc] = wmo(d.current.weather_code);
+    sunTimes = {
+      sunrise: new Date(d.daily.sunrise[0]),
+      sunset: new Date(d.daily.sunset[0]),
+    };
+
+    const [icon, desc] = wmo(d.current.weather_code, new Date());
     $('wx-temp').textContent = `${Math.round(d.current.temperature_2m)}°`;
     $('wx-desc').textContent = `${icon} ${desc} · känns som ${Math.round(d.current.apparent_temperature)}°`;
     $('wx-hilo').textContent = `${Math.round(d.daily.temperature_2m_max[0])}° / ${Math.round(d.daily.temperature_2m_min[0])}°`;
     $('wx-rain').textContent = `${d.daily.precipitation_probability_max[0] ?? 0}%`;
 
-    sunTimes = {
-      sunrise: new Date(d.daily.sunrise[0]),
-      sunset: new Date(d.daily.sunset[0]),
-    };
     $('wx-sunrise').textContent = d.daily.sunrise[0].slice(11, 16);
     $('wx-sunset').textContent = d.daily.sunset[0].slice(11, 16);
 
@@ -519,7 +652,7 @@ async function loadWeather() {
     const hoursEl = $('wx-hours');
     hoursEl.innerHTML = '';
     for (let i = start; i < Math.min(start + 5, d.hourly.time.length); i++) {
-      const [hi] = wmo(d.hourly.weather_code[i]);
+      const [hi] = wmo(d.hourly.weather_code[i], d.hourly.time[i]);
       const el = document.createElement('div');
       el.className = 'hour';
       el.innerHTML = `<div class="h">${d.hourly.time[i].slice(11, 16)}</div>`
@@ -618,7 +751,8 @@ async function fetchFeed(feed) {
     const d = await r.json();
     if (d.items && d.items.length) {
       return d.items.slice(0, 4).map((i) => ({
-        src: feed.name, title: i.title, date: new Date(i.pubDate),
+        src: feed.name, section: feed.section, title: i.title, date: new Date(i.pubDate),
+        desc: stripHtml(i.description || '').slice(0, 500), link: i.link || '',
       }));
     }
   } catch (e) { /* try next */ }
@@ -636,8 +770,11 @@ async function fetchFeed(feed) {
       if (nodes.length) {
         return nodes.map((n) => ({
           src: feed.name,
+          section: feed.section,
           title: n.querySelector('title')?.textContent?.trim() || '',
           date: new Date(n.querySelector('pubDate')?.textContent || 0),
+          desc: stripHtml(n.querySelector('description')?.textContent || '').slice(0, 500),
+          link: n.querySelector('link')?.textContent?.trim() || '',
         }));
       }
     } catch (e) { /* try next proxy */ }
@@ -645,7 +782,29 @@ async function fetchFeed(feed) {
   return [];
 }
 
+// inert HTML-to-text: DOMParser never executes scripts or loads resources
+function stripHtml(s) {
+  return new DOMParser().parseFromString(s || '', 'text/html').body.textContent.replace(/\s+/g, ' ').trim();
+}
+
 let newsRetryTimer = null;
+
+function interleave(items, max) {
+  items.sort((a, b) => b.date - a.date);
+  const bySrc = {};
+  items.forEach((i) => (bySrc[i.src] ||= []).push(i));
+  const order = Object.values(bySrc);
+  const mixed = [];
+  for (let i = 0; mixed.length < max; i++) {
+    let added = false;
+    for (const arr of order) {
+      if (arr[i]) { mixed.push(arr[i]); added = true; }
+      if (mixed.length >= max) break;
+    }
+    if (!added) break;
+  }
+  return mixed;
+}
 
 async function loadNews() {
   let items = [];
@@ -655,7 +814,10 @@ async function loadNews() {
     const r = await fetch('news.json?t=' + Date.now());
     if (r.ok) {
       const d = await r.json();
-      items = (d.items || []).map((i) => ({ src: i.src, title: i.title, date: new Date(i.date) }));
+      items = (d.items || []).map((i) => ({
+        src: i.src, section: i.section || 'Nyheter', title: i.title, date: new Date(i.date),
+        desc: i.desc || '', link: i.link || '',
+      }));
     }
   } catch (e) { /* fall through to live fetch */ }
 
@@ -665,36 +827,60 @@ async function loadNews() {
     items = perFeed.flat();
   }
   if (!items.length) {
-    $('news-list').innerHTML = '<div class="headline"><span class="txt">Nyheter otillgängliga · försöker igen strax</span></div>';
+    $('news-sections').innerHTML = '<div class="headline"><span class="txt">Nyheter otillgängliga · försöker igen strax</span></div>';
     clearTimeout(newsRetryTimer);
     newsRetryTimer = setTimeout(loadNews, 90 * 1000);
     return;
   }
-  // interleave sources, newest first within each
-  items.sort((a, b) => b.date - a.date);
-  const bySrc = {};
-  items.forEach((i) => (bySrc[i.src] ||= []).push(i));
-  const order = Object.values(bySrc);
-  const mixed = [];
-  for (let i = 0; mixed.length < CONFIG.maxHeadlines; i++) {
-    let added = false;
-    for (const arr of order) {
-      if (arr[i]) { mixed.push(arr[i]); added = true; }
-      if (mixed.length >= CONFIG.maxHeadlines) break;
+
+  // group by section, keep CONFIG order
+  const sectionOrder = [...new Set(CONFIG.feeds.map((f) => f.section))];
+  const bySection = {};
+  items.forEach((i) => (bySection[i.section] ||= []).push(i));
+
+  const container = $('news-sections');
+  container.innerHTML = '';
+  for (const name of sectionOrder) {
+    if (!bySection[name]) continue;
+    const col = document.createElement('div');
+    col.className = 'news-col';
+    col.innerHTML = `<h3>${name}</h3>`;
+    for (const it of interleave(bySection[name], CONFIG.maxPerSection)) {
+      const el = document.createElement('div');
+      el.className = 'headline';
+      el.innerHTML = `<span class="src">${it.src}</span><span class="txt"></span>`;
+      el.querySelector('.txt').textContent = it.title;
+      el.addEventListener('click', (e) => { e.stopPropagation(); openArticle(it); });
+      col.appendChild(el);
     }
-    if (!added) break;
-  }
-  const list = $('news-list');
-  list.innerHTML = '';
-  for (const it of mixed) {
-    const el = document.createElement('div');
-    el.className = 'headline';
-    el.innerHTML = `<span class="src">${it.src}</span><span class="txt"></span>`;
-    el.querySelector('.txt').textContent = it.title;
-    list.appendChild(el);
+    container.appendChild(col);
   }
   stamp();
 }
+
+/* ---------- article popup ---------- */
+
+let modalTimer = null;
+
+function openArticle(it) {
+  $('m-src').textContent = `${it.src} · ${it.date.toLocaleString('sv-SE', { hour: '2-digit', minute: '2-digit', day: 'numeric', month: 'short' })}`;
+  $('m-title').textContent = it.title;
+  $('m-desc').textContent = it.desc || 'Ingen sammanfattning i flödet — öppna artikeln för mer.';
+  const a = $('m-link');
+  if (it.link) { a.href = it.link; a.classList.remove('hidden'); }
+  else { a.classList.add('hidden'); }
+  $('modal').classList.add('open');
+  clearTimeout(modalTimer);
+  modalTimer = setTimeout(closeModal, 90 * 1000); // kiosk: never stay stuck open
+}
+
+function closeModal() {
+  $('modal').classList.remove('open');
+  clearTimeout(modalTimer);
+}
+
+$('m-close').addEventListener('click', closeModal);
+$('modal').addEventListener('click', (e) => { if (e.target.id === 'modal') closeModal(); });
 
 /* ---------- F1 next race (Jolpica / Ergast) ---------- */
 

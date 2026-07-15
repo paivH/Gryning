@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-15T19:44:53.258Z",
+ "updated": "2026-07-15T20:57:07.554Z",
  "items": [
   {
    "src": "BBC",
@@ -44,6 +44,14 @@
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
+   "title": "Pendeltågsstationen Stockholm City utrymd",
+   "date": "2026-07-15T20:44:45.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/stockholm/pendeltagsstationen-stockholm-city-utrymd",
+   "desc": "Pendeltågsstationen Stockholm City i centrala Stockholm har utrymts på grund av ett brandlarm. – Man får inte gå av eller på vid stationen, säger Andreas Strömberg, presschef på SL."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
    "title": "Man till sjukhus med ambulanshelikopter efter mopedolycka i Degerfors",
    "date": "2026-07-15T18:33:27.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/varmland/man-till-sjukhus-med-ambulanshelikopter-efter-mopedolycka-i-degerfors",
@@ -74,12 +82,12 @@
    "desc": "Det brinner i terrängen i Utlängan i Karlskrona kommun. Branden uppges vara 300 meter lång och 50 meter bred. På plats är helikoptrar som vattenbombar branden. – Det ska ha gett god effekt, säger räddningstjänstens ledningsoperatör."
   },
   {
-   "src": "SVT",
+   "src": "STHLM",
    "section": "Sverige · Stockholm",
-   "title": "Kvinna påkörd på E22 i Mönsterås – fördes till sjukhus",
-   "date": "2026-07-15T15:53:43.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/smaland/person-pakord-pa-e22-i-kalmar-vagen-avstangd",
-   "desc": "En äldre kvinna på cykel blev påkörd vid en korsning på E22 i Mönsterås."
+   "title": "Pendeltågsstationen Stockholm City utrymd",
+   "date": "2026-07-15T20:44:45.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/stockholm/pendeltagsstationen-stockholm-city-utrymd",
+   "desc": "Pendeltågsstationen Stockholm City i centrala Stockholm har utrymts på grund av ett brandlarm."
   },
   {
    "src": "STHLM",
@@ -112,14 +120,6 @@
    "date": "2026-07-15T08:37:24.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/man-haktad-for-motellmordet-i-sigtuna",
    "desc": "En man 40-årsåldern har häktats misstänkt för mord efter att en person hittades död utanför ett lägenhetshotell i Rosersberg i söndags. Mannen nekar till brott och menar att han agerat i självförsvar vid ett bråk."
-  },
-  {
-   "src": "STHLM",
-   "section": "Sverige · Stockholm",
-   "title": "Trots badavrådan – här svalkar sig stockholmarna i värmen",
-   "date": "2026-07-15T03:30:02.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/stockholm/trots-badavradan-har-svalkar-sig-stockholmarna-i-varmen",
-   "desc": "Algblomningen har minskat på badplatserna i Stockholms län och nu är det enbart badavrådan på sex av länets 255 officiella badställen. Men på Ängbybadet i norra Stockholm badar flera trots avrådan. – Man har ju hört att det är dåligt vatten, men vad ska man göra, det är varmt, säger Camilla Hedberg."
   }
  ]
 }

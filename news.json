@@ -1,11 +1,11 @@
 {
- "updated": "2026-07-15T07:58:10.565Z",
+ "updated": "2026-07-15T09:59:18.298Z",
  "items": [
   {
    "src": "BBC",
    "section": "Världen",
    "title": "Trump threatens to bomb bridges and power plants unless Iran resumes talks",
-   "date": "2026-07-15T06:47:25.000Z",
+   "date": "2026-07-15T09:06:52.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cy0608wy8pro?at_medium=RSS&at_campaign=rss",
    "desc": "Trump's comments aired as the two countries exchanged fire for the fourth day in a row and the US resumed blockading Iranian ports."
   },
@@ -29,17 +29,33 @@
    "src": "BBC",
    "section": "Världen",
    "title": "China economic growth falls sharply, missing target",
-   "date": "2026-07-15T05:12:55.000Z",
+   "date": "2026-07-15T09:40:42.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cd959x4edy8o?at_medium=RSS&at_campaign=rss",
    "desc": "Weak demand domestically and the impact of the Iran war on oil prices overshadowed the country's strong exports."
   },
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "Seven Britons among those killed in Spain wildfires",
-   "date": "2026-07-15T01:03:07.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cp8l87784ngo?at_medium=RSS&at_campaign=rss",
-   "desc": "Twelve of the 13 victims were foreign nationals, Spanish authorities said on Tuesday."
+   "title": "Kenyan court dismisses Rastafarians' bid to legalise cannabis",
+   "date": "2026-07-15T09:57:11.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/c0lyl5ryyr4o?at_medium=RSS&at_campaign=rss",
+   "desc": "The court acknowledged the need for a broader national debate on cannabis policy in Kenya."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Billigare bensin ger sämre affär för elbilsägare – så säger folk i Östersund",
+   "date": "2026-07-15T09:45:04.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/jamtland/billigare-bensin-ger-samre-affar-for-elbilsagare-sa-sager-folk-i-ostersund",
+   "desc": "Det kan vara billigare att köra på bensin än el efter den tillfälliga skattesänkningen som infördes 1 juli, om man laddar på en publik laddare. – Det är inte så bra egentligen, säger Jimmy Axelsson som tankade diesel på en mack i Östersund."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Slog sönder sin lägenhet – man i Mariannelund döms för skadegörelse",
+   "date": "2026-07-15T08:43:55.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/jonkoping/slog-sonder-sin-lagenhet-man-i-mariannelund-doms-for-skadegorelse",
+   "desc": "Sönderslagna fönster, förstörda vitvaror och ett nedrivet handfat med stora vattenskador som följd. Nu döms en man i 20-årsåldern i Eksjö kommun till sex månaders fängelse för förstörelsen i lägenheten."
   },
   {
    "src": "SVT",
@@ -66,20 +82,12 @@
    "desc": "Bara några dagar innan svårt cancersjuka Madeleine Erichsen gick bort fick hon besök av den ideella föreningen Sjukhushästen och hans vänner. Som tidigare hästtjej betydde mötet med ponnyn mycket för henne. – Saknaden att kunna umgås med djur, som jag inte orkar längre, och att de kan komma till mig är stort, sade Madeleine."
   },
   {
-   "src": "SVT",
+   "src": "STHLM",
    "section": "Sverige · Stockholm",
-   "title": "Brand i studentboende i Karlstad – flera skadade",
-   "date": "2026-07-14T21:50:27.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/varmland/brand-i-studentboende-minst-tva-till-sjukhus",
-   "desc": "En brand bröt ut i ett studentboende i Karlstad under tisdagskvällen. – Vi fick plocka ut folk från balkongerna, säger Katrin Gyllander på SOS Alarm. En person har förts till sjukhus med allvarliga skador och vårdas fortsatt på IVA under onsdagsmorgonen."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Ukraina slår mot ryska skuggflottan på Azovska sjön",
-   "date": "2026-07-14T20:30:55.000Z",
-   "link": "https://www.svt.se/nyheter/utrikes/ukraina-slar-mot-ryska-skuggflottan-pa-azovska-sjon",
-   "desc": "Mer än hundra ryska fartyg på Azovska sjön har den senaste tiden attackerats av Ukraina. Satellitbilder visar en klump fartyg som samlats utanför Krim, utestängda från farvattnet."
+   "title": "Man häktad för motellmordet i Sigtuna",
+   "date": "2026-07-15T08:37:24.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/stockholm/man-haktad-for-motellmordet-i-sigtuna",
+   "desc": "En man 40-årsåldern har häktats misstänkt för mord efter att en person hittades död utanför ett lägenhetshotell i Rosersberg i söndags. Mannen nekar till brott och menar att han agerat i självförsvar vid ett bråk."
   },
   {
    "src": "STHLM",
@@ -112,14 +120,6 @@
    "date": "2026-07-14T23:32:30.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/explosion-vid-port-i-hasselby",
    "desc": "En explosion har inträffat vid ett flerfamiljshus i Hässelby i nordvästra Stockholm natten till onsdag. – Det pågår en stor insats för att leta efter den eller de som utfört brottet, säger Per Fahlström vid polisen."
-  },
-  {
-   "src": "STHLM",
-   "section": "Sverige · Stockholm",
-   "title": "Misstänkt mordbrand i Huddinge",
-   "date": "2026-07-14T19:33:58.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/stockholm/fullt-utvecklad-brand-i-huddinge",
-   "desc": "Branden startade i en utbyggnad och spred sig under tisdagskvällen till taket på en tidigare butiksbyggnad i Segeltorp söder om Stockholm. Inga personer har kommit till skada. Polisen misstänker att branden var anlagd och utreder nu mordbrand."
   }
  ]
 }

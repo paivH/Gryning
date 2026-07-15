@@ -240,39 +240,31 @@
 
   #f1 { flex: 1 1 220px; }
 
-  /* elpris */
-  #elpris { flex: 1 1 220px; display: flex; flex-direction: column; }
+  /* seasonal food */
+  #food { flex: 1 1 240px; display: flex; flex-direction: column; }
 
-  #el-now {
+  #food-ingredient {
     font-family: 'Inter Tight', sans-serif;
     font-weight: 300;
-    font-size: clamp(22px, 4.4vmin, 40px);
-    font-variant-numeric: tabular-nums;
+    font-size: clamp(20px, 4vmin, 36px);
+    letter-spacing: -0.01em;
+    color: #9cc48d;
+    text-transform: capitalize;
   }
 
-  #el-now .unit { font-size: 0.45em; color: var(--ink-dim); font-weight: 400; }
-
-  #el-bars {
-    display: flex;
-    align-items: flex-end;
-    gap: 3px;
-    height: 7vmin;
-    min-height: 34px;
-    margin: 1.4vmin 0 1vmin;
+  #food-idea {
+    font-size: clamp(13px, 2.3vmin, 20px);
+    line-height: 1.4;
+    margin-top: 0.8vmin;
+    color: var(--ink);
   }
 
-  .el-bar {
-    flex: 1;
-    background: var(--ink-faint);
-    opacity: 0.5;
-    border-radius: 2px 2px 0 0;
+  #food-season {
+    font-size: clamp(11px, 1.8vmin, 15px);
+    color: var(--ink-faint);
+    margin-top: auto;
+    padding-top: 1.2vmin;
   }
-
-  .el-bar.now { background: var(--amber); opacity: 1; }
-  .el-bar.cheap { background: #79a86b; opacity: 0.95; }
-
-  #el-hint { font-size: clamp(11px, 1.9vmin, 16px); color: var(--ink-dim); font-variant-numeric: tabular-nums; }
-  #el-hint b { color: #9cc48d; font-weight: 500; }
 
   /* f1 weekend sessions */
   .f1-session {
@@ -520,11 +512,11 @@
       <div id="train-list"><div class="dep"><span class="dest">Hämtar avgångar …</span></div></div>
       <div id="train-deviations"></div>
     </div>
-    <div class="panel" id="elpris">
-      <h2>Elpris · SE3</h2>
-      <div id="el-now">--</div>
-      <div id="el-bars"></div>
-      <div id="el-hint"></div>
+    <div class="panel" id="food">
+      <h2>Dagens råvara · i säsong</h2>
+      <div id="food-ingredient">—</div>
+      <div id="food-idea">Hämtar …</div>
+      <div id="food-season"></div>
     </div>
     <div class="panel" id="f1">
       <h2>Nästa F1-race</h2>
@@ -579,8 +571,8 @@ const CONFIG = {
     { name: 'STHLM', section: 'Sverige · Stockholm', url: 'https://www.svt.se/nyheter/lokalt/stockholm/rss.xml' },
   ],
   maxPerSection: 4,
-  // Electricity price area (Stockholm = SE3)
-  elprisArea: 'SE3',
+  // Seasonal ingredient panel: your cooking style, fed to the AI action
+  cookingStyle: 'pickling, fermenting, bread baking, and quick weeknight dishes',
   // Show full session schedule when the race is this close
   f1WeekendWithinDays: 4,
   pitwallUrl: 'https://paivh.github.io/Pitwall/',
@@ -589,7 +581,7 @@ const CONFIG = {
   weatherEvery: 15 * 60 * 1000,
   newsEvery: 15 * 60 * 1000,
   trainsEvery: 60 * 1000,
-  elprisEvery: 30 * 60 * 1000,
+  seasonEvery: 6 * 60 * 60 * 1000,
   deviationsEvery: 5 * 60 * 1000,
   f1Every: 6 * 60 * 60 * 1000,
 };
@@ -966,68 +958,71 @@ function closeModal() {
 $('m-close').addEventListener('click', closeModal);
 $('modal').addEventListener('click', (e) => { if (e.target.id === 'modal') closeModal(); });
 
-/* ---------- elpris: elprisetjustnu.se (no key) ---------- */
+/* ---------- seasonal ingredient of the day ---------- */
 
-async function elFetch(day) {
-  const url = `https://www.elprisetjustnu.se/api/v1/prices/${day.getFullYear()}/${pad(day.getMonth() + 1)}-${pad(day.getDate())}_${CONFIG.elprisArea}.json`;
-  try {
-    const r = await fetch(url);
-    if (!r.ok) throw new Error(r.status);
-    return await r.json();
-  } catch (e) {
-    try {
-      const r = await fetch(CONFIG.corsProxy + encodeURIComponent(url));
-      if (!r.ok) throw new Error(r.status);
-      return await r.json();
-    } catch (e2) { return []; } // tomorrow's prices 404 until ~13:00 — that's fine
-  }
+// Swedish harvest seasons by month (0=Jan). Sources: ICA, Mathem, Matkalender säsongskalender.
+const SEASON = {
+  0:  ['grönkål', 'palsternacka', 'kål', 'rotselleri', 'morötter', 'lök', 'äpplen'],
+  1:  ['grönkål', 'palsternacka', 'jordärtskocka', 'kålrot', 'morötter', 'lök'],
+  2:  ['vitkål', 'morötter', 'lök', 'palsternacka', 'rotselleri'],
+  3:  ['sparris', 'rabarber', 'salladskål', 'vitkål', 'späda blad'],
+  4:  ['sparris', 'rabarber', 'färskpotatis', 'rädisor', 'salladslök'],
+  5:  ['färskpotatis', 'jordgubbar', 'dill', 'sallad', 'broccoli', 'blomkål', 'rödbetor'],
+  6:  ['gurka', 'chili', 'squash', 'fänkål', 'purjolök', 'bönor', 'ärtor', 'hallon', 'blåbär', 'kantareller'],
+  7:  ['tomater', 'majs', 'squash', 'chili', 'grönkål', 'kålrot', 'plommon', 'päron', 'äpplen', 'kantareller'],
+  8:  ['äpplen', 'päron', 'pumpa', 'svamp', 'rödbetor', 'purjolök', 'jordärtskocka', 'kål'],
+  9:  ['pumpa', 'äpplen', 'kål', 'rotfrukter', 'morötter', 'svartrot', 'brysselkål'],
+  10: ['grönkål', 'brysselkål', 'kålrot', 'palsternacka', 'lök', 'äpplen', 'pumpa'],
+  11: ['grönkål', 'brysselkål', 'rödkål', 'rotselleri', 'palsternacka', 'lök', 'vinteräpplen'],
+};
+
+// Style-matched fallback ideas (used until the AI action writes season.json)
+const FALLBACK_IDEAS = {
+  chili: 'Fermentera en sats chilisås — grovhacka, salta 3 %, låt bubbla en vecka.',
+  gurka: 'Snabbpicklad gurka: 1-2-3-lag (1 del ättika, 2 socker, 3 vatten), klar på en timme.',
+  tomater: 'Ugnsbakade tomater med vitlök & timjan — mos ner i en snabb pastasås ikväll.',
+  squash: 'Riv squash, salta, krama ur — stek snabba squashbiffar till vardagsmiddagen.',
+  kål: 'Sätt en sats surkål: strimla, salta 2 %, packa hårt, låt jäsa svalt.',
+  grönkål: 'Massera grönkål med olja & citron — 10-minuters sallad med rostade frön.',
+  rabarber: 'Koka rabarber-cheong med socker 1:1, jäs sedan till en syrlig dryck.',
+  äpplen: 'Baka en snabb äppelkaka, eller sätt äppelmust på jäsning till cider.',
+  kantareller: 'Smörstekta kantareller på rostat surdegsbröd — 10 minuter, klart.',
+  jordgubbar: 'Snabbsylt jordgubbar med lite citron — mindre socker, mer bär.',
+  sparris: 'Halstra sparris hastigt, toppa med ägg och riven parmesan.',
+  färskpotatis: 'Krossad färskpotatis, stekt knaprig i smör med dill.',
+};
+
+function pickIngredient() {
+  const list = SEASON[new Date().getMonth()];
+  // rotate deterministically by day so it changes daily but is stable within a day
+  const day = Math.floor(Date.now() / 86400000);
+  return list[day % list.length];
 }
 
-async function loadElpris() {
+async function loadSeason() {
+  const ingredient = pickIngredient();
+  const monthName = new Date().toLocaleDateString('sv-SE', { month: 'long' });
+
+  // 1) AI-written season.json (from the GitHub Action) — richer, in your style
   try {
-    const now = new Date();
-    const [today, tomorrow] = await Promise.all([
-      elFetch(now), elFetch(new Date(now.getTime() + 86400000)),
-    ]);
-    const all = [...today, ...tomorrow].map((p) => ({
-      start: new Date(p.time_start), end: new Date(p.time_end), ore: p.SEK_per_kWh * 100,
-    }));
-    if (!all.length) { $('elpris').classList.add('hidden'); return; }
-    $('elpris').classList.remove('hidden');
-
-    const cur = all.find((p) => p.start <= now && now < p.end) || all[0];
-    $('el-now').innerHTML = `${cur.ore.toFixed(0)}<span class="unit"> öre/kWh</span>`;
-
-    // upcoming prices, averaged per hour (handles both hourly and 15-min data)
-    const byHour = new Map();
-    for (const p of all.filter((p) => p.end > now)) {
-      const k = `${p.start.toDateString()}-${p.start.getHours()}`;
-      if (!byHour.has(k)) byHour.set(k, { start: p.start, vals: [] });
-      byHour.get(k).vals.push(p.ore);
+    const r = await fetch('season.json?t=' + Date.now());
+    if (r.ok) {
+      const d = await r.json();
+      if (d.ingredient && d.idea) {
+        $('food-ingredient').textContent = d.ingredient;
+        $('food-idea').textContent = d.idea;
+        $('food-season').textContent = `i säsong i ${monthName}`;
+        stamp();
+        return;
+      }
     }
-    const hours = [...byHour.values()].slice(0, 12)
-      .map((h) => ({ start: h.start, ore: h.vals.reduce((a, b) => a + b, 0) / h.vals.length }));
-    if (!hours.length) return;
+  } catch (e) { /* fall back to local */ }
 
-    const lo = Math.min(0, ...hours.map((h) => h.ore));
-    const hi = Math.max(...hours.map((h) => h.ore), lo + 1);
-    const cheapest = hours.reduce((a, b) => (a.ore <= b.ore ? a : b));
-
-    const bars = $('el-bars');
-    bars.innerHTML = '';
-    hours.forEach((h, i) => {
-      const el = document.createElement('div');
-      el.className = 'el-bar' + (i === 0 ? ' now' : '') + (h === cheapest && i !== 0 ? ' cheap' : '');
-      el.style.height = `${Math.max(6, ((h.ore - lo) / (hi - lo)) * 100)}%`;
-      el.title = `${pad(h.start.getHours())}:00 · ${h.ore.toFixed(0)} öre`;
-      bars.appendChild(el);
-    });
-
-    $('el-hint').innerHTML = `billigast <b>${pad(cheapest.start.getHours())}:00 · ${cheapest.ore.toFixed(0)} öre</b> · kommande 12 h`;
-    stamp();
-  } catch (e) {
-    $('elpris').classList.add('hidden');
-  }
+  // 2) local fallback — always works, no key, style-matched
+  $('food-ingredient').textContent = ingredient;
+  $('food-idea').textContent = FALLBACK_IDEAS[ingredient]
+    || `${ingredient} är i säsong nu — billigast och godast. Picklat, fermenterat eller i en snabb vardagsrätt.`;
+  $('food-season').textContent = `i säsong i ${monthName}`;
 }
 
 /* ---------- SL deviations (open API, no key) ---------- */
@@ -1136,7 +1131,7 @@ setInterval(tickClock, 1000);
 loadWeather();
 loadNameday();
 loadTrains();
-loadElpris();
+loadSeason();
 loadDeviations();
 loadNews();
 loadF1();
@@ -1145,7 +1140,7 @@ keepAwake();
 setInterval(loadWeather, CONFIG.weatherEvery);
 setInterval(loadNews, CONFIG.newsEvery);
 setInterval(loadTrains, CONFIG.trainsEvery);
-setInterval(loadElpris, CONFIG.elprisEvery);
+setInterval(loadSeason, CONFIG.seasonEvery);
 setInterval(loadDeviations, CONFIG.deviationsEvery);
 setInterval(loadF1, CONFIG.f1Every);
 setInterval(loadNameday, 6 * 60 * 60 * 1000);

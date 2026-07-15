@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-15T15:09:12.225Z",
+ "updated": "2026-07-15T16:50:30.017Z",
  "items": [
   {
    "src": "BBC",
@@ -37,17 +37,33 @@
    "src": "BBC",
    "section": "Världen",
    "title": "Special police team to investigate killing of an anti-migrant leader in South Africa",
-   "date": "2026-07-15T14:37:45.000Z",
+   "date": "2026-07-15T15:33:30.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cm2d2qlgj71o?at_medium=RSS&at_campaign=rss",
    "desc": "The March and March provincial leader died of his injuries in hospital several days after being shot."
   },
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
-   "title": "Lastbil brann på E6 utanför Glumslöv – ett körfält öppet",
+   "title": "Person påkörd på E22 i Kalmar – vägen avstängd",
+   "date": "2026-07-15T15:53:43.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/smaland/person-pakord-pa-e22-i-kalmar-vagen-avstangd",
+   "desc": "En person har blivit påkörd vid en korsning på E22 i Kalmar."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Snabbast växande ebolautbrottet hittills",
+   "date": "2026-07-15T15:10:03.000Z",
+   "link": "https://www.svt.se/nyheter/utrikes/snabbaste-ebolautbrottet-hittills",
+   "desc": "Det pågående ebolautbrottet i Kongo-Kinshasa växer snabbare än något tidigare utbrott, uppger Läkare utan gränser. Fler än 2 000 personer har hittills smittats och 754 har dött. – Vi jagar fortfarande ikapp utbrottet istället för att ligga steget före, säger Trish Newport, ansvarig för organisationens akuta insatser."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Lastbil brann på E6 utanför Glumslöv",
    "date": "2026-07-15T13:54:31.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/helsingborg/brinnande-lastbil-pa-e6-utanfor-glumslov-vagen-avstangd",
-   "desc": "Under onsdagen började en lastbil brinna på E6 mellan Landskrona och Helsingborg i riktning mot Helsingborg. Vägen stängdes av i norrgående riktning. Vid 17-tiden öppnade ett körfält igen. – Det är förmodligen något kylaggregat som börjat brinna, säger Anders Liljeberg, ledningsbefäl på Räddningstjänsten Syd."
+   "desc": "Under onsdagen började en lastbil brinna på E6 mellan Landskrona och Helsingborg i riktning mot Helsingborg. Vägen stängdes av i norrgående riktning, men är åter öppen igen. – Det är förmodligen något kylaggregat som börjat brinna, säger Anders Liljeberg, ledningsbefäl på Räddningstjänsten Syd."
   },
   {
    "src": "SVT",
@@ -66,28 +82,12 @@
    "desc": "Den man i 40-årsåldern som misstänks för mord på en kvinna utanför Katrineholm i början av året ska genomgå en rättspsykiatrisk undersökning. Det har Nyköpings tingsrätt beslutat under rättegången mot mannen."
   },
   {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Försvarsmaktens generaldirektör avgår",
-   "date": "2026-07-15T13:13:19.000Z",
-   "link": "https://www.svt.se/nyheter/inrikes/forsvarsmaktens-generaldirektor-avgar",
-   "desc": "Efter cirka ett halvår på posten har Försvarsmaktens generaldirektör Christina Malm under onsdagen lämnat sitt uppdrag med omedelbar verkan av personliga skäl. Regeringen måste nu utse en ny generaldirektör."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Kriminella katten Yoda snor grannarnas prylar: ”Måste låsa”",
-   "date": "2026-07-15T12:33:29.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/blekinge/kriminella-katten-yoda-snor-grannarnas-prylar-maste-lasa",
-   "desc": "Siameskatten Yoda, 4 år, bor på Långö hemma hos familjen Hjalmarsson. På ön är han känd som tjuv, då han dagligen snor prylar från grannar i kvarteret. Nyligen blev han tagen på film dragandes på grannen Peters pläd."
-  },
-  {
    "src": "STHLM",
    "section": "Sverige · Stockholm",
    "title": "Barn till sjukhus efter hundattack i Frösundavik",
    "date": "2026-07-15T11:19:44.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/barn-till-sjukhus-efter-hundattack",
-   "desc": "Ett barn har förts till sjukhus med ambulanshelikopter efter att ha blivit biten av en hund i Frösundavik i Solna. Skadeläget är oklart."
+   "desc": "Ett barn har förts till sjukhus med ambulanshelikopter efter att ha blivit biten av en hund i Frösundavik i Solna."
   },
   {
    "src": "STHLM",

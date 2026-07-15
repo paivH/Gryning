@@ -30,7 +30,11 @@ const ingredient = list[day % list.length];
 const monthName = now.toLocaleDateString('sv-SE', { month: 'long' });
 
 const key = process.env.ANTHROPIC_API_KEY;
-if (!key) { console.error('No ANTHROPIC_API_KEY'); process.exit(1); }
+if (!key) {
+  console.error('ERROR: ANTHROPIC_API_KEY is empty. Check the secret exists and is named exactly ANTHROPIC_API_KEY in repo Settings > Secrets and variables > Actions.');
+  process.exit(1);
+}
+console.log(`Key present (length ${key.length}, starts ${key.slice(0, 7)}…). Ingredient: ${ingredient}`);
 
 const prompt = `You write ONE short cooking idea for a Swedish kitchen dashboard.
 
@@ -56,7 +60,15 @@ try {
       messages: [{ role: 'user', content: prompt }],
     }),
   });
-  if (!res.ok) throw new Error(`API ${res.status}: ${await res.text()}`);
+  if (!res.ok) {
+    const body = await res.text();
+    console.error(`ERROR: Anthropic API returned ${res.status}.`);
+    if (res.status === 400 && /credit|balance|billing/i.test(body)) {
+      console.error('This looks like a billing/credit issue — add credit at console.anthropic.com > Billing.');
+    }
+    console.error('Full response:', body);
+    process.exit(1);
+  }
   const data = await res.json();
   const text = (data.content || []).filter((b) => b.type === 'text').map((b) => b.text).join('').trim();
   const clean = text.replace(/```json|```/g, '').trim();

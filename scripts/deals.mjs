@@ -6,7 +6,11 @@
 import { writeFileSync } from 'node:fs';
 
 const key = process.env.ANTHROPIC_API_KEY;
-if (!key) { console.error('No ANTHROPIC_API_KEY'); process.exit(1); }
+if (!key) {
+  console.error('ERROR: ANTHROPIC_API_KEY is empty. Check the secret exists and is named exactly ANTHROPIC_API_KEY in repo Settings > Secrets and variables > Actions.');
+  process.exit(1);
+}
+console.log(`Key present (length ${key.length}, starts ${key.slice(0, 7)}…).`);
 
 const today = new Date().toLocaleDateString('sv-SE', { day: 'numeric', month: 'long', year: 'numeric' });
 
@@ -38,7 +42,15 @@ try {
       tools: [{ type: 'web_search_20250305', name: 'web_search' }],
     }),
   });
-  if (!res.ok) throw new Error(`API ${res.status}: ${await res.text()}`);
+  if (!res.ok) {
+    const body = await res.text();
+    console.error(`ERROR: Anthropic API returned ${res.status}.`);
+    if (res.status === 400 && /credit|balance|billing/i.test(body)) {
+      console.error('This looks like a billing/credit issue — add credit at console.anthropic.com > Billing.');
+    }
+    console.error('Full response:', body);
+    process.exit(1);
+  }
   const data = await res.json();
 
   // find blocks by type, not position: last text block carries the JSON

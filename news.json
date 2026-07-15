@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-15T22:02:28.253Z",
+ "updated": "2026-07-15T23:27:30.312Z",
  "items": [
   {
    "src": "BBC",
@@ -20,10 +20,18 @@
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "Trump retreat over Hormuz tolls suggests he is struggling to end Iran war",
-   "date": "2026-07-14T23:17:27.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/crele3r8j19o?at_medium=RSS&at_campaign=rss",
-   "desc": "The abrupt about-face from the US president was the latest twist in a conflict that has now lasted more than four months."
+   "title": "Argentina face fine for Falklands banner in semi-final win",
+   "date": "2026-07-15T22:49:47.000Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c935pgr4dklo?at_medium=RSS&at_campaign=rss",
+   "desc": "Argentina face the prospect of a Fifa fine after their players celebrate the World Cup semi-final win against England with a banner in support of their country's claims to the Falkland Islands."
+  },
+  {
+   "src": "BBC",
+   "section": "Världen",
+   "title": "Families of 43 victims await verdict in Genoa bridge disaster",
+   "date": "2026-07-15T23:02:37.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/c20y00712ezo?at_medium=RSS&at_campaign=rss",
+   "desc": "A large section of the giant Morandi motorway bridge crumbled and collapsed on to the railway tracks below."
   },
   {
    "src": "BBC",
@@ -34,12 +42,12 @@
    "desc": "There is more confidence in Xi Jinping than Donald Trump, the US think tank's survey indicates."
   },
   {
-   "src": "BBC",
-   "section": "Världen",
-   "title": "Russian attacks kill 14 as Ukraine hits Black Sea oil tankers",
-   "date": "2026-07-15T21:21:19.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/c8929jv8kdzo?at_medium=RSS&at_campaign=rss",
-   "desc": "Civilian casualties are reported in a number of Ukrainian regions, while Kyiv hits 20 Russian vessels in the Black Sea."
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "JD Vance om släppet av Epstein-filerna: ”Klantade till det”",
+   "date": "2026-07-15T22:50:04.000Z",
+   "link": "https://www.svt.se/nyheter/utrikes/jd-vance-om-slappet-av-epstein-filerna-klantade-till-det",
+   "desc": "Efter år av politiska turer, konspirationsteorier och över tre miljoner släppta dokument medger USA:s vicepresident JD Vance att hanteringen av de omtalade Epsteinfilerna misskötts av Vita huset. – Vi klantade till det, säger han i Joe Rogans podcast ”The Joe Rogan Experience”."
   },
   {
    "src": "SVT",
@@ -52,10 +60,10 @@
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
-   "title": "Pendeltågsstationen Stockholm City utrymd",
+   "title": "Pendeltågsstationen Stockholm City utrymdes efter automatlarm",
    "date": "2026-07-15T20:44:45.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/pendeltagsstationen-stockholm-city-utrymd",
-   "desc": "Pendeltågsstationen Stockholm City i centrala Stockholm har utrymts på grund av ett brandlarm. – Man får inte gå av eller på vid stationen, säger Andreas Strömberg, presschef på SL."
+   "desc": "Pendeltågsstationen Stockholm City i centrala Stockholm utrymdes under onsdagskvällen på grund av ett automatlarm. Vid 00.30-tiden var problemet åtgärdat. – Det var ett tekniskt fel på utrymningslarmet, säger Andreas Strömberg, presschef på SL."
   },
   {
    "src": "SVT",
@@ -74,20 +82,12 @@
    "desc": "På en timme ska de kriminella annonserna på sociala medier tas bort – annars riskerar företagen böter på fem miljoner kronor. ”Från och med i dag får polisen konkreta verktyg för att snabbt kunna stoppa rekryteringsannonser till grova våldsdåd”, säger justitieminister Gunnar Strömmer (M) till SVT Nyheter."
   },
   {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Franska parlamentet röstar ja till dödshjälp",
-   "date": "2026-07-15T17:34:36.000Z",
-   "link": "https://www.svt.se/nyheter/utrikes/franska-parlamentet-rostar-ja-till-dodshjalp",
-   "desc": "Nationalförsamlingen i Frankrike har röstat igenom ett lagförslag som ska möjliggöra dödshjälp för svårt sjuka. Premiärminister Sébastien Lecornu ska nu be Frankrikes konstitutionella råd att granska förslaget. Om det godkänns också där blir det lag."
-  },
-  {
    "src": "STHLM",
    "section": "Sverige · Stockholm",
-   "title": "Pendeltågsstationen Stockholm City utrymd",
+   "title": "Pendeltågsstationen Stockholm City utrymdes efter automatlarm",
    "date": "2026-07-15T20:44:45.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/pendeltagsstationen-stockholm-city-utrymd",
-   "desc": "Pendeltågsstationen Stockholm City i centrala Stockholm har utrymts på grund av ett brandlarm. – Man får inte gå av eller på vid stationen, säger Andreas Strömberg, presschef på SL."
+   "desc": "Pendeltågsstationen Stockholm City i centrala Stockholm utrymdes under onsdagskvällen på grund av ett automatlarm. Vid 00.30-tiden var problemet åtgärdat. – Det var ett tekniskt fel på utrymningslarmet, säger Andreas Strömberg, presschef på SL."
   },
   {
    "src": "STHLM",

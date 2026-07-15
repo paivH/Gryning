@@ -1090,28 +1090,54 @@ const FALLBACK_IDEAS = {
   jordgubbar: 'Snabbsylt jordgubbar med lite citron — mindre socker, mer bär.',
   sparris: 'Halstra sparris hastigt, toppa med ägg och riven parmesan.',
   färskpotatis: 'Krossad färskpotatis, stekt knaprig i smör med dill.',
+  fänkål: 'Hyvla fänkål tunt, picklad i citron & salt — fräsch topping på kvällens fisk.',
+  purjolök: 'Långsamt smörbräserad purjolök med flingsalt — bjud som varm förrätt.',
+  bönor: 'Blanchera bönorna, kör en snabb sallad med senapsvinägrett och rostad lök.',
+  ärtor: 'Mosa ärtor med mynta & olja till en snabb bruschetta på surdeg.',
+  hallon: 'Sätt hallonvinäger: bär + vitvinsvinäger, dra en vecka, sila.',
+  blåbär: 'Snabb blåbärskompott med kardemumma — toppa gårdagens surdegsgröt.',
+  majs: 'Grilla majsen hel, rulla i smör, chili & riven ost — 10 minuter.',
+  kålrot: 'Riv kålrot till remoulad, eller picklad i sött-syrligt lag.',
+  plommon: 'Halvera plommon, ugnsrosta med honung & timjan till frukostyoghurten.',
+  päron: 'Pochera päron i kryddat äppelvin — enkel efterrätt på vardagen.',
+  rödbetor: 'Fermentera rödbetor till kvass, eller riv rå i en snabb sallad.',
+  dill: 'Frys dillolja i isbitar — smaksättare redo för vinterns rätter.',
+  sallad: 'Snabb sallad med rostade frön och en syrlig senapsdressing.',
+  broccoli: 'Rostad broccoli med vitlök & chili — hög värme, 12 minuter.',
+  blomkål: 'Helrostad blomkål med spiskummin — enkel vardagsmiddag.',
 };
 
-function pickIngredient() {
-  const list = SEASON[new Date().getMonth()];
-  // rotate deterministically by day so it changes daily but is stable within a day
-  const day = Math.floor(Date.now() / 86400000);
-  return list[day % list.length];
+function seasonList() { return SEASON[new Date().getMonth()]; }
+
+// index into today's season list; starts on the daily rotation, tap advances it
+let foodIdx = Math.floor(Date.now() / 86400000) % seasonList().length;
+let foodFromAI = false; // true while showing the AI idea (before any manual shuffle)
+
+function renderFood(ingredient, idea) {
+  const monthName = new Date().toLocaleDateString('sv-SE', { month: 'long' });
+  $('food-ingredient').textContent = ingredient;
+  $('food-idea').textContent = idea;
+  $('food-season').textContent = `i säsong i ${monthName} · tryck för ny`;
+}
+
+function showFallback(ingredient) {
+  renderFood(ingredient, FALLBACK_IDEAS[ingredient]
+    || `${ingredient} är i säsong nu — billigast och godast. Picklat, fermenterat eller i en snabb vardagsrätt.`);
 }
 
 async function loadSeason() {
-  const ingredient = pickIngredient();
-  const monthName = new Date().toLocaleDateString('sv-SE', { month: 'long' });
-
+  const list = seasonList();
   // 1) AI-written season.json (from the GitHub Action) — richer, in your style
   try {
     const r = await fetch('season.json?t=' + Date.now());
     if (r.ok) {
       const d = await r.json();
       if (d.ingredient && d.idea) {
-        $('food-ingredient').textContent = d.ingredient;
-        $('food-idea').textContent = d.idea;
-        $('food-season').textContent = `i säsong i ${monthName}`;
+        foodFromAI = true;
+        renderFood(d.ingredient, d.idea);
+        // align the shuffle index to the AI ingredient if it's in this month's list
+        const i = list.indexOf(d.ingredient);
+        if (i !== -1) foodIdx = i;
         stamp();
         return;
       }
@@ -1119,11 +1145,19 @@ async function loadSeason() {
   } catch (e) { /* fall back to local */ }
 
   // 2) local fallback — always works, no key, style-matched
-  $('food-ingredient').textContent = ingredient;
-  $('food-idea').textContent = FALLBACK_IDEAS[ingredient]
-    || `${ingredient} är i säsong nu — billigast och godast. Picklat, fermenterat eller i en snabb vardagsrätt.`;
-  $('food-season').textContent = `i säsong i ${monthName}`;
+  foodFromAI = false;
+  showFallback(list[foodIdx % list.length]);
 }
+
+// tap the food panel to shuffle to the next in-season ingredient
+function shuffleFood() {
+  const list = seasonList();
+  foodIdx = (foodIdx + 1) % list.length;
+  foodFromAI = false;
+  showFallback(list[foodIdx]);
+}
+$('food').addEventListener('click', shuffleFood);
+$('food').style.cursor = 'pointer';
 
 /* ---------- SL deviations (open API, no key) ---------- */
 

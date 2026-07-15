@@ -24,8 +24,9 @@ const prompt = `Today is ${today}. Find CURRENT weekly offers/deals (veckans erb
 Search the web for each. Only include deals you actually found evidence for THIS week — never invent prices. Prefer groceries and concrete prices ("10 kr/kg tomater", "5 för 100 kr"). Aim for 4-6 deals across different stores; fewer is fine if that's what you can verify.
 
 Respond ONLY with JSON, no markdown fences, in exactly this shape:
-{"deals": [{"store": "ICA", "item": "Tomater i lösvikt", "price": "10 kr/kg"}, ...]}
-Store must be a short label: ICA, Lidl, IKEA, Outlet, Plantagen, Rusta, Elgiganten.`;
+{"deals": [{"store": "ICA", "item": "Tomater i lösvikt", "price": "10 kr/kg", "url": "https://www.ica.se/..."}, ...]}
+Store must be a short label: ICA, Lidl, IKEA, Outlet, Plantagen, Rusta, Elgiganten.
+For "url", give the best link you found for that deal or the store's offer page. If you have no URL, use the store's main site (e.g. https://www.ica.se). Never invent a specific product URL you didn't see.`;
 
 try {
   const res = await fetch('https://api.anthropic.com/v1/messages', {
@@ -59,7 +60,9 @@ try {
   const match = raw.match(/\{[\s\S]*\}/); // extract the JSON object
   if (!match) throw new Error('No JSON in response');
   const parsed = JSON.parse(match[0].replace(/```json|```/g, ''));
-  const deals = (parsed.deals || []).filter((d) => d.store && d.item).slice(0, 6);
+  const deals = (parsed.deals || []).filter((d) => d.store && d.item)
+    .map((d) => ({ store: d.store, item: d.item, price: d.price || '', url: d.url || '' }))
+    .slice(0, 6);
   if (!deals.length) throw new Error('No deals found');
 
   writeFileSync('deals.json', JSON.stringify({

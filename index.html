@@ -187,7 +187,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(30vw, 260px), 1fr));
     gap: 2vmin;
-    align-items: stretch;
+    align-items: start;
+    flex-shrink: 0;
   }
 
   /* expand buttons + maximized overlay */
@@ -365,6 +366,10 @@
   .deal .what { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--ink); }
   .deal .price { color: var(--amber); font-weight: 600; font-variant-numeric: tabular-nums; white-space: nowrap; }
 
+  .deal.has-link { cursor: pointer; -webkit-tap-highlight-color: transparent; }
+  .deal.has-link:active .what { color: var(--amber); }
+  .deal.has-link .what::after { content: ' ↗'; color: var(--ink-faint); font-size: 0.8em; }
+
   #deals-note { font-size: clamp(10px, 1.6vmin, 13px); color: var(--ink-faint); margin-top: auto; padding-top: 1vmin; }
 
   /* headline timestamps + breaking */
@@ -438,9 +443,9 @@
     min-height: 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(46vw, 420px), 1fr));
-    gap: 2vmin 4.5vmin;
+    gap: 1.5vmin 4.5vmin;
     overflow: hidden;
-    align-content: start;
+    align-content: space-between;
   }
 
   .news-col {
@@ -692,7 +697,7 @@ const CONFIG = {
     { name: 'SVT', section: 'Sverige · Stockholm', url: 'https://www.svt.se/nyheter/rss.xml' },
     { name: 'STHLM', section: 'Sverige · Stockholm', url: 'https://www.svt.se/nyheter/lokalt/stockholm/rss.xml' },
   ],
-  maxPerSection: 4,
+  maxPerSection: 6,
   // Seasonal ingredient panel: your cooking style, fed to the AI action
   cookingStyle: 'pickling, fermenting, bread baking, and quick weeknight dishes',
   // Show full session schedule when the race is this close
@@ -1105,11 +1110,14 @@ let lastDeals = [];
 
 function buildDealEl(x) {
   const el = document.createElement('div');
-  el.className = 'deal';
+  el.className = 'deal' + (x.url ? ' has-link' : '');
   el.innerHTML = '<span class="store"></span><span class="what"></span><span class="price"></span>';
   el.querySelector('.store').textContent = x.store || '';
   el.querySelector('.what').textContent = x.item || '';
   el.querySelector('.price').textContent = x.price || '';
+  if (x.url) {
+    el.addEventListener('click', (e) => { e.stopPropagation(); window.open(x.url, '_blank', 'noopener'); });
+  }
   return el;
 }
 

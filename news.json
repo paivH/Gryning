@@ -1,6 +1,14 @@
 {
- "updated": "2026-07-15T16:50:30.017Z",
+ "updated": "2026-07-15T18:03:17.426Z",
  "items": [
+  {
+   "src": "BBC",
+   "section": "Världen",
+   "title": "French MPs approve assisted dying law with strict rules after years of argument",
+   "date": "2026-07-15T17:29:26.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cvg7g2z4pv3o?at_medium=RSS&at_campaign=rss",
+   "desc": "The bill would allow assisted dying for terminally ill adults who meet strict criteria."
+  },
   {
    "src": "BBC",
    "section": "Världen",
@@ -20,10 +28,10 @@
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "Strait of Hormuz 'faultline' exposes weakness of the US-Iran deal",
-   "date": "2026-07-14T19:13:49.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cwy0ydn033yo?at_medium=RSS&at_campaign=rss",
-   "desc": "Control of the waterway has become a key point of contention between the US and Iran, as a ceasefire deal falters."
+   "title": "More people around the world now favour China over the US, Pew study suggests",
+   "date": "2026-07-15T17:02:41.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cd959q11g54o?at_medium=RSS&at_campaign=rss",
+   "desc": "There is more confidence in Xi Jinping than Donald Trump, the US think tank's survey indicates."
   },
   {
    "src": "BBC",
@@ -34,20 +42,36 @@
    "desc": "Civilian casualties are reported in four Ukrainian regions, while Kyiv hits 20 Russian vessels in the Black Sea."
   },
   {
-   "src": "BBC",
-   "section": "Världen",
-   "title": "Special police team to investigate killing of an anti-migrant leader in South Africa",
-   "date": "2026-07-15T15:33:30.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cm2d2qlgj71o?at_medium=RSS&at_campaign=rss",
-   "desc": "The March and March provincial leader died of his injuries in hospital several days after being shot."
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Gängens ”mordannonser” ska tas bort – på en timme",
+   "date": "2026-07-15T17:47:31.000Z",
+   "link": "https://www.svt.se/nyheter/inrikes/gangens-mordannonser-ska-tas-bort-pa-en-timme",
+   "desc": "På en timme ska de kriminella annonserna på sociala medier tas bort – annars riskerar företagen böter på fem miljoner kronor. ”Från och med i dag får polisen konkreta verktyg för att snabbt kunna stoppa rekryteringsannonser till grova våldsdåd”, säger justitieminister Gunnar Strömmer (M) till SVT Nyheter."
   },
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
-   "title": "Person påkörd på E22 i Kalmar – vägen avstängd",
+   "title": "Franska parlamentet röstar ja till dödshjälp",
+   "date": "2026-07-15T17:34:36.000Z",
+   "link": "https://www.svt.se/nyheter/utrikes/franska-parlamentet-rostar-ja-till-dodshjalp",
+   "desc": "Nationalförsamlingen i Frankrike har röstat igenom ett lagförslag som ska möjliggöra dödshjälp för svårt sjuka. Premiärminister Sébastien Lecornu ska nu be Frankrikes konstitutionella råd att granska förslaget. Om det godkänns också där blir det lag."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Brand i Karlskronas skärgård – helikoptrar vattenbombar",
+   "date": "2026-07-15T17:24:58.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/blekinge/brand-i-karlskronas-skargard-helikoptrar-vattenbombar",
+   "desc": "Det brinner i terrängen i Utlängan i Karlskrona kommun. Branden uppges vara 300 meter lång och 50 meter bred. På plats är helikoptrar som vattenbombar branden. – Det ska ha gett god effekt, säger räddningstjänstens ledningsoperatör."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Kvinna påkörd på E22 i Mönsterås – fördes till sjukhus",
    "date": "2026-07-15T15:53:43.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/smaland/person-pakord-pa-e22-i-kalmar-vagen-avstangd",
-   "desc": "En person har blivit påkörd vid en korsning på E22 i Kalmar."
+   "desc": "En äldre kvinna på cykel blev påkörd vid en korsning på E22 i Mönsterås."
   },
   {
    "src": "SVT",
@@ -58,28 +82,12 @@
    "desc": "Det pågående ebolautbrottet i Kongo-Kinshasa växer snabbare än något tidigare utbrott, uppger Läkare utan gränser. Fler än 2 000 personer har hittills smittats och 754 har dött. – Vi jagar fortfarande ikapp utbrottet istället för att ligga steget före, säger Trish Newport, ansvarig för organisationens akuta insatser."
   },
   {
-   "src": "SVT",
+   "src": "STHLM",
    "section": "Sverige · Stockholm",
-   "title": "Lastbil brann på E6 utanför Glumslöv",
-   "date": "2026-07-15T13:54:31.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/helsingborg/brinnande-lastbil-pa-e6-utanfor-glumslov-vagen-avstangd",
-   "desc": "Under onsdagen började en lastbil brinna på E6 mellan Landskrona och Helsingborg i riktning mot Helsingborg. Vägen stängdes av i norrgående riktning, men är åter öppen igen. – Det är förmodligen något kylaggregat som börjat brinna, säger Anders Liljeberg, ledningsbefäl på Räddningstjänsten Syd."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Kristiina tvingas avbryta rekordförsöket: ”För starka vindar”",
-   "date": "2026-07-15T13:23:00.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/norrbotten/kristiina-tvingas-avbryta-rekordforsoket-for-starka-vindar",
-   "desc": "I fredags började Kristiina Kangastalo-Hoda, 47, simma från Finland till Luleå i ett försök till världsrekord. Nu meddelar besättningen att hon tvingats avbryta på grund av allt för starka vindar. – Besvikelsen är mycket stor, skriver hennes stödteam."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Misstänks ha slagit ihjäl kvinna – under sitt eget födelsedagsfirande",
-   "date": "2026-07-15T13:20:13.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/sormland/misstanks-ha-slagit-ihjal-kvinna-under-sitt-eget-fodelsedagsfirande",
-   "desc": "Den man i 40-årsåldern som misstänks för mord på en kvinna utanför Katrineholm i början av året ska genomgå en rättspsykiatrisk undersökning. Det har Nyköpings tingsrätt beslutat under rättegången mot mannen."
+   "title": "Nyheter från dagen: 15 juli",
+   "date": "2026-07-15T17:56:30.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/stockholm/nyheter-fran-dagen-15-juli-p8qy8g",
+   "desc": "Detta har hänt i Stockholms län den 15 juli."
   },
   {
    "src": "STHLM",
@@ -112,14 +120,6 @@
    "date": "2026-07-15T03:30:02.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/trots-badavradan-har-svalkar-sig-stockholmarna-i-varmen",
    "desc": "Algblomningen har minskat på badplatserna i Stockholms län och nu är det enbart badavrådan på sex av länets 255 officiella badställen. Men på Ängbybadet i norra Stockholm badar flera trots avrådan. – Man har ju hört att det är dåligt vatten, men vad ska man göra, det är varmt, säger Camilla Hedberg."
-  },
-  {
-   "src": "STHLM",
-   "section": "Sverige · Stockholm",
-   "title": "Person hittad död i skogsområde i Solna",
-   "date": "2026-07-15T03:13:18.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/stockholm/person-hittad-dod-i-skogsomrade-i-solna",
-   "desc": "En person har hittats död i närheten av Råstasjön i Solna. Det finns inget uppenbart som tyder på brott men en förundersökning om mord har inletts."
   }
  ]
 }

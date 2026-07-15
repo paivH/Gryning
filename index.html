@@ -62,8 +62,8 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    padding: 4vmin 5vmin;
-    gap: 2.5vmin;
+    padding: 3vmin 4vmin;
+    gap: 2vmin;
     transition: opacity 1.2s ease;
   }
 
@@ -184,9 +184,10 @@
 
   /* ---------- middle: trains + f1 ---------- */
   #row2 {
-    display: flex;
-    gap: 2.5vmin;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(43vw, 290px), 1fr));
+    gap: 2vmin;
+    align-items: stretch;
   }
 
   .panel {
@@ -265,6 +266,49 @@
     margin-top: auto;
     padding-top: 1.2vmin;
   }
+
+  /* deals */
+  #deals { display: flex; flex-direction: column; }
+
+  #deals-list { display: flex; flex-direction: column; gap: 1vmin; }
+
+  .deal {
+    display: flex;
+    align-items: baseline;
+    gap: 1.6vmin;
+    font-size: clamp(13px, 2.2vmin, 19px);
+  }
+
+  .deal .store {
+    font-size: 0.68em;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 0.1em 0.5em;
+    min-width: 5ch;
+    text-align: center;
+    flex-shrink: 0;
+  }
+
+  .deal .what { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--ink); }
+  .deal .price { color: var(--amber); font-weight: 600; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+  #deals-note { font-size: clamp(10px, 1.6vmin, 13px); color: var(--ink-faint); margin-top: auto; padding-top: 1vmin; }
+
+  /* headline timestamps + breaking */
+  .headline .when {
+    margin-left: auto;
+    flex-shrink: 0;
+    font-size: 0.62em;
+    color: var(--ink-faint);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .headline.breaking .src { color: var(--amber); border-color: rgba(232, 184, 114, 0.5); }
+  .headline.breaking .txt { color: var(--amber); font-weight: 600; }
 
   /* f1 weekend sessions */
   .f1-session {
@@ -518,6 +562,11 @@
       <div id="food-idea">Hämtar …</div>
       <div id="food-season"></div>
     </div>
+    <div class="panel" id="deals">
+      <h2>Erbjudanden · Barkarby</h2>
+      <div id="deals-list"><div class="deal"><span class="what">Väntar på deals.json …</span></div></div>
+      <div id="deals-note"></div>
+    </div>
     <div class="panel" id="f1">
       <h2>Nästa F1-race</h2>
       <div id="f1-body">Hämtar …</div>
@@ -579,7 +628,7 @@ const CONFIG = {
   corsProxy: 'https://api.allorigins.win/raw?url=',
   // refresh intervals (ms)
   weatherEvery: 15 * 60 * 1000,
-  newsEvery: 15 * 60 * 1000,
+  newsEvery: 10 * 60 * 1000,
   trainsEvery: 60 * 1000,
   seasonEvery: 6 * 60 * 60 * 1000,
   deviationsEvery: 5 * 60 * 1000,
@@ -865,21 +914,44 @@ function stripHtml(s) {
 
 let newsRetryTimer = null;
 
-function interleave(items, max) {
-  items.sort((a, b) => b.date - a.date);
+// words that mark a headline as breaking/high-priority
+const BREAKING = /skjut|skott|mord|döda[dt]|dödsfall|attack|explosion|terror|evakuer|rån|gisslan|larm om|akut|kris|shooting|shot|killed|explosion|attack|hostage|breaking/i;
+
+const NEWS_MAX_AGE = 12 * 3600e3; // headlines rotate out after 12 h
+
+const isBreaking = (it) => BREAKING.test(it.title) && (Date.now() - it.date) < NEWS_MAX_AGE;
+
+function relTime(d) {
+  const min = Math.max(0, Math.round((Date.now() - d) / 60000));
+  if (min < 60) return `${min} min`;
+  return `${Math.round(min / 60)} tim`;
+}
+
+function selectHeadlines(items, max) {
+  const now = Date.now();
+  // 1) strict freshness window
+  let pool = items.filter((i) => now - i.date < NEWS_MAX_AGE);
+  // top up with the newest older items if a slow news cycle empties the pool
+  if (pool.length < 2) {
+    const older = items.filter((i) => !pool.includes(i)).sort((a, b) => b.date - a.date);
+    pool = pool.concat(older.slice(0, 2 - pool.length));
+  }
+  // 2) breaking first, then interleave sources newest-first
+  const breaking = pool.filter(isBreaking).sort((a, b) => b.date - a.date);
+  const rest = pool.filter((i) => !breaking.includes(i)).sort((a, b) => b.date - a.date);
   const bySrc = {};
-  items.forEach((i) => (bySrc[i.src] ||= []).push(i));
+  rest.forEach((i) => (bySrc[i.src] ||= []).push(i));
   const order = Object.values(bySrc);
-  const mixed = [];
+  const mixed = [...breaking];
   for (let i = 0; mixed.length < max; i++) {
     let added = false;
     for (const arr of order) {
-      if (arr[i]) { mixed.push(arr[i]); added = true; }
+      if (arr[i] && !mixed.includes(arr[i])) { mixed.push(arr[i]); added = true; }
       if (mixed.length >= max) break;
     }
     if (!added) break;
   }
-  return mixed;
+  return mixed.slice(0, max);
 }
 
 async function loadNews() {
@@ -921,10 +993,10 @@ async function loadNews() {
     const col = document.createElement('div');
     col.className = 'news-col';
     col.innerHTML = `<h3>${name}</h3>`;
-    for (const it of interleave(bySection[name], CONFIG.maxPerSection)) {
+    for (const it of selectHeadlines(bySection[name], CONFIG.maxPerSection)) {
       const el = document.createElement('div');
-      el.className = 'headline';
-      el.innerHTML = `<span class="src">${it.src}</span><span class="txt"></span>`;
+      el.className = 'headline' + (isBreaking(it) ? ' breaking' : '');
+      el.innerHTML = `<span class="src">${it.src}</span><span class="txt"></span><span class="when">${relTime(it.date)}</span>`;
       el.querySelector('.txt').textContent = it.title;
       el.addEventListener('click', (e) => { e.stopPropagation(); openArticle(it); });
       col.appendChild(el);
@@ -957,6 +1029,34 @@ function closeModal() {
 
 $('m-close').addEventListener('click', closeModal);
 $('modal').addEventListener('click', (e) => { if (e.target.id === 'modal') closeModal(); });
+
+/* ---------- Barkarby deals (deals.json from the AI action) ---------- */
+
+async function loadDeals() {
+  try {
+    const r = await fetch('deals.json?t=' + Date.now());
+    if (!r.ok) throw new Error(r.status);
+    const d = await r.json();
+    const deals = (d.deals || []).slice(0, 4);
+    if (!deals.length) throw new Error('empty');
+    const list = $('deals-list');
+    list.innerHTML = '';
+    for (const x of deals) {
+      const el = document.createElement('div');
+      el.className = 'deal';
+      el.innerHTML = '<span class="store"></span><span class="what"></span><span class="price"></span>';
+      el.querySelector('.store').textContent = x.store || '';
+      el.querySelector('.what').textContent = x.item || '';
+      el.querySelector('.price').textContent = x.price || '';
+      list.appendChild(el);
+    }
+    const ageH = d.updated ? (Date.now() - new Date(d.updated)) / 3600e3 : 0;
+    $('deals-note').textContent = ageH > 48 ? 'obs: kan vara inaktuella' : '';
+    stamp();
+  } catch (e) {
+    $('deals-list').innerHTML = '<div class="deal"><span class="what">Inga erbjudanden ännu — aktivera deals-action</span></div>';
+  }
+}
 
 /* ---------- seasonal ingredient of the day ---------- */
 
@@ -1132,6 +1232,7 @@ loadWeather();
 loadNameday();
 loadTrains();
 loadSeason();
+loadDeals();
 loadDeviations();
 loadNews();
 loadF1();
@@ -1141,6 +1242,7 @@ setInterval(loadWeather, CONFIG.weatherEvery);
 setInterval(loadNews, CONFIG.newsEvery);
 setInterval(loadTrains, CONFIG.trainsEvery);
 setInterval(loadSeason, CONFIG.seasonEvery);
+setInterval(loadDeals, 6 * 60 * 60 * 1000);
 setInterval(loadDeviations, CONFIG.deviationsEvery);
 setInterval(loadF1, CONFIG.f1Every);
 setInterval(loadNameday, 6 * 60 * 60 * 1000);

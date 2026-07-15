@@ -592,6 +592,45 @@
     #dateblock { text-align: left; }
   }
 
+  /* phone: let the page scroll and stack everything in one column */
+  @media (max-width: 560px) {
+    html, body { overflow-y: auto; height: auto; }
+    #app {
+      height: auto;
+      min-height: 100%;
+      padding: 5vw 5vw calc(5vw + env(safe-area-inset-bottom));
+      gap: 4vw;
+    }
+    header { flex-direction: row; align-items: flex-start; }
+    #clock { font-size: 22vw; }
+    #dateblock { flex: 0 0 auto; }
+    #date { font-size: 4.2vw; }
+    #nameday { font-size: 3.4vw; }
+
+    #weather { gap: 4vw; }
+    #wx-temp { font-size: 15vw; }
+    #wx-desc { font-size: 3.8vw; max-width: 46vw; }
+    #wx-meta { gap: 5vw; font-size: 3.4vw; flex-wrap: wrap; }
+    #wx-hours { width: 100%; justify-content: space-between; margin-top: 2vw; }
+
+    /* single column, natural height, scrollable */
+    #row2 { grid-template-columns: 1fr; gap: 4vw; }
+    #news { overflow: visible; }
+    #news-sections { grid-template-columns: 1fr; overflow: visible; gap: 4vw; }
+    .news-col { overflow: visible; }
+    .headline .txt { white-space: normal; }        /* wrap long headlines on phone */
+    .deal .what { white-space: normal; }
+
+    h2, .news-col h3 { font-size: 3.4vw; }
+    #food-ingredient { font-size: 7vw; }
+    #food-idea, #f1-body, .deal, .headline { font-size: 4vw; }
+    .dep, #el-now { font-size: 4.4vw; }
+
+    /* expand buttons are redundant when the page scrolls */
+    .expand { display: none; }
+    footer { flex-direction: column; gap: 1vw; align-items: flex-start; }
+  }
+
   @media (prefers-reduced-motion: reduce) {
     * { transition: none !important; }
   }
@@ -1136,7 +1175,7 @@ async function loadDeals() {
     lastDeals = deals;
     renderDealsInto($('deals-list'), 4);
     const ageH = d.updated ? (Date.now() - new Date(d.updated)) / 3600e3 : 0;
-    $('deals-note').textContent = ageH > 48 ? 'obs: kan vara inaktuella' : '';
+    $('deals-note').textContent = d.verified === false ? 'uppskattade priser' : (ageH > 48 ? 'obs: kan vara inaktuella' : '');
     if (maxPanel === 'deals') openMax('deals'); // refresh if currently maximized
     stamp();
   } catch (e) {

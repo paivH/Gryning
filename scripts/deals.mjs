@@ -38,9 +38,9 @@ try {
     },
     body: JSON.stringify({
       model: 'claude-sonnet-5',
-      max_tokens: 4000,
+      max_tokens: 8000,
       messages: [{ role: 'user', content: prompt }],
-      tools: [{ type: 'web_search_20250305', name: 'web_search' }],
+      tools: [{ type: 'web_search_20250305', name: 'web_search', max_uses: 5 }],
     }),
   });
   if (!res.ok) {
@@ -53,6 +53,19 @@ try {
     process.exit(1);
   }
   const data = await res.json();
+
+  // web search can FAIL while HTTP is still 200 — the error is embedded in the response
+  const searchResults = (data.content || []).filter((b) => b.type === 'web_search_tool_result');
+  for (const sr of searchResults) {
+    const c = sr.content;
+    if (c && c.type === 'web_search_tool_result_error') {
+      console.error(`Web search failed: ${c.error_code}`);
+      if (/not_enabled|permission|unauthorized/i.test(c.error_code || '')) {
+        console.error('Web search may need enabling for your API workspace at console.anthropic.com. Falling back to model knowledge.');
+      }
+    }
+  }
+  console.log('stop_reason:', data.stop_reason, '| content block types:', (data.content || []).map((b) => b.type).join(', '));
 
   // find blocks by type, not position: text blocks carry the JSON
   const texts = (data.content || []).filter((b) => b.type === 'text').map((b) => b.text);

@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-15T13:29:00.071Z",
+ "updated": "2026-07-15T15:09:12.225Z",
  "items": [
   {
    "src": "BBC",
@@ -28,18 +28,26 @@
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "Russian attacks kill six as Ukraine targets Black Sea oil tankers",
-   "date": "2026-07-15T12:19:30.000Z",
+   "title": "Russian attacks kill eight as Ukraine hits Black Sea oil tankers",
+   "date": "2026-07-15T13:32:05.000Z",
    "link": "https://www.bbc.co.uk/news/articles/c8929jv8kdzo?at_medium=RSS&at_campaign=rss",
-   "desc": "Overnight Russia attacked sites in Odesa and Sumy, while Ukraine attacked 20 Russian vessels in the Black Sea."
+   "desc": "Civilian casualties are reported in four Ukrainian regions, while Kyiv hits 20 Russian vessels in the Black Sea."
   },
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "Italy's Meloni suffers surprise setback in close vote on electoral reform",
-   "date": "2026-07-15T11:44:28.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/c1kykx3vnyyo?at_medium=RSS&at_campaign=rss",
-   "desc": "The defeat triggered opposition calls for Meloni to resign ahead of next year's general election."
+   "title": "Special police team to investigate killing of an anti-migrant leader in South Africa",
+   "date": "2026-07-15T14:37:45.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm2d2qlgj71o?at_medium=RSS&at_campaign=rss",
+   "desc": "The March and March provincial leader died of his injuries in hospital several days after being shot."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Lastbil brann på E6 utanför Glumslöv – ett körfält öppet",
+   "date": "2026-07-15T13:54:31.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/helsingborg/brinnande-lastbil-pa-e6-utanfor-glumslov-vagen-avstangd",
+   "desc": "Under onsdagen började en lastbil brinna på E6 mellan Landskrona och Helsingborg i riktning mot Helsingborg. Vägen stängdes av i norrgående riktning. Vid 17-tiden öppnade ett körfält igen. – Det är förmodligen något kylaggregat som börjat brinna, säger Anders Liljeberg, ledningsbefäl på Räddningstjänsten Syd."
   },
   {
    "src": "SVT",
@@ -63,7 +71,7 @@
    "title": "Försvarsmaktens generaldirektör avgår",
    "date": "2026-07-15T13:13:19.000Z",
    "link": "https://www.svt.se/nyheter/inrikes/forsvarsmaktens-generaldirektor-avgar",
-   "desc": "Efter cirka ett halvår på posten har Försvarsmaktens generaldirektör Christina Malm under onsdagen lämnat sitt uppdrag av personliga skäl. Regeringen måste nu utse en ny generaldirektör."
+   "desc": "Efter cirka ett halvår på posten har Försvarsmaktens generaldirektör Christina Malm under onsdagen lämnat sitt uppdrag med omedelbar verkan av personliga skäl. Regeringen måste nu utse en ny generaldirektör."
   },
   {
    "src": "SVT",
@@ -72,14 +80,6 @@
    "date": "2026-07-15T12:33:29.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/blekinge/kriminella-katten-yoda-snor-grannarnas-prylar-maste-lasa",
    "desc": "Siameskatten Yoda, 4 år, bor på Långö hemma hos familjen Hjalmarsson. På ön är han känd som tjuv, då han dagligen snor prylar från grannar i kvarteret. Nyligen blev han tagen på film dragandes på grannen Peters pläd."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Billigare bensin ger sämre affär för elbilsägare – så säger folk i Östersund",
-   "date": "2026-07-15T09:45:04.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/jamtland/billigare-bensin-ger-samre-affar-for-elbilsagare-sa-sager-folk-i-ostersund",
-   "desc": "Det kan vara billigare att köra på bensin än el efter den tillfälliga skattesänkningen som infördes 1 juli, om man laddar på en publik laddare. – Det är inte så bra egentligen, säger Jimmy Axelsson som tankade diesel på en mack i Östersund."
   },
   {
    "src": "STHLM",

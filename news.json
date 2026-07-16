@@ -1,14 +1,6 @@
 {
- "updated": "2026-07-16T16:48:05.978Z",
+ "updated": "2026-07-16T18:03:21.295Z",
  "items": [
-  {
-   "src": "BBC",
-   "section": "Världen",
-   "title": "Italian officials handed jail terms for Genoa bridge disaster that killed 43",
-   "date": "2026-07-16T16:10:40.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/c36dnz1zez5o?at_medium=RSS&at_campaign=rss",
-   "desc": "The ex-head of Italy's motorway operator Giovanni Castellucci was handed a 12-year term over the 2018 bridge collapse."
-  },
   {
    "src": "BBC",
    "section": "Världen",
@@ -28,6 +20,14 @@
   {
    "src": "BBC",
    "section": "Världen",
+   "title": "Italian officials handed jail terms for Genoa bridge disaster that killed 43",
+   "date": "2026-07-16T17:22:31.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/c36dnz1zez5o?at_medium=RSS&at_campaign=rss",
+   "desc": "The ex-head of Italy's motorway operator Giovanni Castellucci was handed a 12-year term over the 2018 bridge collapse."
+  },
+  {
+   "src": "BBC",
+   "section": "Världen",
    "title": "Iran targets military bases as US launches wave of strikes",
    "date": "2026-07-16T11:48:49.000Z",
    "link": "https://www.bbc.co.uk/news/articles/c2lq1ed28jxo?at_medium=RSS&at_campaign=rss",
@@ -37,9 +37,25 @@
    "src": "BBC",
    "section": "Världen",
    "title": "More than 800 Canadian wildfires burning as air quality alerts extend to US",
-   "date": "2026-07-16T15:30:43.000Z",
+   "date": "2026-07-16T17:36:43.000Z",
    "link": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss",
    "desc": "The air quality in large parts of Michigan, Minneapolis and Minnesota is deemed \"hazardous\" by authorities."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Arbetslösheten fortsätter minska: ”Beror på politiken”",
+   "date": "2026-07-16T17:46:11.000Z",
+   "link": "https://www.svt.se/nyheter/inrikes/arbetslosheten-fortsatter-minska-beror-pa-politiken",
+   "desc": "Arbetslösheten i juni har gått ner med en halv procentenhet från samma månad förra året, visar nya siffror. Inte helt oväntat, men oavsett glädjande, enligt Lars Calmfors, professor emeritus i nationalekonomi. – Det beror i hög grad på politiken, säger han till SVT."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Minst en död i ny översvämning i Texas",
+   "date": "2026-07-16T17:14:04.000Z",
+   "link": "https://www.svt.se/nyheter/utrikes/minst-en-dod-i-ny-oversvamning-i-texas",
+   "desc": "En ”stor och livsfarlig flodvåg” väller fram i Texas, på den plats där minst 129 människor omkom i fjol på grund extrem översvämning. Människor uppmanas att söka sig till högre höjder."
   },
   {
    "src": "SVT",
@@ -66,20 +82,12 @@
    "desc": "Det varma och torra vädret har medfört stor brandrisk i stora delar av landet, i vissa delar extremt stor."
   },
   {
-   "src": "SVT",
+   "src": "STHLM",
    "section": "Sverige · Stockholm",
-   "title": "Högsäsong för sommarmagsjukan – så skyddar du dig",
-   "date": "2026-07-16T13:49:55.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/smaland/hogsasong-for-sommarmagsjukan-sa-skyddar-du-dig",
-   "desc": "Sommaren är högsäsong för magsjuka orsakad av bakterien campylobacter. Extra mycket ökar den under juli och augusti, då man ändrar vanor som bland annat innebär mer slarv med kökshygien."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Beskedet: BB i Västervik stänger sex dagar i sommar",
-   "date": "2026-07-16T13:29:11.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/smaland/beskedet-bb-i-vastervik-stanger-sex-dagar-i-sommar",
-   "desc": "Region Kalmar län har löst bemanningen på förlossningen i Västervik för ytterligare fem dygn i sommar. Det innebär att verksamheten nu kan hålla öppet som vanligt under en större del av den tidigare planerade begränsningsperioden, men det saknas fortfarande full bemanning under sex dygn."
+   "title": "Nyheter från dagen: 16 juli",
+   "date": "2026-07-16T17:55:54.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/stockholm/nyheter-fran-dagen-16-juli-70o0ct",
+   "desc": "Detta har hänt under torsdagen 16 juli i Stockholms län"
   },
   {
    "src": "STHLM",
@@ -112,14 +120,6 @@
    "date": "2026-07-15T20:44:45.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/pendeltagsstationen-stockholm-city-utrymd",
    "desc": "Pendeltågsstationen Stockholm City i centrala Stockholm utrymdes under onsdagskvällen på grund av ett automatlarm. Vid 00.30-tiden var problemet åtgärdat. – Det var ett tekniskt fel på utrymningslarmet, säger Andreas Strömberg, presschef på SL."
-  },
-  {
-   "src": "STHLM",
-   "section": "Sverige · Stockholm",
-   "title": "Nyheter från dagen: 15 juli",
-   "date": "2026-07-15T17:56:30.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/stockholm/nyheter-fran-dagen-15-juli-p8qy8g",
-   "desc": "Detta har hänt i Stockholms län den 15 juli."
   }
  ]
 }

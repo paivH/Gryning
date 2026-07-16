@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-16T19:40:43.516Z",
+ "updated": "2026-07-16T20:54:04.722Z",
  "items": [
   {
    "src": "BBC",
@@ -28,7 +28,7 @@
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "Fifa 'assessing reports' over Falklands banner",
+   "title": "Fifa 'assessing match reports' over Falklands banner",
    "date": "2026-07-16T18:44:43.000Z",
    "link": "https://www.bbc.co.uk/sport/football/articles/c75gnkl30vlo?at_medium=RSS&at_campaign=rss",
    "desc": "Fifa is \"assessing the match reports\" before deciding whether to punish Argentina after players held a banner in support of their country's claims to the Falkland Islands."
@@ -40,6 +40,22 @@
    "date": "2026-07-16T17:22:31.000Z",
    "link": "https://www.bbc.co.uk/news/articles/c36dnz1zez5o?at_medium=RSS&at_campaign=rss",
    "desc": "The ex-head of Italy's motorway operator Giovanni Castellucci was handed a 12-year term over the 2018 bridge collapse."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Italiensk polis i tillslag mot lyxmärken",
+   "date": "2026-07-16T20:03:13.000Z",
+   "link": "https://www.svt.se/nyheter/utrikes/italiensk-polis-i-tillslag-mot-lyxmarken",
+   "desc": "Polis i Italien har gjort husrannsakan hos flera lyxvarumärken, uppger åklagare i Milano på torsdagen. Företagen kan ha använt underleverantörer som exploaterar kinesisk arbetskraft."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Lisebergskanin landade oväntat i Örgryte",
+   "date": "2026-07-16T19:50:04.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/vast/lisebergskanin-landade-ovantat-i-orgryte",
+   "desc": "En luftballong i forman av en Lisebergskanin landade oväntat i Örgryte på torsdagskvällen, något Expressen var först med att rapportera om. Enligt polisen rör det sig om en nödlandning och ingen ska ha kommit till skada."
   },
   {
    "src": "SVT",
@@ -66,20 +82,12 @@
    "desc": "Kraftiga bränder har drabbat flera semesterdestinationer i södra Europa. Någonting som kan sätta semestern och semesterbudgeten på spel. SVT har pratat med reseexperten Gabriella Hallberg för att reda ut vilka försäkringar som gäller – och när."
   },
   {
-   "src": "SVT",
+   "src": "STHLM",
    "section": "Sverige · Stockholm",
-   "title": "Arbetslösheten fortsätter minska: ”Beror på politiken”",
-   "date": "2026-07-16T17:46:11.000Z",
-   "link": "https://www.svt.se/nyheter/inrikes/arbetslosheten-fortsatter-minska-beror-pa-politiken",
-   "desc": "Arbetslösheten i juni har gått ner med en halv procentenhet från samma månad förra året, visar nya siffror. Inte helt oväntat, men oavsett glädjande, enligt Lars Calmfors, professor emeritus i nationalekonomi. – Det beror i hög grad på politiken, säger han till SVT."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Minst en död i ny översvämning i Texas",
-   "date": "2026-07-16T17:14:04.000Z",
-   "link": "https://www.svt.se/nyheter/utrikes/minst-en-dod-i-ny-oversvamning-i-texas",
-   "desc": "En ”stor och livsfarlig flodvåg” väller fram i Texas, på den plats där minst 129 människor omkom i fjol på grund extrem översvämning. Människor uppmanas att söka sig till högre höjder."
+   "title": "E4:an avstängd efter olycka – två till sjukhus",
+   "date": "2026-07-16T19:48:19.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/stockholm/vag-avstangd-efter-olycka-med-flera-fordon",
+   "desc": "På E4 vid trafikplats Fittja i Stockholm har en olycka med två personbilar inträffat. Två personer är förda till sjukhus."
   },
   {
    "src": "STHLM",
@@ -112,14 +120,6 @@
    "date": "2026-07-16T03:30:05.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/toms-hjarta-stannade-pa-stockholm-marathon",
    "desc": "I maj slog Stockholm Marathon rekord i antal deltagare när närmare 25 000 personer snörade på sig löparskorna. Men för Tom Andersson slutade loppet med att hans hjärta stannade bara meter från målgången. – Det känns läskigt och det visar att det kan hända vem som helst när som helst."
-  },
-  {
-   "src": "STHLM",
-   "section": "Sverige · Stockholm",
-   "title": "Pendeltågsstationen Stockholm City utrymdes efter automatlarm",
-   "date": "2026-07-15T20:44:45.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/stockholm/pendeltagsstationen-stockholm-city-utrymd",
-   "desc": "Pendeltågsstationen Stockholm City i centrala Stockholm utrymdes under onsdagskvällen på grund av ett automatlarm. Vid 00.30-tiden var problemet åtgärdat. – Det var ett tekniskt fel på utrymningslarmet, säger Andreas Strömberg, presschef på SL."
   }
  ]
 }

@@ -1,11 +1,19 @@
 {
- "updated": "2026-07-16T09:10:46.389Z",
+ "updated": "2026-07-16T11:16:20.064Z",
  "items": [
   {
    "src": "BBC",
    "section": "Världen",
+   "title": "Protests in Ukraine's cities against Zelensky's removal of defence minister",
+   "date": "2026-07-16T11:11:22.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cdx76069n3do?at_medium=RSS&at_campaign=rss",
+   "desc": "Ukraine's president has not explained Mykhailo Fedorov's dismissal, which is causing great upset among civil society and the military."
+  },
+  {
+   "src": "BBC",
+   "section": "Världen",
    "title": "Iran targets military bases as US launches wave of strikes",
-   "date": "2026-07-16T08:50:02.000Z",
+   "date": "2026-07-16T10:26:05.000Z",
    "link": "https://www.bbc.co.uk/news/articles/c2lq1ed28jxo?at_medium=RSS&at_campaign=rss",
    "desc": "Explosions were heard across Iran overnight, shortly after neighbouring Gulf states began to report attacks."
   },
@@ -28,14 +36,6 @@
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "US military to start screening for testosterone deficiency, Hegseth says",
-   "date": "2026-07-16T02:33:40.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cn0nlx18rz0o?at_medium=RSS&at_campaign=rss",
-   "desc": "Hegseth says he is authorising hormone screening to ensure US troops \"operate at your absolute best\"."
-  },
-  {
-   "src": "BBC",
-   "section": "Världen",
    "title": "Actor Sam Neill died from pneumonia, agent confirms",
    "date": "2026-07-16T04:28:22.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cddj7e8v767o?at_medium=RSS&at_campaign=rss",
@@ -44,42 +44,42 @@
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
-   "title": "Kinas ekonomi bromsar oväntat in",
-   "date": "2026-07-16T08:52:16.000Z",
-   "link": "https://www.svt.se/nyheter/utrikes/kinas-ekonomi-bromsar-ovantat-in",
-   "desc": "Kinas ekonomiska tillväxt har saktat in oväntat mycket det senaste kvartalet, visar officiell statistik. Trots att landets export dundrar fram vänder många invånare på slantarna. – Det stora problemet för Kina är att strukturreformer behövs, säger den oberoende Kinaanalytikern Kristina Sandklef."
+   "title": "Professorn svarar: Gör användningen av AI oss dummare?",
+   "date": "2026-07-16T11:01:02.000Z",
+   "link": "https://www.svt.se/nyheter/uutiset/svenska/professorn-svarar-gor-anvandningen-av-ai-oss-dummare",
+   "desc": "Farhågorna kring AI gäller också barns och ungas kunskaper och kognitiva förmågor samt deras motivation att lära sig nya saker, säger Torkel Klingberg, professor i kognitiv neurovetenskap vid Karolinska Institutet. Folkhälsomyndigheten utreder riskerna med användningen av generativ AI för barns och ungas psykiska hälsa och välbefinnande."
   },
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
-   "title": "TV4 sände avsnitt efter deltagares död – beklagar",
-   "date": "2026-07-16T08:29:03.000Z",
-   "link": "https://www.svt.se/kultur/tv4-sande-avsnitt-efter-deltagares-dod-beklagar",
-   "desc": "En kvinna som medverkat i ”En plats i solen” omkom i skogsbranden i Spanien. Knappt en vecka senare visade TV4 avsnittet med henne – vilket väckt reaktioner bland tittare. Nu beklagar kanalen att det skedde."
+   "title": "Företagare om AI-boomen: Vi måste värna människors kompetens",
+   "date": "2026-07-16T10:59:57.000Z",
+   "link": "https://www.svt.se/nyheter/uutiset/svenska/foretagare-om-ai-boomen-vi-maste-varna-manniskors-kompetens",
+   "desc": "Många företag söker efter sätt att effektivisera arbetet med hjälp av AI. Katri Lindgren, företagare och rådgivare inom edtech, ser stora möjligheter med utvecklingen, men hon anser att företag måste värna de anställdas egen kompetens och förmåga att tänka och fatta beslut."
   },
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
-   "title": "Alla gripna släppta efter studentboendebranden på Kronoparken i Karlstad",
-   "date": "2026-07-16T08:22:30.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/varmland/alla-gripna-slappta-efter-studentboendebranden-pa-kronoparken-i-karlstad",
-   "desc": "Tre personer greps under onsdagen misstänkta för den grova mordbranden på Kronparken i Karlstad – nu är alla släppta på fri fot. – De släpptes under kvällen igår, säger åklagare Niclas Wargren."
+   "title": "Person avliden efter sjukdomsfall i bil",
+   "date": "2026-07-16T10:58:44.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/ost/person-avliden-vid-sjukdomsfall-i-bil",
+   "desc": "Räddningstjänsten larmades till väg 919 vid Skogslund efter att en bil kört av vägen och hamnat på en gräsmatta. Föraren, som drabbats av ett sjukdomsfall är avliden, enligt polisens presstalesperson, vilket MVT var först med att berätta."
   },
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
-   "title": "Brandflyget spejar efter skogsbränder: ”Började tidigt”",
-   "date": "2026-07-16T07:30:37.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/varmland/brandflyget-spejar-efter-skogsbrander-borjade-tidigt",
-   "desc": "SMHI larmar om risk för skogbrand och att tidigt upptäcka en kan innebära skillnaden mellan ett snabbt släckningsarbete eller ödeläggelse. Värmlands flygklubb har i uppdrag att hålla span på skogarna från luften. – Det händer ganska ofta att vi ser att det brinner inne på den norska sidan till exempel, säger Ander Röhr, pilot på Värmlands flygklubb."
+   "title": "Så skyddar du katten i hettan: Kylmattor och vatten",
+   "date": "2026-07-16T10:30:06.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/sormland/sa-skyddar-du-katten-i-hettan-kylmattor-och-vatten",
+   "desc": "På Eskilstuna djurskyddsförening i Kälby är man förberedd när den värsta värmen kommer under sommaren. – Vi ser till att de har färskt vatten, vi har kylmattor, kylklampar och så har vi fått aircondition, så katterna mår bra, säger djurvårdaren Rebecka Andersson."
   },
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
-   "title": "Artisten R Kelly ber Trump om kortat straff",
-   "date": "2026-07-16T07:27:56.000Z",
-   "link": "https://www.svt.se/kultur/artisten-r-kelly-ber-trump-om-kortat-straff",
-   "desc": "Den dömde r’n’b-artisten R Kelly har ansökt om att få sitt 30-åriga fängelsestraff kortat av USA:s president Donald Trump."
+   "title": "Dubbla arbetsplatsolyckor –  man fick lastpall i huvudet",
+   "date": "2026-07-16T09:04:02.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/jonkoping/man-skadad-i-arbetsplatsolycka-gl9f1f",
+   "desc": "Två män har förts med ambulans till sjukhus efter två arbetsplatsolyckor, som inträffat på två olika företag i Vaggeryds kommun."
   },
   {
    "src": "STHLM",

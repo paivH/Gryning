@@ -1,14 +1,6 @@
 {
- "updated": "2026-07-16T04:08:48.826Z",
+ "updated": "2026-07-16T06:41:11.114Z",
  "items": [
-  {
-   "src": "BBC",
-   "section": "Världen",
-   "title": "French MPs approve assisted dying law with strict rules after years of argument",
-   "date": "2026-07-15T17:29:26.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cvg7g2z4pv3o?at_medium=RSS&at_campaign=rss",
-   "desc": "The bill would allow assisted dying for terminally ill adults who meet strict criteria."
-  },
   {
    "src": "BBC",
    "section": "Världen",
@@ -36,10 +28,34 @@
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "More people around the world now favour China over the US, Pew study suggests",
-   "date": "2026-07-15T17:02:41.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cd959q11g54o?at_medium=RSS&at_campaign=rss",
-   "desc": "There is more confidence in Xi Jinping than Donald Trump, the US think tank's survey indicates."
+   "title": "US military to start screening for testosterone deficiency, Hegseth says",
+   "date": "2026-07-16T02:33:40.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cn0nlx18rz0o?at_medium=RSS&at_campaign=rss",
+   "desc": "Hegseth says he is authorising hormone screening to ensure US troops \"operate at your absolute best\"."
+  },
+  {
+   "src": "BBC",
+   "section": "Världen",
+   "title": "Actor Sam Neill died from pneumonia, agent confirms",
+   "date": "2026-07-16T04:28:22.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cddj7e8v767o?at_medium=RSS&at_campaign=rss",
+   "desc": "Neill died in Sydney on Monday, with his family saying his death was 'sudden and unexpected'."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Här är de fyra vanligaste frågorna om blodgivning – hör expertens svar",
+   "date": "2026-07-16T03:30:05.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/sormland/har-ar-de-fyra-vanligaste-fragorna-om-blodgivning-hor-expertens-svar",
+   "desc": "Andelen blodgivare i Sverige fortsätter att minska. I Region Sörmland märks utvecklingen i blodlagren. Just nu är situationen i Eskilstuna stabil, men den kan snabbt förändras. – Det kan alltid ske en akut brist inom någon blodgrupp, säger Debora Cristiani, biomedicinsk analytiker vid blodcentralen på Mälarsjukhuset."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Husbilsboom skapar problem –  ”Behövs nationell strategi”",
+   "date": "2026-07-16T03:30:05.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/halland/husbilsboom-skapar-problem-camping-halland-behovs-nationell-strategi",
+   "desc": "Ställplatserna för husbilar på campingar matchar inte den stora ökning av husbilar som nu rullar på vägarna. Därför behövs det en nationell strategi anser organisationen Camping Halland. – Redan idag så ser vi att konfliktytan ökar, säger Bo Andreasson, ordförande Camping Halland som företräder Hallands campingföretag."
   },
   {
    "src": "SVT",
@@ -52,7 +68,7 @@
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
-   "title": "Frida om drönarattacken i Ukraina: ”Det var krigsbrott”",
+   "title": "Frida skadades i rysk drönarattack i Ukraina: ”Det var krigsbrott”",
    "date": "2026-07-16T03:30:05.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/gavleborg/frida-efter-ryska-attacken-det-var-fyra-krigsbrott",
    "desc": "Splitterskador och en hjärnskakning – ändå kom hon förhållandevis lindrigt undan. Nu berättar Frida om attacken som skadade henne och de scener hon möttes av efter explosionen."
@@ -64,22 +80,6 @@
    "date": "2026-07-15T22:50:04.000Z",
    "link": "https://www.svt.se/nyheter/utrikes/jd-vance-om-slappet-av-epstein-filerna-klantade-till-det",
    "desc": "Efter år av politiska turer, konspirationsteorier och över tre miljoner släppta dokument medger USA:s vicepresident JD Vance att hanteringen av de omtalade Epsteinfilerna misskötts av Vita huset. – Vi klantade till det, säger han i Joe Rogans podcast ”The Joe Rogan Experience”."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Skottlossning mot fönster i Norrköping",
-   "date": "2026-07-15T21:11:21.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/ost/skottlossning-mot-fonster-i-norrkoping",
-   "desc": "Någon har skjutit mot ett fönster i Klockaretorpet i Norrköping under onsdagskvällen. Ingen person har skadats. – Vi tror att någon har haft intentionen att beröva någon annan livet, säger polisens presstalesperson Martina Gradian."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Pendeltågsstationen Stockholm City utrymdes efter automatlarm",
-   "date": "2026-07-15T20:44:45.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/stockholm/pendeltagsstationen-stockholm-city-utrymd",
-   "desc": "Pendeltågsstationen Stockholm City i centrala Stockholm utrymdes under onsdagskvällen på grund av ett automatlarm. Vid 00.30-tiden var problemet åtgärdat. – Det var ett tekniskt fel på utrymningslarmet, säger Andreas Strömberg, presschef på SL."
   },
   {
    "src": "STHLM",
@@ -119,7 +119,7 @@
    "title": "Person tagen ur vattnet under Liljeholmsbron",
    "date": "2026-07-15T11:07:16.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/person-tagen-ur-vattnet-under-liljeholmsbron",
-   "desc": "En person har tagits upp ur vattnet under Liljeholmsbron efter en misstänkt drunkning. Skadeläget är oklart."
+   "desc": "En person har tagits upp ur vattnet under Liljeholmsbron efter en misstänkt drunkning. Polisen misstänker inget brott."
   }
  ]
 }

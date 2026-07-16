@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-16T00:56:48.133Z",
+ "updated": "2026-07-16T04:08:48.826Z",
  "items": [
   {
    "src": "BBC",
@@ -13,14 +13,14 @@
    "src": "BBC",
    "section": "Världen",
    "title": "US launches fresh strikes on Iran as Trump warns Tehran it 'better behave'",
-   "date": "2026-07-15T21:55:04.000Z",
+   "date": "2026-07-16T04:06:11.000Z",
    "link": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss",
    "desc": "US President Donald Trump says he is yet to decide whether or not he will \"finish off\" Iran."
   },
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "Argentina face disciplinary action for Falklands banner in semi-final win",
+   "title": "Argentina face action after waving Falklands banner",
    "date": "2026-07-15T22:49:47.000Z",
    "link": "https://www.bbc.co.uk/sport/football/articles/c935pgr4dklo?at_medium=RSS&at_campaign=rss",
    "desc": "Argentina face the prospect of disciplinary action from Fifa after their players celebrate the World Cup semi-final win against England with a banner in support of their country's claims to the Falkland Islands."
@@ -40,6 +40,22 @@
    "date": "2026-07-15T17:02:41.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cd959q11g54o?at_medium=RSS&at_campaign=rss",
    "desc": "There is more confidence in Xi Jinping than Donald Trump, the US think tank's survey indicates."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Beslutet står fast – apotekarparet i Kiruna utvisas",
+   "date": "2026-07-16T03:30:05.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/norrbotten/beslutet-star-fast-apotekarparet-i-kiruna-utvisas",
+   "desc": "Migrationsöverdomstolen tar inte upp fallet med apotekarparet i Kiruna som ska utvisas på grund av en platsannons som har tolkats på olika sätt. Nu lämnar familjen Sverige och reser till Pakistan."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Frida om drönarattacken i Ukraina: ”Det var krigsbrott”",
+   "date": "2026-07-16T03:30:05.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/gavleborg/frida-efter-ryska-attacken-det-var-fyra-krigsbrott",
+   "desc": "Splitterskador och en hjärnskakning – ändå kom hon förhållandevis lindrigt undan. Nu berättar Frida om attacken som skadade henne och de scener hon möttes av efter explosionen."
   },
   {
    "src": "SVT",
@@ -66,20 +82,12 @@
    "desc": "Pendeltågsstationen Stockholm City i centrala Stockholm utrymdes under onsdagskvällen på grund av ett automatlarm. Vid 00.30-tiden var problemet åtgärdat. – Det var ett tekniskt fel på utrymningslarmet, säger Andreas Strömberg, presschef på SL."
   },
   {
-   "src": "SVT",
+   "src": "STHLM",
    "section": "Sverige · Stockholm",
-   "title": "Man till sjukhus med ambulanshelikopter efter mopedolycka i Degerfors",
-   "date": "2026-07-15T18:33:27.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/varmland/man-till-sjukhus-med-ambulanshelikopter-efter-mopedolycka-i-degerfors",
-   "desc": "En man i 60-årsåldern blev på onsdagen förd till sjukhus med ambulanshelikopter efter en singelolycka på väg 507 utanför Degerfors."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Gängens ”mordannonser” ska tas bort – inom en timme",
-   "date": "2026-07-15T17:47:31.000Z",
-   "link": "https://www.svt.se/nyheter/inrikes/gangens-mordannonser-ska-tas-bort-pa-en-timme",
-   "desc": "På en timme ska de kriminella annonserna på sociala medier tas bort – annars riskerar företagen böter på fem miljoner kronor. ”Från och med i dag får polisen konkreta verktyg för att snabbt kunna stoppa rekryteringsannonser till grova våldsdåd”, säger justitieminister Gunnar Strömmer (M) till SVT Nyheter."
+   "title": "Toms hjärta stannade på Stockholm Marathon",
+   "date": "2026-07-16T03:30:05.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/stockholm/toms-hjarta-stannade-pa-stockholm-marathon",
+   "desc": "I maj slog Stockholm Marathon rekord i antal deltagare när närmare 25 000 personer snörade på sig löparskorna. Men för Tom Andersson slutade loppet med att hans hjärta stannade bara meter från målgången. – Det känns läskigt och det visar att det kan hända vem som helst när som helst."
   },
   {
    "src": "STHLM",
@@ -112,14 +120,6 @@
    "date": "2026-07-15T11:07:16.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/person-tagen-ur-vattnet-under-liljeholmsbron",
    "desc": "En person har tagits upp ur vattnet under Liljeholmsbron efter en misstänkt drunkning. Skadeläget är oklart."
-  },
-  {
-   "src": "STHLM",
-   "section": "Sverige · Stockholm",
-   "title": "Man häktad för motellmordet i Sigtuna",
-   "date": "2026-07-15T08:37:24.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/stockholm/man-haktad-for-motellmordet-i-sigtuna",
-   "desc": "En man 40-årsåldern har häktats misstänkt för mord efter att en person hittades död utanför ett lägenhetshotell i Rosersberg i söndags. Mannen nekar till brott och menar att han agerat i självförsvar vid ett bråk."
   }
  ]
 }

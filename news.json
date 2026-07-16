@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-16T18:03:21.295Z",
+ "updated": "2026-07-16T19:40:43.516Z",
  "items": [
   {
    "src": "BBC",
@@ -20,14 +20,6 @@
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "Italian officials handed jail terms for Genoa bridge disaster that killed 43",
-   "date": "2026-07-16T17:22:31.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/c36dnz1zez5o?at_medium=RSS&at_campaign=rss",
-   "desc": "The ex-head of Italy's motorway operator Giovanni Castellucci was handed a 12-year term over the 2018 bridge collapse."
-  },
-  {
-   "src": "BBC",
-   "section": "Världen",
    "title": "Iran targets military bases as US launches wave of strikes",
    "date": "2026-07-16T11:48:49.000Z",
    "link": "https://www.bbc.co.uk/news/articles/c2lq1ed28jxo?at_medium=RSS&at_campaign=rss",
@@ -36,10 +28,42 @@
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "More than 800 Canadian wildfires burning as air quality alerts extend to US",
-   "date": "2026-07-16T17:36:43.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss",
-   "desc": "The air quality in large parts of Michigan, Minneapolis and Minnesota is deemed \"hazardous\" by authorities."
+   "title": "Fifa 'assessing reports' over Falklands banner",
+   "date": "2026-07-16T18:44:43.000Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c75gnkl30vlo?at_medium=RSS&at_campaign=rss",
+   "desc": "Fifa is \"assessing the match reports\" before deciding whether to punish Argentina after players held a banner in support of their country's claims to the Falkland Islands."
+  },
+  {
+   "src": "BBC",
+   "section": "Världen",
+   "title": "Italian officials handed jail terms for Genoa bridge disaster that killed 43",
+   "date": "2026-07-16T17:22:31.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/c36dnz1zez5o?at_medium=RSS&at_campaign=rss",
+   "desc": "The ex-head of Italy's motorway operator Giovanni Castellucci was handed a 12-year term over the 2018 bridge collapse."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Här identifieras Ukrainakrigets offer med DNA – kan ta flera år",
+   "date": "2026-07-16T19:36:22.000Z",
+   "link": "https://www.svt.se/nyheter/utrikes/har-identifieras-ukrainakrigets-offer-med-dna-kan-ta-flera-ar",
+   "desc": "Hundratusentals ukrainare lever med ovisshet om anhöriga som kan vara döda, fångar eller saknade i Ryssland. Nu satsar Ukraina på snabbare DNA-identifiering. – Det är en oacceptabel behandling av våra soldater, säger Anna Dronova som fick tillbaka sin fästmans kropp först efter ett helt år."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Vindkraftsbeslutet väcker starka känslor i Grebbestad: ”Förstör den inte”",
+   "date": "2026-07-16T18:54:45.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/vast/vindkraftsbeslutet-vacker-starka-kanslor-i-grebbestad-forstor-den-inte",
+   "desc": "Regeringen säger ja till en havsbaserad vindkraftpark utanför Grebbestad. Beslutet möter både stöd och kritik från ortsbor, besökare och politiker i Tanums kommun."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Semester i ett skogsbrandsdrabbat Europa – så gäller försäkringarna",
+   "date": "2026-07-16T18:18:40.000Z",
+   "link": "https://www.svt.se/nyheter/utrikes/semester-i-ett-skogsbrandsdrabbat-europa-sa-galler-forsakringarna",
+   "desc": "Kraftiga bränder har drabbat flera semesterdestinationer i södra Europa. Någonting som kan sätta semestern och semesterbudgeten på spel. SVT har pratat med reseexperten Gabriella Hallberg för att reda ut vilka försäkringar som gäller – och när."
   },
   {
    "src": "SVT",
@@ -58,30 +82,6 @@
    "desc": "En ”stor och livsfarlig flodvåg” väller fram i Texas, på den plats där minst 129 människor omkom i fjol på grund extrem översvämning. Människor uppmanas att söka sig till högre höjder."
   },
   {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "SVT:s reporter testar: Tåg till Rom på 48 timmar",
-   "date": "2026-07-16T15:15:49.000Z",
-   "link": "https://www.svt.se/nyheter/utrikes/svts-reporter-testar-tag-till-rom-pa-48-timmar",
-   "desc": "Följ med när SVT:s reporter Oscar Lundberg försöker åka tåg till Rom. Från Stockholm, via Berlin och Wien, ska han testa hur det funkar att åka tåg under pågående värmebölja och banarbeten. I Malmö väntar nu en ersättningsbuss. – Än så länge är jag på god väg att klara målet, men det är mycket som kan gå fel fortfarande, säger han."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Massiv kritik mot Zelenskyj efter petningen av Fedorov",
-   "date": "2026-07-16T15:02:32.000Z",
-   "link": "https://www.svt.se/nyheter/utrikes/massiv-kritik-mot-zelenskyj-efter-petningen-av-fedorov",
-   "desc": "Många i Ukraina är bestörta över president Volodymyr Zelenskyj beslut att peta Mychajlo Fedorov från försvarsministerposten. Demonstrationer har hållits i hela landet med krav på att han återinsätts."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Brandrisk i stora delar av landet",
-   "date": "2026-07-16T14:11:56.000Z",
-   "link": "https://www.svt.se/nyheter/inrikes/brandrisk-i-stora-delar-av-landet-iityyw",
-   "desc": "Det varma och torra vädret har medfört stor brandrisk i stora delar av landet, i vissa delar extremt stor."
-  },
-  {
    "src": "STHLM",
    "section": "Sverige · Stockholm",
    "title": "Nyheter från dagen: 16 juli",
@@ -92,10 +92,10 @@
   {
    "src": "STHLM",
    "section": "Sverige · Stockholm",
-   "title": "Solkurvor orsakar förseningar i kollektivtrafiken",
+   "title": "Solkurvor har orsakat förseningar i kollektivtrafiken",
    "date": "2026-07-16T15:44:53.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/solkurvor-orsakar-forseningar-i-kollektivtrafiken",
-   "desc": "Under torsdagen har solkurvor orsakat förseningar i Stockholms kollektivtrafik. Alla gröna linjens tåg har påverkats med förseningar och inställd trafik på Saltsjöbanan mellan Igelboda och Saltsjöbaden. – Vid den här typen av värme är risken stor för förseningar, säger Andreas Strömberg, presschef på SL."
+   "desc": "Under torsdagen har solkurvor orsakat förseningar i Stockholms kollektivtrafik. Alla gröna linjens tåg har påverkats med förseningar. På Saltsjöbanan mellan Igelboda och Saltsjöbaden har trafiken varit inställd – Vid den här typen av värme är risken stor för förseningar, säger Andreas Strömberg, presschef på SL."
   },
   {
    "src": "STHLM",

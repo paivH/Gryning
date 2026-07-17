@@ -1,11 +1,11 @@
 {
- "updated": "2026-07-17T17:36:39.286Z",
+ "updated": "2026-07-17T19:01:54.376Z",
  "items": [
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "Iran accuses US of hitting civilian infrastructure",
-   "date": "2026-07-17T14:32:07.000Z",
+   "title": "US denies Iranian claims it hit civilian infrastructure in latest strikes",
+   "date": "2026-07-17T18:33:12.000Z",
    "link": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss",
    "desc": "The US military says its attacks were intended to \"further degrade Iranian military capabilities\"."
   },
@@ -20,26 +20,34 @@
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "More than 500 Rohingya vanished at sea - what happened?",
-   "date": "2026-07-17T03:07:11.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cr59n096mrmo?at_medium=RSS&at_campaign=rss",
-   "desc": "Two boats carrying an estimated 530 Rohingyas have disappeared since leaving Myanmar on 29 June."
+   "title": "EU proposes slowing down cuts to carbon emissions for businesses",
+   "date": "2026-07-17T18:34:04.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/ckgv0zd497zo?at_medium=RSS&at_campaign=rss",
+   "desc": "Under the proposals, the EU plans to relax its emissions trading system to give companies more time to reduce their carbon output."
   },
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "Japan relaxes royal succession rules - but ban on female emperors remains",
-   "date": "2026-07-17T05:16:34.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cy07rz79zg9o?at_medium=RSS&at_campaign=rss",
-   "desc": "The law now allows the adoption of male distant relatives aged over 15 back into the imperial family."
+   "title": "Air conditioner sparked deadly blaze at children's orphanage - police",
+   "date": "2026-07-17T16:20:45.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/c9d8ylw60e9o?at_medium=RSS&at_campaign=rss",
+   "desc": "Eleven people, including children, died in the fire that also injured 19 others."
   },
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "Philippines condemns monkey video on Chinese media as racist",
-   "date": "2026-07-17T02:37:45.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cj632307934o?at_medium=RSS&at_campaign=rss",
-   "desc": "The AI video on China Daily showed a monkey in Philippine garments singing its claims to the South China Sea."
+   "title": "China hits out at British Steel nationalisation",
+   "date": "2026-07-17T16:44:22.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cjd4kvxpd3do?at_medium=RSS&at_campaign=rss",
+   "desc": "The UK government said taking the firm into public hands would safeguard \"a vital national capability\"."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Bråk om fotbolls-VM kan ligga bakom misstänkta mordet i Stenungsund",
+   "date": "2026-07-17T18:44:45.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/vast/brak-om-fotbolls-vm-kan-ligga-bakom-misstankta-mordet-i-stenungsund",
+   "desc": "Det misstänkta mordet vid badplatsen Hawaii i Stenungsund kan ha sin början i en konflikt om fotboll. Enligt uppgifter till SVT startade bråket i en gruppchatt om pågående fotbolls-VM."
   },
   {
    "src": "SVT",
@@ -74,12 +82,12 @@
    "desc": "Två män, i 30- respektive 55-årsålden, har hittats döda i ett tält i trakterna av Långå, Härjedalen. De båda männen var ute på fisketur då anhöriga anmälde de saknade. Inget brott misstänks, men dödsorsaken ska utredas."
   },
   {
-   "src": "SVT",
+   "src": "STHLM",
    "section": "Sverige · Stockholm",
-   "title": "Äldre man död efter trafikolycka i Angered",
-   "date": "2026-07-17T12:09:05.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/vast/aldre-man-dod-efter-trafikolycka-i-angered",
-   "desc": "En äldre man har omkommit efter en trafikolycka i Angered i Göteborg. Ytterligare tre personer har förts till sjukhus efter olyckan. Skadeläget är oklart."
+   "title": "Nyheter från dagen: 17 juli",
+   "date": "2026-07-17T17:52:39.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/stockholm/nyheter-fran-dagen-17-juli-s3bug6",
+   "desc": "Detta har hänt i Stockholms län fredag 17 juli"
   },
   {
    "src": "STHLM",
@@ -112,14 +120,6 @@
    "date": "2026-07-17T07:27:50.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/bilfritt-pa-hornsgatan-i-helgen",
    "desc": "I helgen får du tänka om ifall du tänkt köra på Hornsgatan. Från fredag kväll till måndag morgon är det nämligen avstängt för motorfordon."
-  },
-  {
-   "src": "STHLM",
-   "section": "Sverige · Stockholm",
-   "title": "Hundratals ungdomar sommarjobbar på 4H-gårdar",
-   "date": "2026-07-17T03:30:00.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/stockholm/hundratals-ungdomar-sommarjobbar-pa-4h-gardar",
-   "desc": "På 4H-gården i Akalla är det just nu full fart med läger och fritidsaktiviteter. Samtidigt innebär sommaren en chans för ungdomar att få jobberfarenhet. En av dem är 18-åriga Halima El Haihi. – Jag ville så gärna gå på ridskola men det kostar såna sjuka summor. Så tog min mamma mig hit och jag var så glad att få närheten till djuren, säger hon."
   }
  ]
 }

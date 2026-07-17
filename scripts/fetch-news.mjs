@@ -30,7 +30,7 @@ const items = [];
 for (const feed of FEEDS) {
   try {
     const res = await fetch(feed.url, {
-      headers: { 'user-agent': 'gryning-dashboard (github actions)' },
+      headers: { 'user-agent': 'mytidning-dashboard (github actions)' },
     });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const xml = await res.text();

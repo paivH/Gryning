@@ -28,7 +28,7 @@ jobs:
 
       - name: Commit if changed
         run: |
-          git config user.name "gryning-bot"
+          git config user.name "mytidning-bot"
           git config user.email "actions@users.noreply.github.com"
           git add news.json
           git diff --cached --quiet && echo "no changes" && exit 0

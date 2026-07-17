@@ -6,7 +6,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="theme-color" content="#0b0e14">
-<title>Gryning</title>
+<title>MyTidning</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200;300;400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -748,7 +748,7 @@
   </div>
 
   <footer>
-    <span id="status">GRYNING · <span id="mini-trains">–</span></span>
+    <span id="status">MYTIDNING · <span id="mini-trains">–</span></span>
     <span><button id="fb-open" type="button">💬 Feedback</button> <span id="updated"></span></span>
   </footer>
 </div>
@@ -787,7 +787,7 @@
 
 <script>
 /* ============================================================
-   GRYNING — bedside morning dashboard
+   MYTIDNING — bedside morning dashboard
    Single file. No keys. No backend. GitHub Pages friendly.
    ============================================================ */
 
@@ -1015,13 +1015,13 @@ async function slFetch(path) {
 }
 
 async function findSiteId() {
-  const cached = localStorage.getItem('gryning.siteId');
+  const cached = localStorage.getItem('mytidning.siteId');
   if (cached) return cached;
   const sites = await slFetch('/sites?expand=false');
   const hit = sites.find((s) => s.name && s.name.toLowerCase() === CONFIG.slStationName.toLowerCase())
     || sites.find((s) => s.name && s.name.toLowerCase().includes(CONFIG.slStationName.toLowerCase()));
   if (!hit) throw new Error('station not found');
-  localStorage.setItem('gryning.siteId', hit.id);
+  localStorage.setItem('mytidning.siteId', hit.id);
   return hit.id;
 }
 
@@ -1421,7 +1421,7 @@ $('fb-send').addEventListener('click', async () => {
     const r = await fetch('https://formsubmit.co/ajax/paiv@paiv.co.uk', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-      body: JSON.stringify({ message: msg, _subject: 'Gryning feedback', _captcha: 'false' }),
+      body: JSON.stringify({ message: msg, _subject: 'MyTidning feedback', _captcha: 'false' }),
     });
     if (!r.ok) throw new Error(r.status);
     $('fb-text').value = '';

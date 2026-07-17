@@ -1,17 +1,17 @@
-# Gryning 🌅
+# MyTidning 📰
 
 A single-file bedside morning dashboard for a wall-mounted Android tablet.
 No API keys, no backend, no build step — same recipe as Pitwall.
 
-**Shows:** big clock · Swedish date + namnsdag/röda dagar · current weather + 5-hour strip + sunrise/sunset (Open-Meteo) · pendeltåg departures from Jakobsberg (SL open Transport API) · SVT + BBC headlines (RSS) · next F1 race countdown (Jolpica) — expands to a full session schedule with Pitwall link on race weekends · spot electricity prices for SE3 (elprisetjustnu.se) with cheapest-hour hint · SL service disruptions for the station.
+**Shows:** big clock · Swedish date + namnsdag/röda dagar · current weather + 5-hour strip + sunrise/sunset (Open-Meteo, night-aware icons) · seasonal cooking idea, AI-generated daily, tap to cycle · Barkarby store offers (estimated) · next F1 race, expands to full session schedule + Pitwall link on race weekends · Manchester United next fixture/result + headlines · Sverige/Stockholm + world news in two columns, tappable with article popup, breaking-story priority, 12h rotation, maximize view · pendeltåg + SL disruptions as a footer strip · feedback button.
 
 **Signature:** the background follows the real sun — near-black at night, a warm amber glow rises around actual sunrise, cool tones during the day. Between 22:00–06:00 it drops to a dim clock-only night mode (tap the screen to wake it for 60 s).
 
 ## Deploy
 
-1. Create a repo, e.g. `Gryning`, drop `index.html` in the root.
+1. Create a repo, e.g. `MyTidning`, drop `index.html` in the root.
 2. Settings → Pages → deploy from `main` branch, root.
-3. Open `https://<user>.github.io/Gryning` on the tablet.
+3. Open `https://<user>.github.io/MyTidning` on the tablet.
 
 ## Tablet setup (Redmi)
 
@@ -28,7 +28,7 @@ No API keys, no backend, no build step — same recipe as Pitwall.
 Everything lives in the `CONFIG` object at the top of the `<script>`:
 
 - `lat` / `lon` — weather location
-- `slStationName` — station for departures (matched against SL's site list, cached in localStorage; clear site cache by running `localStorage.removeItem('gryning.siteId')` in the browser console if you change it)
+- `slStationName` — station for departures (matched against SL's site list, cached in localStorage; clear site cache by running `localStorage.removeItem('mytidning.siteId')` in the browser console if you change it)
 - `slDestinationFilter` — e.g. `'Stockholm'` to only show southbound trains
 - `nightStart` / `nightEnd` — night-mode hours
 - `feeds` — any RSS feeds you like

@@ -1,11 +1,11 @@
 {
- "updated": "2026-07-17T12:41:53.269Z",
+ "updated": "2026-07-17T14:40:18.436Z",
  "items": [
   {
    "src": "BBC",
    "section": "Världen",
    "title": "Iran accuses US of hitting civilian infrastructure",
-   "date": "2026-07-17T10:57:50.000Z",
+   "date": "2026-07-17T14:32:07.000Z",
    "link": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss",
    "desc": "The US military says its attacks were intended to \"further degrade Iranian military capabilities\"."
   },
@@ -44,6 +44,22 @@
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
+   "title": "En opera om en förlorad barndomsskog – mitt i Lainios kalhygge",
+   "date": "2026-07-17T13:42:50.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/norrbotten/en-opera-om-en-forlorad-barndomsskog-mitt-i-lainios-kalhygge",
+   "desc": "Lainios egen operadiva Carina Henriksson sätter upp en föreställning mitt i skogen, två mil bortom de allmänna vägarna. Kalhyggesoperan ställer frågor om metoder att bruka skogen, om hållbarhet och miljövärden"
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Två män hittade döda i Härjedalen",
+   "date": "2026-07-17T12:58:13.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/jamtland/tva-man-hittade-doda-i-harjedalen",
+   "desc": "Två män, i 30- respektive 55-årsålden, har hittats döda i ett tält i trakterna av Långå, Härjedalen. De båda männen var ute på fisketur då anhöriga anmälde de saknade. Inget brott misstänks, men dödsorsaken ska utredas."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
    "title": "Äldre man död efter trafikolycka i Angered",
    "date": "2026-07-17T12:09:05.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/vast/aldre-man-dod-efter-trafikolycka-i-angered",
@@ -66,20 +82,12 @@
    "desc": "Zlatan Ibrahimovic är inte imponerad av Englands VM-insats. Men medan han kritiserade engelsmännen delade han också ut en känga till Norge."
   },
   {
-   "src": "SVT",
+   "src": "STHLM",
    "section": "Sverige · Stockholm",
-   "title": "Här faller del av vindkraftverket ner efter branden i Mjölby",
-   "date": "2026-07-17T09:40:30.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/ost/vindkraftverk-brinner-utanfor-mjolby",
-   "desc": "Ett vindkraftverk utanför Mjölby har brunnit. Branden startade i maskinrummet, omkring 50 meter över marken. Branden är nu släckt och samtliga rotorblad har fallit till marken."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Hovrätten skärper domen mot tidigare Växjöpolitiker – längre fängelsestraff",
-   "date": "2026-07-17T09:10:47.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/smaland/hovratten-skarper-domen-mot-tidigare-vaxjopolitiker-langre-fangelsestraff",
-   "desc": "Den tidigare toppolitikern får sitt fängelsestraff skärpt av Göta hovrätt. Hovrätten höjer straffet från tre till fyra års fängelse för grov kvinnofridskränkning, samtidigt som domstolen gör vissa ändringar i vilka gärningar mannen döms för."
+   "title": "Större skogsbrand på Rånö",
+   "date": "2026-07-17T14:19:33.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/stockholm/storre-skogsbrand-pa-rano",
+   "desc": "En skogsbrand i Rånö i Haninge pågår och räddningstjänsten arbetar intensivt för att motverka spridningsrisk. – Branden omfattar omkring 4 000 kvadratmeter, vilket räknas som en större skogsbrand, säger Kenneth Karlsson vakthavande befäl Södertörns brandförsvar."
   },
   {
    "src": "STHLM",
@@ -112,14 +120,6 @@
    "date": "2026-07-17T03:30:00.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/hundratals-ungdomar-sommarjobbar-pa-4h-gardar",
    "desc": "På 4H-gården i Akalla är det just nu full fart med läger och fritidsaktiviteter. Samtidigt innebär sommaren en chans för ungdomar att få jobberfarenhet. En av dem är 18-åriga Halima El Haihi. – Jag ville så gärna gå på ridskola men det kostar såna sjuka summor. Så tog min mamma mig hit och jag var så glad att få närheten till djuren, säger hon."
-  },
-  {
-   "src": "STHLM",
-   "section": "Sverige · Stockholm",
-   "title": "Olycka på E4 söder om Stockholm – två till sjukhus",
-   "date": "2026-07-16T19:48:19.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/stockholm/vag-avstangd-efter-olycka-med-flera-fordon",
-   "desc": "Två bilar har krockat på E4 vid trafikplats Fittja söder om Stockholm. Två personer har förts till sjukhus med oklart skadeläge. – Den ena bilen voltade och landade på taket, säger Mikael Blomberg, vakthavande befäl vid räddningstjänsten."
   }
  ]
 }

@@ -8,6 +8,7 @@ const FEEDS = [
   { name: 'BBC', section: 'Världen', url: 'https://feeds.bbci.co.uk/news/world/rss.xml' },
   { name: 'SVT', section: 'Sverige · Stockholm', url: 'https://www.svt.se/nyheter/rss.xml' },
   { name: 'STHLM', section: 'Sverige · Stockholm', url: 'https://www.svt.se/nyheter/lokalt/stockholm/rss.xml' },
+  { name: 'BBC', section: 'United', url: 'https://feeds.bbci.co.uk/sport/football/teams/manchester-united/rss.xml' },
 ];
 
 const PER_FEED = 5;

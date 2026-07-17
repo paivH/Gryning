@@ -36,15 +36,15 @@ if (!key) {
 }
 console.log(`Key present (length ${key.length}, starts ${key.slice(0, 7)}…). Ingredient: ${ingredient}`);
 
-const prompt = `You write ONE short cooking idea for a Swedish kitchen dashboard.
+const prompt = `You write short cooking ideas for a Swedish kitchen dashboard.
 
-Ingredient in season right now (${monthName}): ${ingredient}
+Ingredients in season right now (${monthName}) in Sweden: ${list.join(', ')}.
 The cook loves: ${STYLE}.
 
-Write a single idea (max 22 words), in Swedish, using this ingredient. Favour one of their loved techniques when it fits the ingredient. Be specific and practical (a real technique or ratio), not generic. No preamble.
+Pick 4 DIFFERENT ingredients from the list (start with ${ingredient}) and write one idea for each (max 22 words, in Swedish). Favour their loved techniques where they fit. Be specific and practical (a real technique or ratio), not generic. Vary the techniques across the four.
 
 Respond ONLY with JSON, no markdown fences:
-{"ingredient": "${ingredient}", "idea": "<your idea>"}`;
+{"items":[{"ingredient":"${ingredient}","idea":"<idea>"},{"ingredient":"<other>","idea":"<idea>"},{"ingredient":"<other>","idea":"<idea>"},{"ingredient":"<other>","idea":"<idea>"}]}`;
 
 try {
   const res = await fetch('https://api.anthropic.com/v1/messages', {
@@ -56,7 +56,7 @@ try {
     },
     body: JSON.stringify({
       model: 'claude-sonnet-5',
-      max_tokens: 200,
+      max_tokens: 700,
       messages: [{ role: 'user', content: prompt }],
     }),
   });
@@ -73,14 +73,15 @@ try {
   const text = (data.content || []).filter((b) => b.type === 'text').map((b) => b.text).join('').trim();
   const clean = text.replace(/```json|```/g, '').trim();
   const parsed = JSON.parse(clean);
-  if (!parsed.idea) throw new Error('No idea in response');
+  const items = (Array.isArray(parsed.items) ? parsed.items : [])
+    .filter((i) => i && i.ingredient && i.idea).slice(0, 4);
+  if (!items.length) throw new Error('No items in response');
 
   writeFileSync('season.json', JSON.stringify({
     updated: now.toISOString(),
-    ingredient: parsed.ingredient || ingredient,
-    idea: parsed.idea,
+    items,
   }, null, 1));
-  console.log(`season.json: ${parsed.ingredient} — ${parsed.idea}`);
+  console.log(`season.json: ${items.length} ideas — ${items.map((i) => i.ingredient).join(', ')}`);
 } catch (e) {
   console.error('Failed:', e.message);
   process.exit(1); // keep yesterday's file rather than overwrite with junk

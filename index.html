@@ -372,6 +372,62 @@
 
   #deals-note { font-size: clamp(10px, 1.6vmin, 13px); color: var(--ink-faint); margin-top: auto; padding-top: 1vmin; }
 
+  /* Manchester United */
+  #united { display: flex; flex-direction: column; gap: 1vmin; }
+  .mu-next { font-size: clamp(14px, 2.4vmin, 21px); font-weight: 600; }
+  .mu-next.matchday { color: var(--amber); }
+  .mu-sub { font-size: clamp(11px, 1.9vmin, 16px); color: var(--ink-dim); }
+  .mu-last { font-size: clamp(12px, 2vmin, 17px); color: var(--ink-dim); }
+  .mu-last b { color: var(--ink); font-variant-numeric: tabular-nums; }
+  #mu-news { display: flex; flex-direction: column; gap: 1vmin; margin-top: auto; padding-top: 1vmin; }
+  #mu-news .headline { font-size: clamp(12px, 2.1vmin, 18px); }
+
+  /* feedback */
+  #fb-open {
+    font: inherit;
+    font-size: inherit;
+    color: var(--ink-faint);
+    background: none;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 0.2em 0.8em;
+    cursor: pointer;
+    letter-spacing: 0.06em;
+  }
+  #fb-open:active { color: var(--amber); }
+
+  #fb-modal {
+    position: fixed; inset: 0; z-index: 40;
+    display: none; align-items: center; justify-content: center;
+    background: rgba(4, 6, 10, 0.72);
+    backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px);
+    padding: 4vmin;
+  }
+  #fb-modal.open { display: flex; }
+  #fb-card {
+    background: #141824; border: 1px solid var(--line); border-radius: 18px;
+    padding: 4vmin; width: min(560px, 92vw);
+    display: flex; flex-direction: column; gap: 2vmin;
+  }
+  #fb-card h4 {
+    font-size: clamp(13px, 2.2vmin, 18px); font-weight: 600;
+    letter-spacing: 0.1em; text-transform: uppercase; color: var(--amber);
+  }
+  #fb-text {
+    font: inherit; font-size: clamp(14px, 2.4vmin, 19px);
+    color: var(--ink); background: var(--card);
+    border: 1px solid var(--line); border-radius: 12px;
+    padding: 2vmin; min-height: 22vmin; resize: vertical;
+  }
+  #fb-actions { display: flex; gap: 2vmin; align-items: center; }
+  #fb-send, #fb-cancel {
+    font: inherit; font-size: clamp(13px, 2.2vmin, 18px); font-weight: 500;
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    padding: 1.2vmin 2.6vmin; cursor: pointer; color: var(--ink);
+  }
+  #fb-send { color: var(--amber); border-color: rgba(232, 184, 114, 0.4); }
+  #fb-status { font-size: clamp(11px, 1.9vmin, 15px); color: var(--ink-dim); }
+
   /* headline timestamps + breaking */
   .headline .when {
     margin-left: auto;
@@ -675,6 +731,11 @@
       <div id="deals-list"><div class="deal"><span class="what">Väntar på deals.json …</span></div></div>
       <div id="deals-note"></div>
     </div>
+    <div class="panel" id="united">
+      <h2>Manchester United</h2>
+      <div id="mu-match">Hämtar …</div>
+      <div id="mu-news"></div>
+    </div>
     <div class="panel" id="f1">
       <h2>Nästa F1-race</h2>
       <div id="f1-body">Hämtar …</div>
@@ -688,8 +749,20 @@
 
   <footer>
     <span id="status">GRYNING · <span id="mini-trains">–</span></span>
-    <span id="updated"></span>
+    <span><button id="fb-open" type="button">💬 Feedback</button> <span id="updated"></span></span>
   </footer>
+</div>
+
+<div id="fb-modal">
+  <div id="fb-card">
+    <h4>Feedback till Paiv</h4>
+    <textarea id="fb-text" placeholder="Skriv din feedback, idé eller buggrapport …"></textarea>
+    <div id="fb-actions">
+      <button id="fb-send" type="button">Skicka</button>
+      <button id="fb-cancel" type="button">Avbryt</button>
+      <span id="fb-status"></span>
+    </div>
+  </div>
 </div>
 
 <div id="max-host">
@@ -1234,55 +1307,130 @@ const FALLBACK_IDEAS = {
 
 function seasonList() { return SEASON[new Date().getMonth()]; }
 
-// index into today's season list; starts on the daily rotation, tap advances it
-let foodIdx = Math.floor(Date.now() / 86400000) % seasonList().length;
-let foodFromAI = false; // true while showing the AI idea (before any manual shuffle)
+let foodList = [];  // [{ingredient, idea}] — AI ideas first, then local fallbacks
+let foodIdx = 0;
 
-function renderFood(ingredient, idea) {
+function renderFood(item) {
   const monthName = new Date().toLocaleDateString('sv-SE', { month: 'long' });
-  $('food-ingredient').textContent = ingredient;
-  $('food-idea').textContent = idea;
-  $('food-season').textContent = `i säsong i ${monthName} · tryck för ny`;
+  $('food-ingredient').textContent = item.ingredient;
+  $('food-idea').textContent = item.idea;
+  $('food-season').textContent = `i säsong i ${monthName} · tryck för ny (${foodIdx + 1}/${foodList.length})`;
 }
 
-function showFallback(ingredient) {
-  renderFood(ingredient, FALLBACK_IDEAS[ingredient]
-    || `${ingredient} är i säsong nu — billigast och godast. Picklat, fermenterat eller i en snabb vardagsrätt.`);
+function localFoodItems() {
+  return seasonList().map((ing) => ({
+    ingredient: ing,
+    idea: FALLBACK_IDEAS[ing]
+      || `${ing} är i säsong nu — billigast och godast. Picklat, fermenterat eller i en snabb vardagsrätt.`,
+  }));
 }
 
 async function loadSeason() {
-  const list = seasonList();
-  // 1) AI-written season.json (from the GitHub Action) — richer, in your style
+  let aiItems = [];
+  // 1) AI-written season.json — now an array of ideas; accept old single-idea shape too
   try {
     const r = await fetch('season.json?t=' + Date.now());
     if (r.ok) {
       const d = await r.json();
-      if (d.ingredient && d.idea) {
-        foodFromAI = true;
-        renderFood(d.ingredient, d.idea);
-        // align the shuffle index to the AI ingredient if it's in this month's list
-        const i = list.indexOf(d.ingredient);
-        if (i !== -1) foodIdx = i;
-        stamp();
-        return;
-      }
+      if (Array.isArray(d.items)) aiItems = d.items.filter((i) => i.ingredient && i.idea);
+      else if (d.ingredient && d.idea) aiItems = [{ ingredient: d.ingredient, idea: d.idea }];
     }
-  } catch (e) { /* fall back to local */ }
+  } catch (e) { /* local only */ }
 
-  // 2) local fallback — always works, no key, style-matched
-  foodFromAI = false;
-  showFallback(list[foodIdx % list.length]);
+  // combined cycle: AI ideas first, then local ones for ingredients not already covered
+  const covered = new Set(aiItems.map((i) => i.ingredient.toLowerCase()));
+  foodList = [...aiItems, ...localFoodItems().filter((i) => !covered.has(i.ingredient.toLowerCase()))];
+  foodIdx = 0;
+  renderFood(foodList[0]);
+  if (aiItems.length) stamp();
 }
 
-// tap the food panel to shuffle to the next in-season ingredient
+// tap the food panel to cycle to the next idea
 function shuffleFood() {
-  const list = seasonList();
-  foodIdx = (foodIdx + 1) % list.length;
-  foodFromAI = false;
-  showFallback(list[foodIdx]);
+  if (!foodList.length) return;
+  foodIdx = (foodIdx + 1) % foodList.length;
+  renderFood(foodList[foodIdx]);
 }
 $('food').addEventListener('click', shuffleFood);
 $('food').style.cursor = 'pointer';
+
+/* ---------- Manchester United ---------- */
+
+const MU_ID = 133612; // TheSportsDB team id
+const muShort = (s) => (s || '').replace('Manchester United', 'Man Utd').replace('Manchester City', 'Man City');
+
+function parseTsdbTime(ev) {
+  if (ev.strTimestamp) {
+    const iso = ev.strTimestamp.includes('T') ? ev.strTimestamp : ev.strTimestamp.replace(' ', 'T');
+    return new Date(iso.endsWith('Z') || iso.includes('+') ? iso : iso + 'Z');
+  }
+  return new Date(`${ev.dateEvent}T${ev.strTime || '12:00:00'}Z`);
+}
+
+async function loadUnited() {
+  // fixtures via TheSportsDB (free key, CORS-enabled)
+  try {
+    const [nx, lx] = await Promise.all([
+      fetch(`https://www.thesportsdb.com/api/v1/json/123/eventsnext.php?id=${MU_ID}`).then((r) => r.json()),
+      fetch(`https://www.thesportsdb.com/api/v1/json/123/eventslast.php?id=${MU_ID}`).then((r) => r.json()),
+    ]);
+    let html = '';
+    const next = (nx.events || [])[0];
+    if (next) {
+      const t = parseTsdbTime(next);
+      const matchday = new Date().toDateString() === t.toDateString();
+      html += `<div class="mu-next${matchday ? ' matchday' : ''}">${matchday ? '⚽ MATCHDAG · ' : ''}${muShort(next.strHomeTeam)} – ${muShort(next.strAwayTeam)}</div>`
+        + `<div class="mu-sub">${next.strLeague || ''} · ${t.toLocaleDateString('sv-SE', { weekday: 'short', day: 'numeric', month: 'short' })} ${t.toLocaleTimeString('sv-SE', { hour: '2-digit', minute: '2-digit' })}</div>`;
+    }
+    const last = ((lx.results || lx.events) || [])[0];
+    if (last && last.intHomeScore != null) {
+      html += `<div class="mu-last">Senast: ${muShort(last.strHomeTeam)} <b>${last.intHomeScore}–${last.intAwayScore}</b> ${muShort(last.strAwayTeam)}</div>`;
+    }
+    $('mu-match').innerHTML = html || '<div class="mu-sub">Inga matcher hittade</div>';
+  } catch (e) {
+    $('mu-match').innerHTML = '<div class="mu-sub">Matchdata otillgänglig</div>';
+  }
+
+  // news: United section from news.json (fetched by the news Action; excluded from main news panel)
+  try {
+    const r = await fetch('news.json?t=' + Date.now());
+    if (r.ok) {
+      const d = await r.json();
+      const items = (d.items || [])
+        .filter((i) => i.section === 'United')
+        .map((i) => ({ src: i.src, section: i.section, title: i.title, desc: i.desc || '', link: i.link || '', date: new Date(i.date) }))
+        .sort((a, b) => b.date - a.date)
+        .slice(0, 2);
+      const box = $('mu-news');
+      box.innerHTML = '';
+      for (const it of items) box.appendChild(buildHeadlineEl(it));
+    }
+  } catch (e) { /* headlines are optional */ }
+}
+
+/* ---------- feedback (formsubmit.co, no backend) ---------- */
+
+$('fb-open').addEventListener('click', () => { $('fb-modal').classList.add('open'); $('fb-status').textContent = ''; });
+$('fb-cancel').addEventListener('click', () => $('fb-modal').classList.remove('open'));
+$('fb-modal').addEventListener('click', (e) => { if (e.target.id === 'fb-modal') $('fb-modal').classList.remove('open'); });
+$('fb-send').addEventListener('click', async () => {
+  const msg = $('fb-text').value.trim();
+  if (!msg) { $('fb-status').textContent = 'Skriv något först 🙂'; return; }
+  $('fb-status').textContent = 'Skickar …';
+  try {
+    const r = await fetch('https://formsubmit.co/ajax/paiv@paiv.co.uk', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify({ message: msg, _subject: 'Gryning feedback', _captcha: 'false' }),
+    });
+    if (!r.ok) throw new Error(r.status);
+    $('fb-text').value = '';
+    $('fb-status').textContent = 'Skickat! ✅';
+    setTimeout(() => $('fb-modal').classList.remove('open'), 1500);
+  } catch (e) {
+    $('fb-status').textContent = 'Kunde inte skicka — försök igen';
+  }
+});
 
 /* ---------- SL deviations (open API, no key) ---------- */
 
@@ -1429,6 +1577,7 @@ loadNameday();
 loadTrains();
 loadSeason();
 loadDeals();
+loadUnited();
 loadDeviations();
 loadNews();
 loadF1();
@@ -1439,6 +1588,7 @@ setInterval(loadNews, CONFIG.newsEvery);
 setInterval(loadTrains, CONFIG.trainsEvery);
 setInterval(loadSeason, CONFIG.seasonEvery);
 setInterval(loadDeals, 6 * 60 * 60 * 1000);
+setInterval(loadUnited, 30 * 60 * 1000);
 setInterval(loadDeviations, CONFIG.deviationsEvery);
 setInterval(loadF1, CONFIG.f1Every);
 setInterval(loadNameday, 6 * 60 * 60 * 1000);

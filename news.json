@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-17T20:26:30.182Z",
+ "updated": "2026-07-17T21:21:14.412Z",
  "items": [
   {
    "src": "BBC",
@@ -20,6 +20,14 @@
   {
    "src": "BBC",
    "section": "Världen",
+   "title": "Trump threatens to tariff Canada over wildfire smoke choking northern US cities",
+   "date": "2026-07-17T21:14:02.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cwyq93j34lgo?at_medium=RSS&at_campaign=rss",
+   "desc": "Canadian leader Mark Carney says both the US and Canada have an equal responsibility to fight climate change, which experts say are worsening wildfire conditions."
+  },
+  {
+   "src": "BBC",
+   "section": "Världen",
    "title": "One anti-war critic fined, another held as Russia clamps down on opponents",
    "date": "2026-07-17T20:00:54.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cn0n3y6ewn4o?at_medium=RSS&at_campaign=rss",
@@ -32,14 +40,6 @@
    "date": "2026-07-17T18:34:04.000Z",
    "link": "https://www.bbc.co.uk/news/articles/ckgv0zd497zo?at_medium=RSS&at_campaign=rss",
    "desc": "Under the proposals, the EU plans to relax its emissions trading system to give companies more time to reduce their carbon output."
-  },
-  {
-   "src": "BBC",
-   "section": "Världen",
-   "title": "Magnitude 7.3 earthquake quake strikes off Mexico coast",
-   "date": "2026-07-17T18:12:54.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cwyjv3815yxo?at_medium=RSS&at_campaign=rss",
-   "desc": "The US Tsunami Warning Center issued a warning and has recorded waves 0.3m (1.1 feet) high in Puerto Madero and Chiapas in Mexico."
   },
   {
    "src": "SVT",
@@ -120,6 +120,38 @@
    "date": "2026-07-17T07:27:50.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/bilfritt-pa-hornsgatan-i-helgen",
    "desc": "I helgen får du tänka om ifall du tänkt köra på Hornsgatan. Från fredag kväll till måndag morgon är det nämligen avstängt för motorfordon."
+  },
+  {
+   "src": "BBC",
+   "section": "United",
+   "title": "Manchester United",
+   "date": "2026-07-15T06:00:00.000Z",
+   "link": "https://www.bbc.co.uk/sounds/play/p0nyrp61?at_medium=RSS&at_campaign=rss",
+   "desc": "Ex-Man Utd and England defender Paul Parker on the World Cup semi-final with Argentina."
+  },
+  {
+   "src": "BBC",
+   "section": "United",
+   "title": "Manchester United",
+   "date": "2026-07-14T06:00:00.000Z",
+   "link": "https://www.bbc.co.uk/sounds/play/p0nyl4lf?at_medium=RSS&at_campaign=rss",
+   "desc": "Man Utd fans react to the signing of Andrey Santos and links with Youri Tielemans."
+  },
+  {
+   "src": "BBC",
+   "section": "United",
+   "title": "Manchester United",
+   "date": "2026-07-13T12:32:00.000Z",
+   "link": "https://www.bbc.co.uk/sounds/play/p0nyhysc?at_medium=RSS&at_campaign=rss",
+   "desc": "Joe and Gaz discuss the latest transfer rumours, new stadium plans and the World Cup."
+  },
+  {
+   "src": "BBC",
+   "section": "United",
+   "title": "Manchester United",
+   "date": "2026-07-10T12:56:00.000Z",
+   "link": "https://www.bbc.co.uk/sounds/play/p0ny1ywv?at_medium=RSS&at_campaign=rss",
+   "desc": "Michael Clarke has the latest on how United's players are faring at the 2026 World Cup."
   }
  ]
 }

@@ -1,13 +1,13 @@
 {
- "updated": "2026-07-16T23:24:19.921Z",
+ "updated": "2026-07-17T00:59:02.332Z",
  "items": [
   {
    "src": "BBC",
    "section": "Världen",
    "title": "Blasts reported in Iran as US launches new wave of strikes",
-   "date": "2026-07-16T21:44:37.000Z",
+   "date": "2026-07-16T23:57:26.000Z",
    "link": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss",
-   "desc": "The US says its attacks aim to \"further degrade Iranian military capabilities\", as fighting continued for the sixth day in a row."
+   "desc": "Iran says US strikes hit bridges in the country in an apparent escalation, while the US boards a ship in the Strait of Hormuz."
   },
   {
    "src": "BBC",
@@ -44,6 +44,14 @@
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
+   "title": "Forskaren: Så mycket vatten ska du dricka i värmen",
+   "date": "2026-07-17T00:31:01.000Z",
+   "link": "https://www.svt.se/nyheter/inrikes/forskaren-sa-mycket-vatten-ska-du-dricka-i-varmen",
+   "desc": "Ett högre vattenintag än vanligt är nödvändigt när temperaturerna stiger. Men exakt hur mycket vatten ska man dricka för att må bra? Forskaren Mare Sundström reder ut saken."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
    "title": "Italiensk polis i tillslag mot lyxmärken",
    "date": "2026-07-16T20:03:13.000Z",
    "link": "https://www.svt.se/nyheter/utrikes/italiensk-polis-i-tillslag-mot-lyxmarken",
@@ -72,14 +80,6 @@
    "date": "2026-07-16T18:54:45.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/vast/vindkraftsbeslutet-vacker-starka-kanslor-i-grebbestad-forstor-den-inte",
    "desc": "Regeringen säger ja till en havsbaserad vindkraftpark utanför Grebbestad. Beslutet möter både stöd och kritik från ortsbor, besökare och politiker i Tanums kommun."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Semester i ett skogsbrandsdrabbat Europa – så gäller försäkringarna",
-   "date": "2026-07-16T18:18:40.000Z",
-   "link": "https://www.svt.se/nyheter/utrikes/semester-i-ett-skogsbrandsdrabbat-europa-sa-galler-forsakringarna",
-   "desc": "Kraftiga bränder har drabbat flera semesterdestinationer i södra Europa. Någonting som kan sätta semestern och semesterbudgeten på spel. SVT har pratat med reseexperten Gabriella Hallberg för att reda ut vilka försäkringar som gäller – och när."
   },
   {
    "src": "STHLM",

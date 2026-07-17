@@ -1,11 +1,11 @@
 {
- "updated": "2026-07-17T00:59:02.332Z",
+ "updated": "2026-07-17T04:12:52.120Z",
  "items": [
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "Blasts reported in Iran as US launches new wave of strikes",
-   "date": "2026-07-16T23:57:26.000Z",
+   "title": "US launches fresh wave of strikes as Iran says civilian infrastructure hit",
+   "date": "2026-07-17T04:02:31.000Z",
    "link": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss",
    "desc": "Iran says US strikes hit bridges in the country in an apparent escalation, while the US boards a ship in the Strait of Hormuz."
   },
@@ -28,58 +28,66 @@
   {
    "src": "BBC",
    "section": "Världen",
+   "title": "More than 500 Rohingya vanished at sea - what happened?",
+   "date": "2026-07-17T03:07:11.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cr59n096mrmo?at_medium=RSS&at_campaign=rss",
+   "desc": "Two boats carrying an estimated 530 Rohingyas have disappeared since leaving Myanmar on 29 June."
+  },
+  {
+   "src": "BBC",
+   "section": "Världen",
    "title": "Fifa 'assessing match reports' over Falklands banner",
    "date": "2026-07-16T18:44:43.000Z",
    "link": "https://www.bbc.co.uk/sport/football/articles/c75gnkl30vlo?at_medium=RSS&at_campaign=rss",
    "desc": "Fifa is \"assessing the match reports\" before deciding whether to punish Argentina after players held a banner in support of their country's claims to the Falkland Islands."
   },
   {
-   "src": "BBC",
-   "section": "Världen",
-   "title": "Italian officials handed jail terms for Genoa bridge disaster that killed 43",
-   "date": "2026-07-16T17:22:31.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/c36dnz1zez5o?at_medium=RSS&at_campaign=rss",
-   "desc": "The ex-head of Italy's motorway operator Giovanni Castellucci was handed a 12-year term over the 2018 bridge collapse."
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Ellen, 22 år tar sig till yrkes-VM i Kina – siktar på Fashion week",
+   "date": "2026-07-17T03:30:00.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/gavleborg/ellen-22-ar-tar-sig-till-yrkes-vm-i-kina-siktar-pa-fashion-week",
+   "desc": "Ellen Rudd, 22 år från Gävle utbildade sig till Frisör i Falun, och efter en guldmedalj i yrkes-SM bär det nu av mot VM i Kina."
   },
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
-   "title": "Forskaren: Så mycket vatten ska du dricka i värmen",
-   "date": "2026-07-17T00:31:01.000Z",
-   "link": "https://www.svt.se/nyheter/inrikes/forskaren-sa-mycket-vatten-ska-du-dricka-i-varmen",
-   "desc": "Ett högre vattenintag än vanligt är nödvändigt när temperaturerna stiger. Men exakt hur mycket vatten ska man dricka för att må bra? Forskaren Mare Sundström reder ut saken."
+   "title": "Så ska Luleås bussar  förvandlas till sjuktransporter vid krig",
+   "date": "2026-07-17T03:30:00.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/norrbotten/sa-ska-luleas-bussar-forvandlas-till-sjuktransporter-vid-krig",
+   "desc": "Nu stärker Region Norrbotten tillsammans med Luleå Lokaltrafik beredskapen för sjuktransporter. Tanken är att lokaltrafikens bussar ska kunna användas för att transportera skadade när vården är som mest belastad – i händelse av krig."
   },
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
-   "title": "Italiensk polis i tillslag mot lyxmärken",
-   "date": "2026-07-16T20:03:13.000Z",
-   "link": "https://www.svt.se/nyheter/utrikes/italiensk-polis-i-tillslag-mot-lyxmarken",
-   "desc": "Polis i Italien har gjort husrannsakan hos flera lyxvarumärken, uppger åklagare i Milano på torsdagen. Företagen kan ha använt underleverantörer som exploaterar kinesisk arbetskraft."
+   "title": "Extra kameror och norsk polis – så stärks säkerheten på Dansbandsveckan i Malung",
+   "date": "2026-07-17T03:30:00.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/dalarna/extra-kameror-och-norsk-polis-sa-starks-sakerheten-pa-dansbandsveckan-i-malung",
+   "desc": "Under Dansbandsveckan i Malung har norska poliser varit på plats – något som är starten på ett större samarbete över landsgränserna. – Det är lagstiftning på Europa-nivå som har öppnat upp möjligheter för andra poliser att komma till Sverige, säger Fredrik Johansson, biträdande chef för lokalpolisområde Mora."
   },
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
-   "title": "Lisebergskanin landade oväntat i Örgryte",
-   "date": "2026-07-16T19:50:04.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/vast/lisebergskanin-landade-ovantat-i-orgryte",
-   "desc": "En luftballong i forman av en Lisebergskanin landade oväntat i Örgryte på torsdagskvällen, något Expressen var först med att rapportera om. Enligt polisen rör det sig om en nödlandning och ingen ska ha kommit till skada."
+   "title": "Misstänkt barnvåldtäkt i Ystad – två gripna",
+   "date": "2026-07-17T02:48:09.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/skane/misstankt-barnvaldtakt-i-ystad-tva-gripna",
+   "desc": "Två personer har gripits misstänkta för att ha våldtagit ett barn under 15 år i Ystad under torsdagskvällen, rapporterar Sydsvenskan."
   },
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
-   "title": "Här identifieras Ukrainakrigets offer med DNA – kan ta flera år",
-   "date": "2026-07-16T19:36:22.000Z",
-   "link": "https://www.svt.se/nyheter/utrikes/har-identifieras-ukrainakrigets-offer-med-dna-kan-ta-flera-ar",
-   "desc": "Hundratusentals ukrainare lever med ovisshet om anhöriga som kan vara döda, fångar eller saknade i Ryssland. Nu satsar Ukraina på snabbare DNA-identifiering. – Det är en oacceptabel behandling av våra soldater, säger Anna Dronova som fick tillbaka sin fästmans kropp först efter ett helt år."
+   "title": "Trump anklagar Kina för att ha påverkat valet i USA",
+   "date": "2026-07-17T01:04:27.000Z",
+   "link": "https://www.svt.se/nyheter/utrikes/donald-trump-talar-till-nationen",
+   "desc": "Donald Trump höll under natten till fredag ett tv-sänt tal där han hävdar att det finns brister i USA:s valsystem. – Vita huset släpper nu underrättelsedokument som avslöjar chockerande sårbarheter, säger Trump. Kina pekas ut som boven i dramat."
   },
   {
-   "src": "SVT",
+   "src": "STHLM",
    "section": "Sverige · Stockholm",
-   "title": "Vindkraftsbeslutet väcker starka känslor i Grebbestad: ”Förstör den inte”",
-   "date": "2026-07-16T18:54:45.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/vast/vindkraftsbeslutet-vacker-starka-kanslor-i-grebbestad-forstor-den-inte",
-   "desc": "Regeringen säger ja till en havsbaserad vindkraftpark utanför Grebbestad. Beslutet möter både stöd och kritik från ortsbor, besökare och politiker i Tanums kommun."
+   "title": "Hundratals ungdomar sommarjobbar på 4H-gårdar",
+   "date": "2026-07-17T03:30:00.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/stockholm/hundratals-ungdomar-sommarjobbar-pa-4h-gardar",
+   "desc": "På 4H-gården i Akalla är det just nu full fart med läger och fritidsaktiviteter. Samtidigt innebär sommaren en chans för ungdomar att få jobberfarenhet. En av dem är 18-åriga Halima El Haihi. – Jag ville så gärna gå på ridskola men det kostar såna sjuka summor. Så tog min mamma mig hit och jag var så glad att få närheten till djuren, säger hon."
   },
   {
    "src": "STHLM",
@@ -112,14 +120,6 @@
    "date": "2026-07-16T14:29:49.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/stor-brandrisk-i-varmen-uppmaningen-larma-hellre-en-gang-for-mycket",
    "desc": "Varma temperaturer och strålande sol kan vara trevligt – men det har också lett till stor risk för skogsbränder i Stockholmsområdet. Södertörns brandförsvarsförbund har därför skickat upp två brandflyg för att snabbare kunna upptäcka skogsbränder innan de blir alltför stora. – Det är otroligt torrt just nu, en gnista räcker för att starta en brand, säger Anna Larsson, regional insatsledare."
-  },
-  {
-   "src": "STHLM",
-   "section": "Sverige · Stockholm",
-   "title": "Toms hjärta stannade på Stockholm Marathon",
-   "date": "2026-07-16T03:30:05.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/stockholm/toms-hjarta-stannade-pa-stockholm-marathon",
-   "desc": "I maj slog Stockholm Marathon rekord i antal deltagare när närmare 25 000 personer snörade på sig löparskorna. Men för Tom Andersson slutade loppet med att hans hjärta stannade bara meter från målgången. – Det känns läskigt och det visar att det kan hända vem som helst när som helst."
   }
  ]
 }

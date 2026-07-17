@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-17T19:01:54.376Z",
+ "updated": "2026-07-17T20:26:30.182Z",
  "items": [
   {
    "src": "BBC",
@@ -12,10 +12,18 @@
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "Trump alleges China meddled in 2020 election and questions voting security ahead of midterms",
-   "date": "2026-07-17T11:37:00.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cx2k9wvv5wyo?at_medium=RSS&at_campaign=rss",
-   "desc": "China said Trump's claims were fabricated and US Democrats said he was paving the way to undermine November's elections."
+   "title": "Many Ukrainian soldiers outraged over removal of defence minister, troops tell BBC",
+   "date": "2026-07-17T19:04:09.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cvg8w4dpjkwo?at_medium=RSS&at_campaign=rss",
+   "desc": "Protests erupted in Ukraine on Thursday after Mykhailo Fedorov's removal - and now soldiers are also criticising the move."
+  },
+  {
+   "src": "BBC",
+   "section": "Världen",
+   "title": "One anti-war critic fined, another held as Russia clamps down on opponents",
+   "date": "2026-07-17T20:00:54.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cn0n3y6ewn4o?at_medium=RSS&at_campaign=rss",
+   "desc": "While Boris Nadezhdin is barred from running for parliament, blogger Ilya Remeslo is remanded in custody."
   },
   {
    "src": "BBC",
@@ -28,18 +36,18 @@
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "Air conditioner sparked deadly blaze at children's orphanage - police",
-   "date": "2026-07-17T16:20:45.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/c9d8ylw60e9o?at_medium=RSS&at_campaign=rss",
-   "desc": "Eleven people, including children, died in the fire that also injured 19 others."
+   "title": "Magnitude 7.3 earthquake quake strikes off Mexico coast",
+   "date": "2026-07-17T18:12:54.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cwyjv3815yxo?at_medium=RSS&at_campaign=rss",
+   "desc": "The US Tsunami Warning Center issued a warning and has recorded waves 0.3m (1.1 feet) high in Puerto Madero and Chiapas in Mexico."
   },
   {
-   "src": "BBC",
-   "section": "Världen",
-   "title": "China hits out at British Steel nationalisation",
-   "date": "2026-07-17T16:44:22.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cjd4kvxpd3do?at_medium=RSS&at_campaign=rss",
-   "desc": "The UK government said taking the firm into public hands would safeguard \"a vital national capability\"."
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Stort slagsmål i Mölndal – flera polispatruller på plats",
+   "date": "2026-07-17T19:25:45.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/vast/stort-slagsmal-i-molndal-flera-polispatruller-pa-plats",
+   "desc": "Polisen larmades på fredagskvällen om ett stort slagsmål i Mölndal där omkring 20 personer ska ha varit inblandade. Enligt polisen misstänks bråket ha brutit ut mellan Gothia cuplag."
   },
   {
    "src": "SVT",
@@ -74,14 +82,6 @@
    "desc": "Lainios egen operadiva Carina Henriksson sätter upp en föreställning mitt i skogen, två mil bortom de allmänna vägarna. Kalhyggesoperan ställer frågor om metoder att bruka skogen, om hållbarhet och miljövärden"
   },
   {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Två män hittade döda i Härjedalen",
-   "date": "2026-07-17T12:58:13.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/jamtland/tva-man-hittade-doda-i-harjedalen",
-   "desc": "Två män, i 30- respektive 55-årsålden, har hittats döda i ett tält i trakterna av Långå, Härjedalen. De båda männen var ute på fisketur då anhöriga anmälde de saknade. Inget brott misstänks, men dödsorsaken ska utredas."
-  },
-  {
    "src": "STHLM",
    "section": "Sverige · Stockholm",
    "title": "Nyheter från dagen: 17 juli",
@@ -92,10 +92,10 @@
   {
    "src": "STHLM",
    "section": "Sverige · Stockholm",
-   "title": "Större skogsbrand på Rånö",
+   "title": "Större skogsbrand i Haninge",
    "date": "2026-07-17T14:19:33.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/storre-skogsbrand-pa-rano",
-   "desc": "En skogsbrand i Rånö i Haninge pågår och räddningstjänsten arbetar intensivt för att motverka spridningsrisk. – Branden omfattar omkring 4 000 kvadratmeter, vilket räknas som en större skogsbrand, säger Kenneth Karlsson vakthavande befäl Södertörns brandförsvar."
+   "desc": "En skogsbrand i Haninge pågick under fredagen och räddningstjänsten arbetade intensivt för att förhindra att elden spred sig. – Branden omfattar omkring 4 000 kvadratmeter, vilket räknas som en större skogsbrand, säger Kenneth Karlsson vakthavande befäl Södertörns brandförsvar."
   },
   {
    "src": "STHLM",

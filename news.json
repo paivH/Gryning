@@ -1,21 +1,21 @@
 {
- "updated": "2026-07-18T00:53:56.561Z",
+ "updated": "2026-07-18T03:52:17.568Z",
  "items": [
   {
    "src": "BBC",
    "section": "Världen",
    "title": "Trump threatens new Canada tariffs over fires sending 'filthy' air into US cities",
-   "date": "2026-07-17T23:15:10.000Z",
+   "date": "2026-07-18T01:29:47.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cwyq93j34lgo?at_medium=RSS&at_campaign=rss",
    "desc": "Canadian leader Mark Carney says both the US and Canada have an equal responsibility to fight climate change, which experts say are worsening wildfire conditions."
   },
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "US denies Iranian claims it hit civilian infrastructure in latest strikes",
-   "date": "2026-07-17T18:33:12.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss",
-   "desc": "The US military says its attacks were intended to \"further degrade Iranian military capabilities\"."
+   "title": "US strikes hit Iran for seventh consecutive night",
+   "date": "2026-07-18T03:02:01.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss",
+   "desc": "The US command says it is conducting more strikes to degrade Iran's armed forces, as Iran reports explosions near the Strait of Hormuz."
   },
   {
    "src": "BBC",
@@ -36,10 +36,34 @@
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "One anti-war critic fined, another held as Russia clamps down on opponents",
+   "title": "One anti-war critic fined, another held as Russia clamps down on dissent",
    "date": "2026-07-17T20:00:54.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cn0n3y6ewn4o?at_medium=RSS&at_campaign=rss",
    "desc": "While Boris Nadezhdin is barred from running for parliament, blogger Ilya Remeslo is remanded in custody."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Varningen: Bisjukdomen europeisk yngelröta ökar",
+   "date": "2026-07-18T03:30:01.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/smaland/varningen-bisjukdomen-europeisk-yngelrota-okar",
+   "desc": "Jordbruksverket har sett en ökning av antalet fall av bisjukdomen europeisk yngelröta. Nu uppmanar Länsstyrelsen i Kalmar län biodlare att vara extra uppmärksamma. – Yrkesodlarna är ju förtvivlade, säger Erik Olsson, bitillsynsman på Kalmar kommun."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Missen på Tunavallen – planen fick fel mått: ”Ett misstag”",
+   "date": "2026-07-18T03:30:01.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/sormland/missen-pa-tunavallen-planen-fick-fel-matt-ett-misstag",
+   "desc": "Efter att Eskilstuna United upptäckte att den nya konstgräsplanen på Tunavallen levererats med fel mått har kommunen kontaktat leverantören för att rätta till missen. Nu pågår arbetet med att få planen byggd enligt de mått som beställts."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Endast 13 skräpböter på ett år: ”Alldeles för få”",
+   "date": "2026-07-18T03:30:01.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/gavleborg/endast-13-skrapboter-pa-ett-ar-alldeles-for-fa",
+   "desc": "Endast 13 böter för nedskräpning delades ut i Gävleborgs län.När vi berättar det för personer på stan i Hudiksvall är reaktionerna tydliga. – Det är ju bara en per månad, säger Agneta Borg, genomresande i Hudiksvall."
   },
   {
    "src": "SVT",
@@ -56,30 +80,6 @@
    "date": "2026-07-17T18:44:45.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/vast/brak-om-fotbolls-vm-kan-ligga-bakom-misstankta-mordet-i-stenungsund",
    "desc": "Det misstänkta mordet vid badplatsen Hawaii i Stenungsund kan ha sin början i en konflikt om fotboll. Enligt uppgifter till SVT startade bråket i en gruppchatt om pågående fotbolls-VM."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Störningar av navigationssystem på Östersjön ökar",
-   "date": "2026-07-17T17:00:08.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/ost/storningar-av-navigationssystem-pa-ostersjon-okar",
-   "desc": "Satellitnavigeringen i Östersjöområdet utsätts nu både för kontinuerlig jamming och mer systematisk spoofing, alltså störningar från främmande makt. Manipulerade GNSS‑signaler sprider sig geografiskt och gör störningarna mer svårupptäckta. Det är oroväckande att man har den typen av störningar, säger Andreas Holmgren, enhetschef på Transportstyrelsen."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Man död efter drunkningslarm vid Venasjön",
-   "date": "2026-07-17T15:19:14.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/ost/person-hittad-i-vattnet-vid-venasjon",
-   "desc": "En man har avlidit efter att ha hittats i vattnet vid Venasjön i Söderköpings kommun."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "En opera om en förlorad barndomsskog – mitt i Lainios kalhygge",
-   "date": "2026-07-17T13:42:50.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/norrbotten/en-opera-om-en-forlorad-barndomsskog-mitt-i-lainios-kalhygge",
-   "desc": "Lainios egen operadiva Carina Henriksson sätter upp en föreställning mitt i skogen, två mil bortom de allmänna vägarna. Kalhyggesoperan ställer frågor om metoder att bruka skogen, om hållbarhet och miljövärden"
   },
   {
    "src": "STHLM",

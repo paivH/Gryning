@@ -1,11 +1,11 @@
 {
- "updated": "2026-07-18T10:59:40.726Z",
+ "updated": "2026-07-18T11:59:07.499Z",
  "items": [
   {
    "src": "BBC",
    "section": "Världen",
    "title": "US strikes hit Iran for seventh consecutive night",
-   "date": "2026-07-18T07:33:40.000Z",
+   "date": "2026-07-18T11:48:44.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss",
    "desc": "Iran has retaliated against US allies in the region, with Kuwait reporting that a power and water plant had been hit."
   },
@@ -44,10 +44,26 @@
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
+   "title": "Orange varning i Östergötland – räddningstjänsten redo inför ovädret",
+   "date": "2026-07-18T11:49:38.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/ost/orange-varning-i-ostergotland-raddningstjansten-redo-infor-ovadret",
+   "desc": "Från klockan 15.00 på lördagen råder orange varning för skyfall över främst östra Östergötland. Varningen är den näst högsta som går att utfärda och räddningstjänsten förbereder sig på många larm."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Man tände eld på kuddar i butik i Västerås – åtalas för mordbrand",
+   "date": "2026-07-18T11:16:04.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/vastmanland/man-tande-eld-pa-kuddar-inne-i-butik-i-vasteras-atalas-for-mordbrand",
+   "desc": "En 47-årig man åtalas misstänkt för mordbrand efter att ha tänt eld på kuddar inne på Dollarstore på Hälla i Västerås i början av juli."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
    "title": "Tak har rasat in på  köpcentrum i Uddevalla",
    "date": "2026-07-18T07:02:28.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/vast/tak-har-rasat-in-pa-kopcentrum-i-uddevalla",
-   "desc": "En tak har rasat in i en godisbutik vid Torp köpcentrum i Uddevalla. Räddningstjänsten är på plats och utreder händelsen, och personalen är utrymd."
+   "desc": "Ett tak har rasat in i en godisbutik vid Torp köpcentrum i Uddevalla. Räddningstjänsten är på plats och utreder händelsen, och personalen är utrymd."
   },
   {
    "src": "SVT",
@@ -64,22 +80,6 @@
    "date": "2026-07-18T03:30:01.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/sormland/missen-pa-tunavallen-planen-fick-fel-matt-ett-misstag",
    "desc": "Efter att Eskilstuna United upptäckte att den nya konstgräsplanen på Tunavallen levererats med fel mått har kommunen kontaktat leverantören för att rätta till missen. Nu pågår arbetet med att få planen byggd enligt de mått som beställts."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Två Gothia cup-relaterade bråk under fredagskvällen",
-   "date": "2026-07-17T19:25:45.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/vast/stort-slagsmal-i-molndal-flera-polispatruller-pa-plats",
-   "desc": "Polisen larmades på fredagskvällen om ett stort slagsmål vid en skola i Mölndal där omkring 20 personer ska ha varit inblandade. Enligt polisen ska de iblandade ha koppling till Gothia cup. Senare på kvällen larmades polisen om ytterligare ett bråk på en annan skola där lag från turneringen bor."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Bråk om fotbolls-VM kan ligga bakom misstänkta mordet i Stenungsund",
-   "date": "2026-07-17T18:44:45.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/vast/brak-om-fotbolls-vm-kan-ligga-bakom-misstankta-mordet-i-stenungsund",
-   "desc": "Det misstänkta mordet vid badplatsen Hawaii i Stenungsund kan ha sin början i en konflikt om fotboll. Enligt uppgifter till SVT startade bråket i en gruppchatt om pågående fotbolls-VM."
   },
   {
    "src": "STHLM",

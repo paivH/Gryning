@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-19T15:54:18.905Z",
+ "updated": "2026-07-19T16:54:42.839Z",
  "items": [
   {
    "src": "BBC",
@@ -84,6 +84,14 @@
   {
    "src": "STHLM",
    "section": "Sverige · Stockholm",
+   "title": "Argentinska Agustina om internethatet: ”Vi är inte rasister”",
+   "date": "2026-07-19T16:09:11.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/stockholm/argentinska-agustina-om-internethatet-vi-ar-inte-rasister",
+   "desc": "På internet flödar anklagelserna om att Argentina är ett fuskande land fyllt av främlingsfientlighet. Argentinska Agustina Velazquez tänker därför stanna inne under finalen. – Har man denna tröja på sig vet man inte om folk som kommer fram ska heja på eller kalla en rasist, säger hon."
+  },
+  {
+   "src": "STHLM",
+   "section": "Sverige · Stockholm",
    "title": "Man föll från balkong i Stockholm – två misstänks för mordförsök",
    "date": "2026-07-19T04:28:43.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/misstankt-grovt-brott-vid-flerfamiljshus-i-stockholm",
@@ -112,14 +120,6 @@
    "date": "2026-07-17T17:52:39.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/nyheter-fran-dagen-17-juli-s3bug6",
    "desc": "Detta har hänt i Stockholms län fredag 17 juli"
-  },
-  {
-   "src": "STHLM",
-   "section": "Sverige · Stockholm",
-   "title": "Större skogsbrand i Haninge",
-   "date": "2026-07-17T14:19:33.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/stockholm/storre-skogsbrand-pa-rano",
-   "desc": "En skogsbrand i Haninge pågick under fredagen och räddningstjänsten arbetade intensivt för att förhindra att elden spred sig. – Branden omfattar omkring 4 000 kvadratmeter, vilket räknas som en större skogsbrand, säger Kenneth Karlsson vakthavande befäl Södertörns brandförsvar."
   },
   {
    "src": "BBC",

@@ -1,41 +1,41 @@
 {
- "updated": "2026-07-18T05:56:46.840Z",
+ "updated": "2026-07-19T06:22:37.145Z",
  "verified": false,
  "deals": [
   {
    "store": "ICA",
-   "item": "Svenska jordgubbar 500g",
+   "item": "Färska jordgubbar 500g",
    "price": "25 kr",
    "url": "https://www.ica.se"
   },
   {
    "store": "ICA",
-   "item": "Grillfärs nöt/fläsk 800g",
-   "price": "49 kr",
+   "item": "Grillat kycklinglårfilé 1kg",
+   "price": "69 kr/kg",
    "url": "https://www.ica.se"
   },
   {
    "store": "Lidl",
-   "item": "Halloumi 200g",
-   "price": "22 kr",
+   "item": "Vattenmelon hel",
+   "price": "19 kr/st",
    "url": "https://www.lidl.se"
   },
   {
    "store": "Lidl",
-   "item": "Vattenmelon hel",
-   "price": "35 kr",
+   "item": "Grillkol 3kg",
+   "price": "39 kr",
    "url": "https://www.lidl.se"
   },
   {
    "store": "IKEA",
-   "item": "Glassbit vanilj/choklad",
-   "price": "5 kr",
+   "item": "Glassbägare Sommarglass 500ml",
+   "price": "15 kr",
    "url": "https://www.ikea.com/se/sv/"
   },
   {
    "store": "Rusta",
-   "item": "Utomhuskuddar 2-pack",
-   "price": "79 kr",
+   "item": "Utomhuskudde till soffa",
+   "price": "49 kr",
    "url": "https://www.rusta.com/se"
   }
  ]

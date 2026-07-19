@@ -1,19 +1,19 @@
 {
- "updated": "2026-07-19T09:25:47.542Z",
+ "updated": "2026-07-19T10:52:33.755Z",
  "items": [
   {
    "src": "BBC",
    "section": "Världen",
    "title": "US and Iran exchange strikes after two US soldiers killed in Jordan",
-   "date": "2026-07-19T05:10:57.000Z",
+   "date": "2026-07-19T10:44:11.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
    "desc": "US forces target Iranian sites for the eighth night in a row, while Iran says it fired drones at the US military in Kuwait."
   },
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "Andrew Tate and brother arrested in US after more charges laid against them in UK",
-   "date": "2026-07-19T02:17:07.000Z",
+   "title": "Tate brothers arrested in US as further UK charges take total to 59",
+   "date": "2026-07-19T10:22:35.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cwymly9yd33o?at_medium=RSS&at_campaign=rss",
    "desc": "The Crown Prosecution Service says it has requested their extradition from the US, while their lawyer says they are innocent."
   },
@@ -21,7 +21,7 @@
    "src": "BBC",
    "section": "Världen",
    "title": "Russia launches major ballistic missile attack on Kyiv",
-   "date": "2026-07-19T08:37:48.000Z",
+   "date": "2026-07-19T09:54:50.000Z",
    "link": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&at_campaign=rss",
    "desc": "One death is reported in what President Zelensky calls \"one of the most massive ballistic attacks\" on Ukraine's capital."
   },
@@ -44,6 +44,30 @@
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
+   "title": "Elfel stoppar tågen mellan Surahammar och Virsbo",
+   "date": "2026-07-19T10:08:20.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/vastmanland/elfel-stoppar-tagen-mellan-surahammar-och-virsbo",
+   "desc": "Ett elfel på tågsträckan mellan Västerås och Ludvika ser ut att stoppa trafiken i flera dagar. Först på måndag kväll beräknas tågen kunna trafikera spåren igen."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Husbil brann efter kollission på E45 i Sorsele",
+   "date": "2026-07-19T09:49:13.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/vasterbotten/husbil-brinner-efter-kollission-pa-e45-i-sorsele",
+   "desc": "En husbil började brinna efter att ha krockat med en personbil på E45 i Sorsele. Tre personer var inblandade i olyckan."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Fiskarens kritik mot planerade vindkraftverket utanför Grebbestad: ”Vansinne”",
+   "date": "2026-07-19T09:24:36.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/vast/fiskarens-kritik-mot-planerade-vindkraftverket-utanfor-grebbestad-vansinne",
+   "desc": "Den planerade vindkraftparken Vidar utanför Grebbestad möter nu hård kritik från fiskare. Enligt länsstyrelsen kommer parken påverka räkfisket, men man har bedömt att nyttan av vindkraften väger tyngre. – Det är ett enormt avbräck för fisket, säger Charles Ohlsson, räk- och kräftfiskare."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
    "title": "Här avgör Blekingeborna VM-finalen i het straffläggning",
    "date": "2026-07-19T08:36:19.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/blekinge/har-avgor-blekingeborna-vm-finalen-i-het-strafflaggning",
@@ -58,36 +82,12 @@
    "desc": "Polisens arbete vid Långgruvan utanför Norberg har lett till nya fynd. Bland annat har två bilar hissats upp ur gruvhålet, det rapporterar TV4 Nyheterna."
   },
   {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Barn körde i 100 runt Eskilstuna – vägrade stanna",
-   "date": "2026-07-19T07:42:47.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/sormland/barn-korde-i-100-runt-eskilstuna-vagrade-stanna",
-   "desc": "En bil med fem barn under 15 år körde under natten runt i Eskilstuna i hög fart. Tidvis körde föraren, som också var under 15, i 100 kilometer i timmen, skriver polisen på sin hemsida."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Bil körde genom trädgårdar och in i hus i Mellbystrand – förare omkom",
-   "date": "2026-07-19T07:37:27.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/halland/bil-korde-genom-tradgardar-och-in-i-hus-i-mellbystrand-forare-omkom",
-   "desc": "Klockan 23.28 på lördagskvällen larmas polis till Mellbystrand efter att en personbil kört av vägen, genom flera trädgårdar och till sist in i ett hus."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "SMHI: Gul varning för skyfall i delar av Halland",
-   "date": "2026-07-19T06:43:38.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/halland/smhi-gul-varning-for-skyfall-i-delar-av-halland",
-   "desc": "I delar av Halland, Skåne, Kronoberg och Blekinge varnar SMHI för skyfallsliknande regn och åska. Varningen är utfärdad från klockan 13 på söndagen."
-  },
-  {
    "src": "STHLM",
    "section": "Sverige · Stockholm",
    "title": "Man föll från balkong i Stockholm – två misstänks för mordförsök",
    "date": "2026-07-19T04:28:43.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/misstankt-grovt-brott-vid-flerfamiljshus-i-stockholm",
-   "desc": "En man och kvinna har anhållits misstänkta för mordförsök i Hässelby efter att en man har fallit från en balkong. Han bedöms ha livshotande skador. Under söndagsmorgonen pågår en stor polisinsats i ett bostadsområde i Hässelby gård utanför Stockholm."
+   "desc": "En man och kvinna har anhållits misstänkta för mordförsök i Hässelby efter att en man har fallit från en balkong. Han bedöms ha livshotande skador."
   },
   {
    "src": "STHLM",

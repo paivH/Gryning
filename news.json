@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-19T00:58:54.540Z",
+ "updated": "2026-07-19T04:25:51.509Z",
  "items": [
   {
    "src": "BBC",
@@ -12,10 +12,10 @@
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "Russian online retail warehouses hit by deadly Ukrainian strikes",
-   "date": "2026-07-18T13:06:25.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/clyxlm877p2o?at_medium=RSS&at_campaign=rss",
-   "desc": "Drones targeted Wildberries facilities near Moscow and in Tambov. Ukraine's leader called them \"major logistics facilities\" supplying \"sanctioned components\"."
+   "title": "Andrew Tate and brother arrested in US after more charges laid against them in UK",
+   "date": "2026-07-19T02:17:07.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cwymly9yd33o?at_medium=RSS&at_campaign=rss",
+   "desc": "The Crown Prosecution Service says it has requested their extradition from the US, while their lawyer says they are \"innocent\"."
   },
   {
    "src": "BBC",
@@ -28,18 +28,42 @@
   {
    "src": "BBC",
    "section": "Världen",
+   "title": "Russian online retail warehouses hit by deadly Ukrainian strikes",
+   "date": "2026-07-18T13:06:25.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/clyxlm877p2o?at_medium=RSS&at_campaign=rss",
+   "desc": "Drones targeted Wildberries facilities near Moscow and in Tambov. Ukraine's leader called them \"major logistics facilities\" supplying \"sanctioned components\"."
+  },
+  {
+   "src": "BBC",
+   "section": "Världen",
    "title": "Hungary's president agrees to stand down after parliament backs removal",
    "date": "2026-07-18T19:34:16.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cpd7q7eev7po?at_medium=RSS&at_campaign=rss",
    "desc": "Tamás Sulyok, seen as an Orbán loyalist, had until Saturday night to agree to end his term."
   },
   {
-   "src": "BBC",
-   "section": "Världen",
-   "title": "Many Ukrainian soldiers outraged over removal of defence minister, troops tell BBC",
-   "date": "2026-07-17T19:04:09.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cvg8w4dpjkwo?at_medium=RSS&at_campaign=rss",
-   "desc": "Protests erupted in Ukraine on Thursday after Mykhailo Fedorov's removal - and now soldiers are also criticising the move."
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Hästsparken i ansiktet var nära att döda Agnes, 20 – nu vill hon börja leva igen",
+   "date": "2026-07-19T03:30:01.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/orebro/hastsparken-i-ansiktet-var-nara-att-doda-agnes-20-nu-vill-hon-borja-leva-igen",
+   "desc": "För åtta månader sedan förändrades Agnes Johanssons liv på några sekunder. En hästspark krossade stora delar av hennes ansikte och hon svävade mellan liv och död. I stallet i Karlskoga, bland hästarna, försöker nu 20-åringen sakta hitta tillbaka till sig själv och till vardagen."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Hyrsköterskan Caroline ledsnade på villkoren – blev regionråd i Norrbotten",
+   "date": "2026-07-19T03:30:01.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/norrbotten/hyrskoterskan-caroline-ledsnade-pa-villkoren-blev-regionrad-i-norrbotten",
+   "desc": "Regionrådet Caroline Svensson (C) arbetar som hyrsjuksköterska samtidigt som hon ska minska bemanningskostnaderna i Norrbotten. När hon hoppar av sitt uppdrag överväger hon att ta anställning igen efter ett rejält förändringsarbete. – Hyrbemanning ska alltid finnas. Men i rätt tappning och av rätt anledning."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Ella från Nybro är Sveriges yngsta kandidat i valet – fyller 18 på valdagen",
+   "date": "2026-07-19T03:30:01.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/smaland/ella-fran-nybro-ar-sveriges-yngsta-kandidat-i-valet-fyller-18-pa-valdagen",
+   "desc": "Ella Nyström fyller 18 år söndagen den 13 september, och får med minsta möjliga marginal chansen att rösta för första gången. Att hennes namn dessutom kommer finnas med på valsedlarna för kommunens största parti, det hade hon inte trott för ett år sedan: – Det är ju helt sjukt egentligen, säger hon."
   },
   {
    "src": "SVT",
@@ -58,28 +82,12 @@
    "desc": "Från klockan 15.00 på lördagen råder orange varning för skyfall över främst östra Östergötland. Varningen är den näst högsta som går att utfärda och räddningstjänsten förbereder sig på många larm."
   },
   {
-   "src": "SVT",
+   "src": "STHLM",
    "section": "Sverige · Stockholm",
-   "title": "Man tände eld på kuddar i butik i Västerås – åtalas för mordbrand",
-   "date": "2026-07-18T11:16:04.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/vastmanland/man-tande-eld-pa-kuddar-inne-i-butik-i-vasteras-atalas-for-mordbrand",
-   "desc": "En 47-årig man åtalas misstänkt för mordbrand efter att ha tänt eld på kuddar inne på Dollarstore på Hälla i Västerås i början av juli."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Tak har rasat in på  köpcentrum i Uddevalla",
-   "date": "2026-07-18T07:02:28.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/vast/tak-har-rasat-in-pa-kopcentrum-i-uddevalla",
-   "desc": "Delen av ett tak har rasat in i en godisbutik vid Torp köpcentrum i Uddevalla på lördagsmorgonen. Personalen fick utrymmas och delar av köpcentrumet tvingas hålla stängt med oklar prognos."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Varningen: Bisjukdomen europeisk yngelröta ökar",
-   "date": "2026-07-18T03:30:01.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/smaland/varningen-bisjukdomen-europeisk-yngelrota-okar",
-   "desc": "Jordbruksverket har sett en ökning av antalet fall av bisjukdomen europeisk yngelröta. Nu uppmanar Länsstyrelsen i Kalmar län biodlare att vara extra uppmärksamma. – Yrkesodlarna är ju förtvivlade, säger Erik Olsson, bitillsynsman på Kalmar kommun."
+   "title": "Kritik mot nya reklamskärmar i tunnelbanan: ”Störande”",
+   "date": "2026-07-19T03:30:01.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/stockholm/kritik-mot-nya-reklamskarmar-i-tunnelbanan-storande",
+   "desc": "På 14 tunnelbanestationer i Stockholm ska traditionella reklamaffischer ersättas med digitala reklamskärmar. Satsningen har väckt debatt på sociala medier och kritiserats av resenärer. Men nu svarar SL att de nya skyltarna kommer gynna stockholmarna."
   },
   {
    "src": "STHLM",
@@ -112,14 +120,6 @@
    "date": "2026-07-17T10:35:04.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/man-begars-haktad-efter-mord-i-skondal",
    "desc": "En man har häktats efter det misstänkta mordet i Sköndal tidigare i veckan. Mannen nekar till brott."
-  },
-  {
-   "src": "STHLM",
-   "section": "Sverige · Stockholm",
-   "title": "Nära tusen klagomål på värmen i SL-trafiken",
-   "date": "2026-07-17T10:00:37.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/stockholm/nara-tusen-klagomal-pa-varmen-i-sl-trafiken",
-   "desc": "Den som åkt kollektivt den senaste veckan har nog känt att det varit rätt lökigt, särskilt på bussarna. Faktum är att SL under sommaren fått in nära 900 klagomål på värmen, och de senaste dagarna har det varit betydligt fler än vanligt."
   },
   {
    "src": "BBC",

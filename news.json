@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-19T17:55:47.917Z",
+ "updated": "2026-07-19T19:03:03.495Z",
  "items": [
   {
    "src": "BBC",
@@ -21,7 +21,7 @@
    "src": "BBC",
    "section": "Världen",
    "title": "Russia launches major ballistic missile attack on Ukrainian cities",
-   "date": "2026-07-19T17:43:20.000Z",
+   "date": "2026-07-19T18:25:40.000Z",
    "link": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&at_campaign=rss",
    "desc": "Eight people die and dozens are injured as several cities are hit by missile and drone attacks, while Kyiv continues its own assault on Russian infrastructure."
   },
@@ -40,6 +40,14 @@
    "date": "2026-07-19T14:50:11.000Z",
    "link": "https://www.bbc.co.uk/news/articles/c5ywxp2d826o?at_medium=RSS&at_campaign=rss",
    "desc": "The newlyweds were first linked in 2023 after Healy's brief relationship with Taylor Swift."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Sverige förlorar finalen i U20-EM efter jätterysare",
+   "date": "2026-07-19T18:29:08.000Z",
+   "link": "https://www.svt.se/sport/handboll/sverige-forlorar-finalen-i-u20-em-efter-jatterysare",
+   "desc": "Sveriges U20-landslag i handboll var på väg mot första EM-guldet. Men efter en sen kvittering blev det förlust efter förlängning mot Ungern."
   },
   {
    "src": "SVT",
@@ -72,14 +80,6 @@
    "date": "2026-07-19T09:49:13.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/vasterbotten/husbil-brinner-efter-kollission-pa-e45-i-sorsele",
    "desc": "En husbil började brinna efter att ha krockat med en personbil på E45 i Sorsele. Tre personer var inblandade i olyckan."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Fiskarens kritik mot planerade vindkraftverket utanför Grebbestad: ”Vansinne”",
-   "date": "2026-07-19T09:24:36.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/vast/fiskarens-kritik-mot-planerade-vindkraftverket-utanfor-grebbestad-vansinne",
-   "desc": "Den planerade vindkraftparken Vidar utanför Grebbestad möter nu hård kritik från fiskare. Enligt länsstyrelsen kommer parken påverka räkfisket, men man har bedömt att nyttan av vindkraften väger tyngre. – Det är ett enormt avbräck för fisket, säger Charles Ohlsson, räk- och kräftfiskare."
   },
   {
    "src": "STHLM",

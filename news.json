@@ -1,11 +1,11 @@
 {
- "updated": "2026-07-19T10:52:33.755Z",
+ "updated": "2026-07-19T11:54:37.249Z",
  "items": [
   {
    "src": "BBC",
    "section": "Världen",
    "title": "US and Iran exchange strikes after two US soldiers killed in Jordan",
-   "date": "2026-07-19T10:44:11.000Z",
+   "date": "2026-07-19T11:10:40.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
    "desc": "US forces target Iranian sites for the eighth night in a row, while Iran says it fired drones at the US military in Kuwait."
   },
@@ -13,17 +13,17 @@
    "src": "BBC",
    "section": "Världen",
    "title": "Tate brothers arrested in US as further UK charges take total to 59",
-   "date": "2026-07-19T10:22:35.000Z",
+   "date": "2026-07-19T11:04:50.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cwymly9yd33o?at_medium=RSS&at_campaign=rss",
    "desc": "The Crown Prosecution Service says it has requested their extradition from the US, while their lawyer says they are innocent."
   },
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "Russia launches major ballistic missile attack on Kyiv",
-   "date": "2026-07-19T09:54:50.000Z",
+   "title": "Russia launches major ballistic missile attack on Ukrainian cities",
+   "date": "2026-07-19T11:28:24.000Z",
    "link": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&at_campaign=rss",
-   "desc": "One death is reported in what President Zelensky calls \"one of the most massive ballistic attacks\" on Ukraine's capital."
+   "desc": "Four people are killed and at least 36 injured as Ukraine's two largest cities are targeted, as Kyiv continues its own assault on Russian infrastructure."
   },
   {
    "src": "BBC",
@@ -44,6 +44,14 @@
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
+   "title": "Avstängda vägar och vattenläckor i regnets spår i Nyköping",
+   "date": "2026-07-19T10:56:52.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/sormland/avstangda-vagar-och-vattenlackor-i-regnets-spar-i-nykoping",
+   "desc": "Ett metersdjupt hål har bildats på Industrigatan i centrala Nyköping efter lördagens stora vattenmängder. Även på Svanvägen arbetar man med en vattenläcka."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
    "title": "Elfel stoppar tågen mellan Surahammar och Virsbo",
    "date": "2026-07-19T10:08:20.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/vastmanland/elfel-stoppar-tagen-mellan-surahammar-och-virsbo",
@@ -52,7 +60,7 @@
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
-   "title": "Husbil brann efter kollission på E45 i Sorsele",
+   "title": "Husbil brann efter kollision på E45 i Sorsele",
    "date": "2026-07-19T09:49:13.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/vasterbotten/husbil-brinner-efter-kollission-pa-e45-i-sorsele",
    "desc": "En husbil började brinna efter att ha krockat med en personbil på E45 i Sorsele. Tre personer var inblandade i olyckan."
@@ -72,14 +80,6 @@
    "date": "2026-07-19T08:36:19.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/blekinge/har-avgor-blekingeborna-vm-finalen-i-het-strafflaggning",
    "desc": "På söndagskvällen möts Argentina och Spanien i finalen av fotbolls-VM 2026. Matchen spelas i New York och som uppladdning har SVT Blekinge sin egna VM-final i form av en straffläggning."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Nya fynd i gruvhålet i Norberg",
-   "date": "2026-07-19T08:11:29.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/vastmanland/nya-fynd-i-gruvhalet-i-norberg",
-   "desc": "Polisens arbete vid Långgruvan utanför Norberg har lett till nya fynd. Bland annat har två bilar hissats upp ur gruvhålet, det rapporterar TV4 Nyheterna."
   },
   {
    "src": "STHLM",

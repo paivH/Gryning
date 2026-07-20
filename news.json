@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-20T22:56:51.108Z",
+ "updated": "2026-07-20T23:56:24.289Z",
  "items": [
   {
    "src": "BBC",
@@ -52,6 +52,14 @@
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
+   "title": "USA inför strafftullar – Kanada har 30 dagar på sig",
+   "date": "2026-07-20T21:54:07.000Z",
+   "link": "https://www.svt.se/nyheter/utrikes/trumps-hot-kan-infora-50-procentiga-tullar-mot-kanada",
+   "desc": "USA inför 50-procentiga tullar mot Kanada. Beslutet börjar gälla om 30 dagar om landet inte avskaffar sitt ”diskriminerande” handelshinder, uppger Donald Trump enligt Washington Post."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
    "title": "Brand i Pilgrimstad",
    "date": "2026-07-20T21:30:25.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/jamtland/brand-i-bracke-gqysls",
@@ -72,14 +80,6 @@
    "date": "2026-07-20T17:21:00.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/sormland/hade-fjarrstyrd-rorbomb-i-bokhylla-misstanks-for-flera-olika-brott",
    "desc": "På tisdagen hålls rättegång mot en man i 40-årsåldern efter att polisen hittat en rörbomb i hans hem i Flens kommun. Den hittades efter en större insats – där regionala insatsstyrkan kallades in."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Svart himmel över Moskva efter Ukrainas attacker",
-   "date": "2026-07-20T16:31:23.000Z",
-   "link": "https://www.svt.se/nyheter/utrikes/svart-himmel-over-moskva-efter-ukrainas-attacker",
-   "desc": "Ukrainas luftkampanj mot Ryssland har fortsatt med nya attacker mot Moskvaregionen. Man siktade på oljeanläggningar, men slog också mot två stora lager tillhörande Wildberries, Rysslands största e-handelsbolag. – Ett uppenbart militärt mål, säger militärexpert Joakim Paasikivi."
   },
   {
    "src": "STHLM",

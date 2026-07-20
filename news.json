@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-20T15:27:49.893Z",
+ "updated": "2026-07-20T16:57:29.174Z",
  "items": [
   {
    "src": "BBC",
@@ -13,7 +13,7 @@
    "src": "BBC",
    "section": "Världen",
    "title": "Ten killed as Russian attacks on merchant ships in Black Sea intensify",
-   "date": "2026-07-20T14:14:08.000Z",
+   "date": "2026-07-20T16:10:38.000Z",
    "link": "https://www.bbc.co.uk/news/articles/c4gvpv3ewv2o?at_medium=RSS&at_campaign=rss",
    "desc": "Russian strikes on the Odesa region have killed 28 people in July alone, local authorities say."
   },
@@ -37,9 +37,33 @@
    "src": "BBC",
    "section": "Världen",
    "title": "Police block thousands of 'cockroach' protesters marching on India's parliament",
-   "date": "2026-07-20T12:31:10.000Z",
+   "date": "2026-07-20T16:26:40.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cvg9w9dxd7lo?at_medium=RSS&at_campaign=rss",
    "desc": "Some protesters demanding education reforms said they were injured in clashes with police who banned the march."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Svart himmel över Moskva efter Ukrainas attacker",
+   "date": "2026-07-20T16:31:23.000Z",
+   "link": "https://www.svt.se/nyheter/utrikes/svart-himmel-over-moskva-efter-ukrainas-attacker",
+   "desc": "Ukrainas luftkampanj mot Ryssland har fortsatt med nya attacker mot Moskvaregionen. Man siktade på oljeanläggningar, men slog också mot två stora lager tillhörande Wildberries, Rysslands största e-handelsbolag. – Ett uppenbart militärt mål, säger militärexpert Joakim Paasikivi."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Har Spanien och Fifa suddat bort Trump på vinnarbilderna?",
+   "date": "2026-07-20T16:14:07.000Z",
+   "link": "https://www.svt.se/nyheter/utrikes/har-spanien-och-fifa-suddat-bort-trump-pa-vinnarbilderna",
+   "desc": "Medan de spanska världsmästarna firar VM-segern och poserar för fotograferna står en fripassagerare bredvid dem på pokalpodiet – Donald Trump. I sociala medier ryktas det nu att presidenten suddats bort när Fifa och Spaniens landslag postat vinnarbilderna i sociala medier."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Två bilar kolliderade i Markaryd – en person till sjukhus",
+   "date": "2026-07-20T15:42:00.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/smaland/tva-bilar-kolliderade-i-markaryd-en-person-till-sjukhus",
+   "desc": "En person fördes till sjukhus efter att två bilar kolliderat på väg 520 vid Markaryd på måndagseftermiddagen. Skadeläget är oklart."
   },
   {
    "src": "SVT",
@@ -55,31 +79,7 @@
    "title": "Dyr olja efter fortsatta attacker: ”Då kommer världen tvingas agera”",
    "date": "2026-07-20T14:31:31.000Z",
    "link": "https://www.svt.se/nyheter/ekonomi/dyr-olja-efter-fortsatta-attacker-da-kommer-varlden-tvingas-agera",
-   "desc": "Priset för både olja och gas stiger kraftigt på måndagen, efter fortsatta amerikanska och iranska attacker vid Hormuzsundet. – Ligger läget som det ser ut i dag kommer det att innebära gradvis högre priser på råoljemarknaden och därmed också högre priser på drivmedel, säger råvaruanalytikern Christian Kopfer."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Många magsjuka i Nordmakedonien – epidemi utlyst",
-   "date": "2026-07-20T13:05:46.000Z",
-   "link": "https://www.svt.se/nyheter/utrikes/manga-magsjuka-i-nordmakedonien-epidemi-utlyst",
-   "desc": "Mer än 1 500 personer har fått uppsöka vård i staden Gostivar i Nordmakedonien efter misstankar om att de fått mag- och tarminflammation av förgiftat dricksvatten. Myndigheterna klassar händelsen som en epidemi och har tills vidare förbjudit invånarna från att dricka av kranvattnet."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Rektorns ord om lyxmöblerna i förhör: ”Kunde få bra betalt”",
-   "date": "2026-07-20T12:51:47.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/jonkoping/rektorns-ord-om-lyxmoblerna-i-forhor-kunde-fa-bra-betalt",
-   "desc": "När polisen knackar på för en husrannsakan säger rektorn: – Kom in, jag har väntat på er. I lägenheten fanns då en stor mängd möbler som inte ens hade packats upp och som tas i beslag."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Flera larm om skogsbränder i Västerbotten – brandflyg sätts in",
-   "date": "2026-07-20T12:34:22.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/vasterbotten/tva-larm-om-skogsbrander-i-lanet",
-   "desc": "Räddningstjänsten har larmats till flera skogbränder i Västerbotten. I Norsjö har två helikoptrar kallats in för att släcka elden. Samtidigt varnar SMHI för stor brandfara."
+   "desc": "Priset för både olja och gas har stigit kraftigt de senaste dagarna, efter fortsatta amerikanska och iranska attacker vid Hormuzsundet. – Ligger läget som det ser ut i dag kommer det att innebära gradvis högre priser på råoljemarknaden och därmed också högre priser på drivmedel, säger råvaruanalytikern Christian Kopfer."
   },
   {
    "src": "STHLM",

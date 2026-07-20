@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-19T06:22:37.145Z",
+ "updated": "2026-07-20T06:37:54.787Z",
  "verified": false,
  "deals": [
   {
@@ -10,8 +10,8 @@
   },
   {
    "store": "ICA",
-   "item": "Grillat kycklinglårfilé 1kg",
-   "price": "69 kr/kg",
+   "item": "Grillkorv Falukorv 800g",
+   "price": "32 kr",
    "url": "https://www.ica.se"
   },
   {
@@ -28,14 +28,14 @@
   },
   {
    "store": "IKEA",
-   "item": "Glassbägare Sommarglass 500ml",
+   "item": "Glass Daim 500ml",
    "price": "15 kr",
    "url": "https://www.ikea.com/se/sv/"
   },
   {
    "store": "Rusta",
-   "item": "Utomhuskudde till soffa",
-   "price": "49 kr",
+   "item": "Utomhuskuddar 2-pack",
+   "price": "99 kr",
    "url": "https://www.rusta.com/se"
   }
  ]

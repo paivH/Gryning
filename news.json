@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-20T13:25:01.918Z",
+ "updated": "2026-07-20T15:27:49.893Z",
  "items": [
   {
    "src": "BBC",
@@ -12,6 +12,14 @@
   {
    "src": "BBC",
    "section": "Världen",
+   "title": "Ten killed as Russian attacks on merchant ships in Black Sea intensify",
+   "date": "2026-07-20T14:14:08.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/c4gvpv3ewv2o?at_medium=RSS&at_campaign=rss",
+   "desc": "Russian strikes on the Odesa region have killed 28 people in July alone, local authorities say."
+  },
+  {
+   "src": "BBC",
+   "section": "Världen",
    "title": "Boy, 13, dies during World Cup celebrations in Spain",
    "date": "2026-07-20T10:02:44.000Z",
    "link": "https://www.bbc.co.uk/news/articles/c0qvdy0jv05o?at_medium=RSS&at_campaign=rss",
@@ -20,26 +28,34 @@
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "Food delivery rider wins China's top literary prize",
-   "date": "2026-07-20T03:53:07.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/c5ydr3xd0kvo?at_medium=RSS&at_campaign=rss",
-   "desc": "Wang Jibing is among blue-collar Chinese workers gaining wider attention for their literary works."
+   "title": "Hamas names Khalil al-Hayya as new overall leader",
+   "date": "2026-07-20T14:02:31.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cx25nzkyj50o?at_medium=RSS&at_campaign=rss",
+   "desc": "The Palestinian armed group's Qatar-based chief negotiator replaces Yahya Sinwar, who was killed by Israeli forces in Gaza in 2024."
   },
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "Scores feared dead after passenger ferry capsizes off Guyana",
-   "date": "2026-07-20T11:37:32.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cm2gm99nrm7o?at_medium=RSS&at_campaign=rss",
-   "desc": "Sixty-seven people have been rescued but the ferry is thought to have had more than 130 people on board."
+   "title": "Police block thousands of 'cockroach' protesters marching on India's parliament",
+   "date": "2026-07-20T12:31:10.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cvg9w9dxd7lo?at_medium=RSS&at_campaign=rss",
+   "desc": "Some protesters demanding education reforms said they were injured in clashes with police who banned the march."
   },
   {
-   "src": "BBC",
-   "section": "Världen",
-   "title": "JD Vance says wife Usha and son 'happy and healthy' after birth of fourth child",
-   "date": "2026-07-20T11:28:30.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cj63kngxpxpo?at_medium=RSS&at_campaign=rss",
-   "desc": "The couple welcomed their fourth child, Alec Neel Vance, on Sunday morning."
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Man skadad i fyrhjulingsolycka – förd till sjukhus med helikopter",
+   "date": "2026-07-20T15:01:58.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/sormland/man-skadad-i-fyrhjulingsolycka-ford-till-sjukhus-med-helikopter",
+   "desc": "En man i 60-årsåldern har skadats i en fyrhjulingsolycka mellan Nyköping och Trosa under måndagseftermiddagen. – Av någon anledning har han hamnat i diket och fått fyrhjulingen över sig, säger Mats Pettersson, polisens presstalesperson."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Dyr olja efter fortsatta attacker: ”Då kommer världen tvingas agera”",
+   "date": "2026-07-20T14:31:31.000Z",
+   "link": "https://www.svt.se/nyheter/ekonomi/dyr-olja-efter-fortsatta-attacker-da-kommer-varlden-tvingas-agera",
+   "desc": "Priset för både olja och gas stiger kraftigt på måndagen, efter fortsatta amerikanska och iranska attacker vid Hormuzsundet. – Ligger läget som det ser ut i dag kommer det att innebära gradvis högre priser på råoljemarknaden och därmed också högre priser på drivmedel, säger råvaruanalytikern Christian Kopfer."
   },
   {
    "src": "SVT",
@@ -60,26 +76,18 @@
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
-   "title": "Flera larm om skogsbränder i Västerbotten",
+   "title": "Flera larm om skogsbränder i Västerbotten – brandflyg sätts in",
    "date": "2026-07-20T12:34:22.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/vasterbotten/tva-larm-om-skogsbrander-i-lanet",
-   "desc": "Räddningstjänsten har larmats till flera olika skogbränder i Västerbotten. Ett i Norsjö, ett i Sorsele och ett i Vilhelmina. Men stora avstånd gör att det tar tid att hitta dem."
+   "desc": "Räddningstjänsten har larmats till flera skogbränder i Västerbotten. I Norsjö har två helikoptrar kallats in för att släcka elden. Samtidigt varnar SMHI för stor brandfara."
   },
   {
-   "src": "SVT",
+   "src": "STHLM",
    "section": "Sverige · Stockholm",
-   "title": "Ryanairs möjliga förklaring till olyckan: ”Främmande föremål”",
-   "date": "2026-07-20T10:22:02.000Z",
-   "link": "https://www.svt.se/nyheter/utrikes/ryanairs-mojliga-forklaring-till-olyckan-frammande-foremal",
-   "desc": "I början av juli sögs en man delvis ut ur ett Ryanairflyg efter att fönstret bredvid honom krossats. Nu har utredningen kommit med en möjlig förklaring till olyckan. ”De första indikationerna tyder på att det verkar röra sig om skador orsakade av ett främmande föremål på motorn vid start i Thessaloniki”, säger Ryanairs vd Michael O´Leary."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "15-åring sprängde sig själv – hovrätten fastställer domen",
-   "date": "2026-07-20T09:30:20.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/stockholm/15-aring-sprangde-sig-sjalv-hovratten-faststaller-dom",
-   "desc": "En 15-årig pojke sprängde sig själv av misstag i Östberga förra året. Nu fastställer Svea hovrätt tingsrättens dom mot de inblandade vännerna och uppdragsgivaren."
+   "title": "Stort strömavbrott i Nynäshamn – tusentals kunder drabbade",
+   "date": "2026-07-20T14:12:40.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/stockholm/stort-stromavbrott-i-nynashamn-tusentals-drabbade",
+   "desc": "Nynäshamn har drabbats av stort strömavbrott klockan 11:20 under måndagen. Flera timmar senare står 2 959 kunder utan ström. – Vi har personal som är ute och felsöker. Det är sannolikt att det är ett träd fallit över en elledning, säger Sarah Östberg, presskontakt Ellevio"
   },
   {
    "src": "STHLM",
@@ -112,14 +120,6 @@
    "date": "2026-07-19T16:09:11.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/argentinska-agustina-om-internethatet-vi-ar-inte-rasister",
    "desc": "På internet flödar anklagelserna om att Argentina är ett fuskande land fyllt av främlingsfientlighet. Argentinska Agustina Velazquez tänker därför stanna inne under finalen. – Har man denna tröja på sig vet man inte om folk som kommer fram ska heja på eller kalla en rasist, säger hon."
-  },
-  {
-   "src": "STHLM",
-   "section": "Sverige · Stockholm",
-   "title": "Man död efter fall från balkong i Hässelby",
-   "date": "2026-07-19T04:28:43.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/stockholm/misstankt-grovt-brott-vid-flerfamiljshus-i-stockholm",
-   "desc": "Den man som föll från en balkong i Hässelby under lördagskvällen har avlidit av sina skador. Två personer sitter sedan tidigare anhållna misstänkta för mordförsök."
   },
   {
    "src": "BBC",

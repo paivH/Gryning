@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-20T02:54:40.776Z",
+ "updated": "2026-07-20T05:03:26.891Z",
  "items": [
   {
    "src": "BBC",
@@ -8,6 +8,22 @@
    "date": "2026-07-19T19:45:12.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
    "desc": "The US military reports another death a day after two of its soldiers were killed in Jordan."
+  },
+  {
+   "src": "BBC",
+   "section": "Världen",
+   "title": "Food delivery rider wins China's top literary prize",
+   "date": "2026-07-20T03:53:07.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/c5ydr3xd0kvo?at_medium=RSS&at_campaign=rss",
+   "desc": "Wang Jibing is among blue-collar Chinese workers gaining wider attention for their literary works."
+  },
+  {
+   "src": "BBC",
+   "section": "Världen",
+   "title": "Norway opens new memorial for victims of 2011 massacre",
+   "date": "2026-07-20T01:11:08.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/c07r9m22gyyo?at_medium=RSS&at_campaign=rss",
+   "desc": "The artwork in the capital Oslo was unveiled on Sunday ahead of the 15th anniversary of the attack."
   },
   {
    "src": "BBC",
@@ -26,20 +42,20 @@
    "desc": "Eight people die and dozens are injured as several cities are hit by missile and drone attacks, while Kyiv continues its own assault on Russian infrastructure."
   },
   {
-   "src": "BBC",
-   "section": "Världen",
-   "title": "Norway opens new memorial for victims of 2011 massacre",
-   "date": "2026-07-20T01:11:08.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/c07r9m22gyyo?at_medium=RSS&at_campaign=rss",
-   "desc": "The artwork in the capital Oslo was unveiled on Sunday ahead of the 15th anniversary of the attack."
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Operatören räds inte vintern – nu rullar elbussar i Kiruna",
+   "date": "2026-07-20T03:30:09.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/norrbotten/operatoren-rads-inte-vintern-nu-rullar-elbussar-i-kiruna",
+   "desc": "På andra håll i norra Sverige har införandet av eldrivna bussar i lokaltrafiken orsakat stora problem. Nu rullar elbussar i Kiruna och den nya operatören lovar att det kommer att fungera även när det blir som kallast till vintern."
   },
   {
-   "src": "BBC",
-   "section": "Världen",
-   "title": "The 1975's Matty Healy marries model Gabbriette Bechtel in Los Angeles",
-   "date": "2026-07-19T14:50:11.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/c5ywxp2d826o?at_medium=RSS&at_campaign=rss",
-   "desc": "The newlyweds were first linked in 2023 after Healy's brief relationship with Taylor Swift."
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Så undviker du att förväxla svampar i skogen: ”Lite lurigt”",
+   "date": "2026-07-20T03:30:09.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/sormland/sa-undviker-du-att-forvaxla-svampar-i-skogen-lite-lurigt",
+   "desc": "Toppig giftspindling eller trattkantarell? Svampkonsulenten Annika Fritsch delar med sig av tips för att minska risken för förväxling av svampar i skogen."
   },
   {
    "src": "SVT",
@@ -64,22 +80,6 @@
    "date": "2026-07-19T14:54:34.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/jonkoping/minnesstund-for-christian-zedig-i-eksjo-manga-kande-honom",
    "desc": "Under söndagen hålls en minnesstund för att hedra 32-årige Christian Zedig, som avled efter att han misshandlades i Köpenhamn på ett VM-evenemang. Hans död har berört många. – En hemsk tragedi, säger Sofie Karlsson, en av initiativtagarna."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Avstängda vägar och vattenläckor i regnets spår i Nyköping",
-   "date": "2026-07-19T10:56:52.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/sormland/avstangda-vagar-och-vattenlackor-i-regnets-spar-i-nykoping",
-   "desc": "Ett metersdjupt hål har bildats på Industrigatan i centrala Nyköping efter lördagens stora vattenmängder. Även på Svanvägen arbetar man med en vattenläcka."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Elfel stoppar tågen mellan Surahammar och Virsbo",
-   "date": "2026-07-19T10:08:20.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/vastmanland/elfel-stoppar-tagen-mellan-surahammar-och-virsbo",
-   "desc": "Ett elfel på tågsträckan mellan Västerås och Ludvika ser ut att stoppa trafiken i flera dagar. Först på tisdagskvällen beräknas tågen kunna trafikera spåren igen."
   },
   {
    "src": "STHLM",

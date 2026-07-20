@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-20T05:03:26.891Z",
+ "updated": "2026-07-20T08:23:24.832Z",
  "items": [
   {
    "src": "BBC",
@@ -44,6 +44,30 @@
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
+   "title": "Coop rånades av maskerad man med pistol – nu väcks åtal",
+   "date": "2026-07-20T08:16:55.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/dalarna/coop-ranades-av-maskerad-man-med-pistol-nu-vacks-atal",
+   "desc": "En maskerad man dök upp vid stängningsdags och visade upp en pistol för butikspersonal. Nu åtalas en man i 18-årsåldern för att ha rånat Coop i Djurås i april."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Efter lyxinköpen till förskolan – rektor åtalas",
+   "date": "2026-07-20T08:01:09.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/jonkoping/efter-lyxinkopen-till-forskolan-rektor-atalas",
+   "desc": "Efter att ha gjort inköp av bland annat möbler och designlampor som sedan sålts vidare, åtalas nu en tidigare rektor i Jönköpings kommun. Det handlar om inköp för över en miljon."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Släckning i Drammen väntas pågå i tio dygn till",
+   "date": "2026-07-20T07:54:34.000Z",
+   "link": "https://www.svt.se/nyheter/utrikes/slackning-i-drammen-vantas-paga-i-tio-dygn-till",
+   "desc": "Räddningstjänsten räknar med att det kommer att ta ytterligare tio dagar innan storbranden i norska Drammen är helt släckt."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
    "title": "Operatören räds inte vintern – nu rullar elbussar i Kiruna",
    "date": "2026-07-20T03:30:09.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/norrbotten/operatoren-rads-inte-vintern-nu-rullar-elbussar-i-kiruna",
@@ -56,30 +80,6 @@
    "date": "2026-07-20T03:30:09.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/sormland/sa-undviker-du-att-forvaxla-svampar-i-skogen-lite-lurigt",
    "desc": "Toppig giftspindling eller trattkantarell? Svampkonsulenten Annika Fritsch delar med sig av tips för att minska risken för förväxling av svampar i skogen."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Spanien vinner VM-guld – Ferran Torres sänkte Argentina i förlängning",
-   "date": "2026-07-19T22:01:54.000Z",
-   "link": "https://www.svt.se/sport/fotboll/spanien-vinner-vm-guld-ferran-torres-sankte-argentina-i-forlangning",
-   "desc": "Spanien har vunnit VM-guld för andra gången. Ferran Torres, 26, blev stor hjälte i finalen mot Argentina med sitt 1–0-mål i förlängning. – Målet var för 47 miljoner. Det var inte mitt eller spelarnas, det var ödet, säger guldhjälten efter finalen."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Sverige förlorar finalen i U20-EM efter jätterysare",
-   "date": "2026-07-19T18:29:08.000Z",
-   "link": "https://www.svt.se/sport/handboll/sverige-forlorar-finalen-i-u20-em-efter-jatterysare",
-   "desc": "Sveriges U20-landslag i handboll var på väg mot första EM-guldet. Men efter en sen kvittering blev det förlust efter förlängning mot Ungern."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Minnesstund för Christian Zedig i Eksjö: ”Många kände honom”",
-   "date": "2026-07-19T14:54:34.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/jonkoping/minnesstund-for-christian-zedig-i-eksjo-manga-kande-honom",
-   "desc": "Under söndagen hålls en minnesstund för att hedra 32-årige Christian Zedig, som avled efter att han misshandlades i Köpenhamn på ett VM-evenemang. Hans död har berört många. – En hemsk tragedi, säger Sofie Karlsson, en av initiativtagarna."
   },
   {
    "src": "STHLM",

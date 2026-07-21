@@ -1,11 +1,11 @@
 {
- "updated": "2026-07-21T10:37:57.829Z",
+ "updated": "2026-07-21T12:22:16.015Z",
  "items": [
   {
    "src": "BBC",
    "section": "Världen",
    "title": "Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks",
-   "date": "2026-07-21T09:16:21.000Z",
+   "date": "2026-07-21T11:42:41.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss",
    "desc": "The duties mark a major escalation in trade tensions between the North American neighbours."
   },
@@ -21,9 +21,17 @@
    "src": "BBC",
    "section": "Världen",
    "title": "Lebanese army says troops deploying in 'pilot zone' after Israeli withdrawal",
-   "date": "2026-07-21T09:41:11.000Z",
+   "date": "2026-07-21T10:43:48.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cy8mynlmn55o?at_medium=RSS&at_campaign=rss",
    "desc": "A US-brokered agreement should see Israeli troops pulling out of a small part of Lebanon occupied during their conflict with Hezbollah."
+  },
+  {
+   "src": "BBC",
+   "section": "Världen",
+   "title": "India's 'cockroach' protest continues a day after police crackdown",
+   "date": "2026-07-21T08:44:43.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/c98v349r9lro?at_medium=RSS&at_campaign=rss",
+   "desc": "Delhi witnessed overwhelming violence on Monday, with at least 60 protesters wounded. Police said 118 of their men were also injured."
   },
   {
    "src": "BBC",
@@ -34,12 +42,28 @@
    "desc": "The Houthis say the embargo begins immediately and is a response to a Saudi blockade of ports and airports in Yemen."
   },
   {
-   "src": "BBC",
-   "section": "Världen",
-   "title": "'Anti-ICE' army veteran started fire outside Manhattan federal building, say officials",
-   "date": "2026-07-21T02:16:05.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/c1m1rr90dzxo?at_medium=RSS&at_campaign=rss",
-   "desc": "Andrew Arrabaca, 43, was armed with two axes, a machete, three knives and fireworks, says the FBI."
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Kastade flygblad med antisemitiskt budskap utanför polishus – döms till rättspsykiatrisk vård",
+   "date": "2026-07-21T12:11:55.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/sormland/kastade-flygblad-med-antisemitiskt-budskap-vid-polisen-doms-till-rattspsykiatrisk-vard",
+   "desc": "En man ertappades på film med att slänga ut flygblad med antisemitiskt budskap utanför Nyköpings polishus tidigare i år. Nu döms han till rättspsykiatrisk vård med särskild utskrivningsprövning för hets mot folkgrupp."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Båtar brinner i marina – räddningstjänsten bekämpar branden i Lennartsfors",
+   "date": "2026-07-21T11:38:09.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/varmland/batar-brinner-i-marina-raddningstjansten-bekampar-branden-i-lennartsfors",
+   "desc": "Minst tre båtar brinner i hamnen i Lennartsfors. Och det finns risk för spridning. – Vi måste vara försiktiga när det gäller båtar av den här typen. Det kan finnas gasol och bränsle ombord, säger Jon Bergkvist, vakthavande befäl för Räddningsregion Bergslagen."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Många vill låta hunden ärva – men juridiskt är husdjur bara egendom",
+   "date": "2026-07-21T10:41:30.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/ost/manga-vill-lata-hunden-arva-men-juridiskt-ar-husdjur-bara-egendom",
+   "desc": "Enligt en ny Sifo-undersökning vill var sjätte husdjursägare att deras djur ska ärva deras pengar när de dör. – Man får väl välja vem som ska ärva en, säger Sanna Åkerlund Gebeyehu, en av de hundägare vi hittade på stan i Norrköping."
   },
   {
    "src": "SVT",
@@ -58,28 +82,12 @@
    "desc": "Hästmyran har vaknat tidigare än någonsin på grund av en varm vår och tidig försommar. Nordens termiter, som skadedjuret också kallas, kan ställa till med stora problem. – Du kan trampa genom golvet om de slagit fäste i golvåsarna, säger Kenneth Nordström, Anticimex."
   },
   {
-   "src": "SVT",
+   "src": "STHLM",
    "section": "Sverige · Stockholm",
-   "title": "Linn Svahns hemliga taktik inför VM: ”Inget hokus pokus”",
-   "date": "2026-07-21T09:39:56.000Z",
-   "link": "https://www.svt.se/sport/langdskidor/linn-svahns-hemliga-taktik-infor-vm-inget-hokus-pokus",
-   "desc": "Linn Svahn har siktet inriktat. VM i Falun avgörs i mars nästa år och 26-åringen har en klar och något hemlig träningsplan för att det ska bli en fullträff. – Folk kan lyssna, säger hon till SVT Sport."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Flera döms i fastighetshärvan i Södertälje",
-   "date": "2026-07-21T09:14:16.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/sodertalje/flera-doms-i-fastighetsharvan-i-sodertalje",
-   "desc": "Flera personer döms till fängelse i den omfattande fastighetshärvan i Södertälje. Hårdast straff får en man som döms till fyra års fängelse för bland annat grova näringspenningtvättsbrott och grovt bedrägeri. Sammanlagt döms sju personer i härvan."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Granne larmade om inbrott – upptäckte bortplockat fönster",
-   "date": "2026-07-21T09:10:04.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/jonkoping/sa-tog-sig-tjuvarna-in-i-huset-polisen-undersoker-liknande-fall",
-   "desc": "Polis utreder nu på tisdagsförmiddagen ett villainbrott i Skillingaryd. En granne noterade att ett fönster hade lyfts ur sin ram – ett tillvägagångssätt som polisen sett flera gånger."
+   "title": "Förintelsesymbol användes i Palestinademonstration – anmäls av polisen",
+   "date": "2026-07-21T12:03:29.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/stockholm/forintelsesymbol-anvandes-i-palestinademonstration-anmals-av-polisen",
+   "desc": "Portalen för koncentrationslägret Auschwitz är en av de mest kända symbolerna för Förintelsen. Under en Palestinademonstration i Stockholm användes en kopia där orden ”Arbete ger frihet” bytts ut mot ”Gaza”, vilket väckte debatt i sociala medier. Nu har polisen upprättat en anmälan om hets mot folkgrupp och beslagtagit skylten."
   },
   {
    "src": "STHLM",
@@ -112,14 +120,6 @@
    "date": "2026-07-20T14:12:40.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/stort-stromavbrott-i-nynashamn-tusentals-drabbade",
    "desc": "Nynäshamn har drabbats av stort strömavbrott klockan 11:20 under måndagen. En rovfågel låg bakom kortslutningen som lämnade 3294 kunder utan ström. – Just det här har inte hänt så länge jag har jobbat här, säger Sarah Östberg."
-  },
-  {
-   "src": "STHLM",
-   "section": "Sverige · Stockholm",
-   "title": "15-åring sprängde sig själv – hovrätten fastställer domen",
-   "date": "2026-07-20T09:30:20.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/stockholm/15-aring-sprangde-sig-sjalv-hovratten-faststaller-dom",
-   "desc": "En 15-årig pojke sprängde sig själv av misstag i Östberga förra året. Nu fastställer Svea hovrätt tingsrättens dom mot de inblandade vännerna och uppdragsgivaren."
   },
   {
    "src": "BBC",

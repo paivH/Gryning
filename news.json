@@ -1,6 +1,14 @@
 {
- "updated": "2026-07-21T19:15:29.260Z",
+ "updated": "2026-07-21T20:43:26.490Z",
  "items": [
+  {
+   "src": "BBC",
+   "section": "Världen",
+   "title": "Zelensky sacks Ukraine's top army commander after days of protests",
+   "date": "2026-07-21T19:57:38.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cyvl35z3917o?at_medium=RSS&at_campaign=rss",
+   "desc": "Oleksandr Syrskyi is dismissed after days of unrest over the removal of popular Defence Minister Mykhailo Fedorov."
+  },
   {
    "src": "BBC",
    "section": "Världen",
@@ -28,14 +36,6 @@
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "Row escalates in Ukraine over army chief's future",
-   "date": "2026-07-21T18:49:19.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/c7vgel8374yo?at_medium=RSS&at_campaign=rss",
-   "desc": "Protesters are demanding Oleksandr Syrskyi be removed and former defence minister Mykhailo Fedorov reinstated by Friday."
-  },
-  {
-   "src": "BBC",
-   "section": "Världen",
    "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
    "date": "2026-07-21T16:10:56.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
@@ -44,10 +44,18 @@
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
-   "title": "IFK Göteborg gjorde fiasko mot okänt estniskt lag: ”Det är uppenbart”",
+   "title": "Misstänkt mordförsök i Botkyrka",
+   "date": "2026-07-21T20:16:32.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/stockholm/misstankt-mordforsok-i-botkyrka-w3wtmv",
+   "desc": "Polisen utreder ett misstänkt mordförsök efter att en man har knivskadats i ryggen i Alby i Botkyrka. Mannen är förd med ambulanshelikopter till sjukhus."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Fiasko för IFK Göteborg mot okänt estniskt lag: ”Vi går ner oss”",
    "date": "2026-07-21T18:52:42.000Z",
    "link": "https://www.svt.se/sport/fotboll/ifk-goteborg-gjorde-fiasko-mot-okant-estniskt-lag",
-   "desc": "Det blev inget trendbrott för IFK Göteborg efter hemmasegern mot BP senast. I kväll gjorde den förra Europastorheten fiasko när man förlorade hemma mot estniska Levadia med 1–2 i kvalet till Conference League till rejäla burop. Men fick en gratisbiljett till returen."
+   "desc": "Det blev inget trendbrott för IFK Göteborg efter hemmasegern mot BP senast. I kväll blev det fiasko för den förra Europastorheten när man förlorade hemma mot estniska Levadia med 1–2 i kvalet till Conference League till rejäla burop. Men man fick en gratisbiljett till returen."
   },
   {
    "src": "SVT",
@@ -74,12 +82,12 @@
    "desc": "Tre personer fördes till sjukhus efter en krock på väg 21 vid Kvidinge. Vägen var helt avstängd men är nu öppen igen."
   },
   {
-   "src": "SVT",
+   "src": "STHLM",
    "section": "Sverige · Stockholm",
-   "title": "18-åring från Åtvidaberg döms för mordannonser på Signal",
-   "date": "2026-07-21T16:28:26.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/ost/18-aring-fran-atvidaberg-doms-for-mordannonser-pa-signal",
-   "desc": "En 18-åring från Åtvidaberg döms av Linköpings tingsrätt till 3 år och 6 månader i fängelse för stämpling till brotten mord och grov allmänfarlig ödeläggelse."
+   "title": "Misstänkt mordförsök i Botkyrka",
+   "date": "2026-07-21T20:16:32.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/stockholm/misstankt-mordforsok-i-botkyrka-w3wtmv",
+   "desc": "Polisen utreder ett misstänkt mordförsök efter att en man har knivskadats i ryggen i Alby i Botkyrka. Mannen är förd med ambulanshelikopter till sjukhus."
   },
   {
    "src": "STHLM",
@@ -112,14 +120,6 @@
    "date": "2026-07-21T03:30:04.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/ny-satsning-gor-det-gratis-att-skrota-baten",
    "desc": "När skroten blir för dyr väljer många båtägare att helt enkelt sänka farkosten – något som skapar stora miljöproblem. För att förhindra detta inför Havs- och vattenmyndigheten nu en premie som gör det gratis att skrota båten."
-  },
-  {
-   "src": "STHLM",
-   "section": "Sverige · Stockholm",
-   "title": "Nyheter från dagen: 20 juli",
-   "date": "2026-07-20T18:28:23.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/stockholm/nyheter-fran-dagen-20-juli-uza1jz",
-   "desc": "Detta har SVT Nyheter Stockholm rapporterat om under måndagen den 20 juli."
   },
   {
    "src": "BBC",

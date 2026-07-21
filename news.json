@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-21T14:33:29.700Z",
+ "updated": "2026-07-21T16:20:59.723Z",
  "items": [
   {
    "src": "BBC",
@@ -12,22 +12,6 @@
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
-   "date": "2026-07-21T09:48:20.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
-   "desc": "Iran says it has hit two ships in the Strait of Hormuz as well as targets in Bahrain and Jordan."
-  },
-  {
-   "src": "BBC",
-   "section": "Världen",
-   "title": "Lebanese army says troops deploying in 'pilot zone' after Israeli withdrawal",
-   "date": "2026-07-21T10:43:48.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cy8mynlmn55o?at_medium=RSS&at_campaign=rss",
-   "desc": "A US-brokered agreement should see Israeli troops pulling out of a small part of Lebanon occupied during their conflict with Hezbollah."
-  },
-  {
-   "src": "BBC",
-   "section": "Världen",
    "title": "Row escalates in Ukraine over army chief's future",
    "date": "2026-07-21T12:33:15.000Z",
    "link": "https://www.bbc.co.uk/news/articles/c7vgel8374yo?at_medium=RSS&at_campaign=rss",
@@ -36,10 +20,50 @@
   {
    "src": "BBC",
    "section": "Världen",
+   "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
+   "date": "2026-07-21T16:10:56.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
+   "desc": "Iran says it has hit two ships in the Strait of Hormuz as well as targets in Bahrain and Jordan."
+  },
+  {
+   "src": "BBC",
+   "section": "Världen",
+   "title": "Lebanese army says troops deploying in 'pilot zone' after Israeli withdrawal",
+   "date": "2026-07-21T16:03:22.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cy8mynlmn55o?at_medium=RSS&at_campaign=rss",
+   "desc": "A US-brokered agreement should see Israeli troops pulling out of a small part of Lebanon occupied during their conflict with Hezbollah."
+  },
+  {
+   "src": "BBC",
+   "section": "Världen",
    "title": "Dozens hurt in Bologna protests after man dies while being restrained by police",
    "date": "2026-07-21T12:48:37.000Z",
    "link": "https://www.bbc.co.uk/news/articles/c86nwgw148xo?at_medium=RSS&at_campaign=rss",
    "desc": "Thousands of people took to the streets demanding justice for a Moroccan-born man who died on Sunday."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Här röjer de upp efter ovädret i Djurås",
+   "date": "2026-07-21T15:10:28.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/dalarna/har-rojer-de-upp-efter-ovadret-i-djuras",
+   "desc": "Nedfallna träd och hagel så kraftigt att det har orsakat skador på väggar. I Gagnef kämpar invånarna och kommunen nu för att röja upp efter det kraftiga oväder som drog in över trakten på fredagen. – Det är mycket döda och lutande träd så vi uppmanar allmänheten att hålla sig undan, säger arbetsledare Einar Eriksson"
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Orenat avloppsvatten efter strömavbrott – avråder från bad",
+   "date": "2026-07-21T14:36:46.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/smaland/orenat-avloppsvatten-efter-stromavbrott-avrader-fran-bad",
+   "desc": "Mönsterås kommun avråder från bad vid två badplatser i Timmernabben. Detta efter att orenat avloppsvatten runnit ut i havet, som en följd av det stora strömavbrottet."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Fullbelagt på länets stora campingar – av norrmän: ”Alla får inte plats”",
+   "date": "2026-07-21T14:31:57.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/vasterbotten/fullbelagt-pa-lanets-stora-campingar-av-norrman-alla-far-inte-plats",
+   "desc": "Motorveckan fyller nu campingen i Lycksele, fotbollsfestivalen campingen i Umeå och den risiga nordnorska sommaren gör att norrmännen flyr till solen i Skellefteå. Nu är det minst sagt högtryck på länets största campingar. – Alla får inte plats just nu, säger Mikael Stenman, receptionschef på Ansia Camping i Lycksele."
   },
   {
    "src": "SVT",
@@ -56,30 +80,6 @@
    "date": "2026-07-21T13:42:44.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/jonkoping/atalade-serieblottaren-kan-domas-till-fangelse",
    "desc": "Efter två dagars huvudförhandling tidigare i sommar beslutade Jönköpings tingsrätt att mannen som åtalats för ha blottat sig för flera kvinnor, skulle genomgå en rättspsykiatrisk undersökning."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Olycka på E4 – motorcyklist till sjukhus",
-   "date": "2026-07-21T13:26:34.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/jonkoping/olycka-pa-e4-motorcyklist-till-sjukhus",
-   "desc": "En motorcykelolycka inträffade på tisdagseftermiddagen på E4 strax söder om Jönköping."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Umeåkvinna åtalad – tullen beslagtog 30 000 narkotikaklassade kapslar",
-   "date": "2026-07-21T12:59:05.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/vasterbotten/umeakvinna-atalad-tullen-beslagtog-30-000-narkotikaklassade-kapslar",
-   "desc": "Tullen i Malmö gjorde en stickprovskontroll och hittade 30 000 narkotikaklassade kapslar. En tidigare ostraffad Umeåkvinna i 60-årsåldern åtalas för grov narkotikasmuggling."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Man spred antisemitiska budskap utanför polishuset i Nyköping – döms till vård",
-   "date": "2026-07-21T12:11:55.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/sormland/kastade-flygblad-med-antisemitiskt-budskap-vid-polisen-doms-till-rattspsykiatrisk-vard",
-   "desc": "En man ertappades på film med att slänga ut flygblad med antisemitiskt budskap utanför Nyköpings polishus tidigare i år. Nu döms han till rättspsykiatrisk vård med särskild utskrivningsprövning för hets mot folkgrupp."
   },
   {
    "src": "STHLM",

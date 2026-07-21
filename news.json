@@ -1,11 +1,11 @@
 {
- "updated": "2026-07-21T08:22:13.328Z",
+ "updated": "2026-07-21T10:37:57.829Z",
  "items": [
   {
    "src": "BBC",
    "section": "Världen",
    "title": "Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks",
-   "date": "2026-07-21T07:56:13.000Z",
+   "date": "2026-07-21T09:16:21.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss",
    "desc": "The duties mark a major escalation in trade tensions between the North American neighbours."
   },
@@ -13,9 +13,17 @@
    "src": "BBC",
    "section": "Världen",
    "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
-   "date": "2026-07-21T06:16:06.000Z",
+   "date": "2026-07-21T09:48:20.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
    "desc": "Iran says it has hit two ships in the Strait of Hormuz as well as targets in Bahrain and Jordan."
+  },
+  {
+   "src": "BBC",
+   "section": "Världen",
+   "title": "Lebanese army says troops deploying in 'pilot zone' after Israeli withdrawal",
+   "date": "2026-07-21T09:41:11.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cy8mynlmn55o?at_medium=RSS&at_campaign=rss",
+   "desc": "A US-brokered agreement should see Israeli troops pulling out of a small part of Lebanon occupied during their conflict with Hezbollah."
   },
   {
    "src": "BBC",
@@ -28,15 +36,7 @@
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "Tate brothers appear in US court for extradition proceedings",
-   "date": "2026-07-20T19:05:50.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6294y87wk6o?at_medium=RSS&at_campaign=rss",
-   "desc": "They were arrested on Saturday after the UK announced dozens of new charges, including rape and sex trafficking, which they deny."
-  },
-  {
-   "src": "BBC",
-   "section": "Världen",
-   "title": "'Anti-ICE' Army veteran set fire outside Manhattan federal building, say officials",
+   "title": "'Anti-ICE' army veteran started fire outside Manhattan federal building, say officials",
    "date": "2026-07-21T02:16:05.000Z",
    "link": "https://www.bbc.co.uk/news/articles/c1m1rr90dzxo?at_medium=RSS&at_campaign=rss",
    "desc": "Andrew Arrabaca, 43, was armed with two axes, a machete, three knives and fireworks, says the FBI."
@@ -44,42 +44,42 @@
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
-   "title": "Så mycket minskar dödsfallen i trafiken",
-   "date": "2026-07-21T07:31:33.000Z",
-   "link": "https://www.svt.se/nyheter/utrikes/sa-mycket-minskar-dodsfallen-i-trafiken",
-   "desc": "Allt färre personer omkommer i trafikolyckor globalt, visar nya siffror från Världshälsoorganisationen WHO. Sedan 2011 har antalet sjunkit med 21 procent."
+   "title": "Olycka i vattenkraftverk i Himalaya – tio döda",
+   "date": "2026-07-21T10:06:42.000Z",
+   "link": "https://www.svt.se/nyheter/utrikes/olycka-i-vattenkraftverk-i-himalaya-10-doda",
+   "desc": "En olycka har inträffat i en tunnel i ett vattenkraftverksprojekt i Himalaya i Indien, rapporterar nyhetsbyrån AP. Minst tio personer har dött och sjutton saknas."
   },
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
-   "title": "Jim Gottfridsson återvänder till Sverige – klar för IFK Ystad",
-   "date": "2026-07-21T06:34:51.000Z",
-   "link": "https://www.svt.se/sport/handboll/jim-gottfridsson-atervander-till-sverige-klar-for-ifk-ystad",
-   "desc": "Jim Gottfridsson väljer att vända hem till Sverige och IFK Ystad. Landslagsstjärnan har skrivit på ett treårskontrakt. – När möjligheten att komma hem till IFK Ystad blev verklighet kändes beslutet helt rätt, säger han till klubbens hemsida."
+   "title": "Hästmyrorna kom rekordtidigt  – så undviker du skadedjuret",
+   "date": "2026-07-21T09:59:53.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/norrbotten/hastmyrorna-kom-rekordtidigt-sa-undviker-du-skadedjuret",
+   "desc": "Hästmyran har vaknat tidigare än någonsin på grund av en varm vår och tidig försommar. Nordens termiter, som skadedjuret också kallas, kan ställa till med stora problem. – Du kan trampa genom golvet om de slagit fäste i golvåsarna, säger Kenneth Nordström, Anticimex."
   },
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
-   "title": "Ebba Anderssons plan inför hemma-VM 2027: ”Väldigt krävande”",
-   "date": "2026-07-21T06:06:45.000Z",
-   "link": "https://www.svt.se/sport/langdskidor/ebba-anderssons-plan-infor-hemma-vm-2027-valdigt-kravande",
-   "desc": "Ett hemma-VM i Falun väntar i vinter och för Ebba Andersson börjar planen inför det stora målet att sätta sig. – Det kan innebära att jag väljer bort någon världscupshelg, säger Ebba Andersson till SVT Sport."
+   "title": "Linn Svahns hemliga taktik inför VM: ”Inget hokus pokus”",
+   "date": "2026-07-21T09:39:56.000Z",
+   "link": "https://www.svt.se/sport/langdskidor/linn-svahns-hemliga-taktik-infor-vm-inget-hokus-pokus",
+   "desc": "Linn Svahn har siktet inriktat. VM i Falun avgörs i mars nästa år och 26-åringen har en klar och något hemlig träningsplan för att det ska bli en fullträff. – Folk kan lyssna, säger hon till SVT Sport."
   },
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
-   "title": "Här förbereder Mjällbysupportrarna tifot inför Champions League-kvalet",
-   "date": "2026-07-21T03:30:04.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/blekinge/har-forbereder-mjallbysupportrarna-tifot-infor-champions-league-kvalet",
-   "desc": "Under tisdagkvällen inleds Mjällby AIF:s historiska Europa-spel, när laget tar emot Lincoln Red Imps på Strandvallen. Inför det har 15 supportrar limmat, skissat och målat för att få ihop tifot till den historiska matchen."
+   "title": "Flera döms i fastighetshärvan i Södertälje",
+   "date": "2026-07-21T09:14:16.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/sodertalje/flera-doms-i-fastighetsharvan-i-sodertalje",
+   "desc": "Flera personer döms till fängelse i den omfattande fastighetshärvan i Södertälje. Hårdast straff får en man som döms till fyra års fängelse för bland annat grova näringspenningtvättsbrott och grovt bedrägeri. Sammanlagt döms sju personer i härvan."
   },
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
-   "title": "Kalix först med att använda konsten i kampen mot ALS",
-   "date": "2026-07-21T03:30:04.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/norrbotten/kalix-forst-med-att-anvanda-konsten-i-kampen-mot-als",
-   "desc": "Kalix blir den första kommunen i Sverige där initiativet Art Against ALS genomför ett konstnärligt pilotprojekt i samverkan med Börje Salming ALS-stiftelse. En idé har mynnat ut i en konstutställning. – Det är spännande, tycker brodern Stig Salming."
+   "title": "Granne larmade om inbrott – upptäckte bortplockat fönster",
+   "date": "2026-07-21T09:10:04.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/jonkoping/sa-tog-sig-tjuvarna-in-i-huset-polisen-undersoker-liknande-fall",
+   "desc": "Polis utreder nu på tisdagsförmiddagen ett villainbrott i Skillingaryd. En granne noterade att ett fönster hade lyfts ur sin ram – ett tillvägagångssätt som polisen sett flera gånger."
   },
   {
    "src": "STHLM",

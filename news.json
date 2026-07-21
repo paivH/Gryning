@@ -1,6 +1,14 @@
 {
- "updated": "2026-07-21T17:52:57.828Z",
+ "updated": "2026-07-21T19:15:29.260Z",
  "items": [
+  {
+   "src": "BBC",
+   "section": "Världen",
+   "title": "Lebanese army says troops deploying in 'pilot zone' after Israeli withdrawal",
+   "date": "2026-07-21T18:07:34.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cy8mynlmn55o?at_medium=RSS&at_campaign=rss",
+   "desc": "A US-brokered agreement should see Israeli troops pulling out of a small part of Lebanon occupied during their conflict with Hezbollah."
+  },
   {
    "src": "BBC",
    "section": "Världen",
@@ -12,8 +20,16 @@
   {
    "src": "BBC",
    "section": "Världen",
+   "title": "Dozens hurt in Bologna protests after man dies while being restrained by police",
+   "date": "2026-07-21T12:48:37.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/c86nwgw148xo?at_medium=RSS&at_campaign=rss",
+   "desc": "Thousands of people took to the streets demanding justice for a Moroccan-born man who died on Sunday."
+  },
+  {
+   "src": "BBC",
+   "section": "Världen",
    "title": "Row escalates in Ukraine over army chief's future",
-   "date": "2026-07-21T12:33:15.000Z",
+   "date": "2026-07-21T18:49:19.000Z",
    "link": "https://www.bbc.co.uk/news/articles/c7vgel8374yo?at_medium=RSS&at_campaign=rss",
    "desc": "Protesters are demanding Oleksandr Syrskyi be removed and former defence minister Mykhailo Fedorov reinstated by Friday."
   },
@@ -26,20 +42,12 @@
    "desc": "Iran says it has hit two ships in the Strait of Hormuz as well as targets in Bahrain and Jordan."
   },
   {
-   "src": "BBC",
-   "section": "Världen",
-   "title": "Lebanese army says troops deploying in 'pilot zone' after Israeli withdrawal",
-   "date": "2026-07-21T16:03:22.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cy8mynlmn55o?at_medium=RSS&at_campaign=rss",
-   "desc": "A US-brokered agreement should see Israeli troops pulling out of a small part of Lebanon occupied during their conflict with Hezbollah."
-  },
-  {
-   "src": "BBC",
-   "section": "Världen",
-   "title": "Dozens hurt in Bologna protests after man dies while being restrained by police",
-   "date": "2026-07-21T12:48:37.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/c86nwgw148xo?at_medium=RSS&at_campaign=rss",
-   "desc": "Thousands of people took to the streets demanding justice for a Moroccan-born man who died on Sunday."
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "IFK Göteborg gjorde fiasko mot okänt estniskt lag: ”Det är uppenbart”",
+   "date": "2026-07-21T18:52:42.000Z",
+   "link": "https://www.svt.se/sport/fotboll/ifk-goteborg-gjorde-fiasko-mot-okant-estniskt-lag",
+   "desc": "Det blev inget trendbrott för IFK Göteborg efter hemmasegern mot BP senast. I kväll gjorde den förra Europastorheten fiasko när man förlorade hemma mot estniska Levadia med 1–2 i kvalet till Conference League till rejäla burop. Men fick en gratisbiljett till returen."
   },
   {
    "src": "SVT",
@@ -47,7 +55,7 @@
    "title": "Mjällbys drömstart i CL-kvalet – tog storseger efter klassmål",
    "date": "2026-07-21T17:52:20.000Z",
    "link": "https://www.svt.se/sport/fotboll/mjallbys-dromstart-i-cl-kvalet-tog-storseger-efter-klassmal",
-   "desc": "Drömstart för Mjällby i Champions League-kvalet. Hemma mot Lincoln Red Imps blev det seger med 3–0 efter ett högklassigt kombinationsmål."
+   "desc": "Drömstart för Mjällby i Champions League-kvalet. Hemma mot Lincoln Red Imps blev det seger med 3–0 efter ett högklassigt kombinationsmål. – Helt sjuk känsla, säger målskytten Aki Samuelsen."
   },
   {
    "src": "SVT",
@@ -72,14 +80,6 @@
    "date": "2026-07-21T16:28:26.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/ost/18-aring-fran-atvidaberg-doms-for-mordannonser-pa-signal",
    "desc": "En 18-åring från Åtvidaberg döms av Linköpings tingsrätt till 3 år och 6 månader i fängelse för stämpling till brotten mord och grov allmänfarlig ödeläggelse."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Här röjer de upp efter ovädret i Djurås",
-   "date": "2026-07-21T15:10:28.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/dalarna/har-rojer-de-upp-efter-ovadret-i-djuras",
-   "desc": "Nedfallna träd och hagel så kraftigt att det har orsakat skador på väggar. I Gagnef kämpar invånarna och kommunen nu för att röja upp efter det kraftiga oväder som drog in över trakten på fredagen. – Det är mycket döda och lutande träd så vi uppmanar allmänheten att hålla sig undan, säger arbetsledare Einar Eriksson"
   },
   {
    "src": "STHLM",
@@ -125,6 +125,14 @@
    "src": "BBC",
    "section": "United",
    "title": "Manchester United",
+   "date": "2026-07-21T19:02:00.000Z",
+   "link": "https://www.bbc.co.uk/sounds/play/p0p02mj4?at_medium=RSS&at_campaign=rss",
+   "desc": "Wes Brown has his say on United's summer recruits"
+  },
+  {
+   "src": "BBC",
+   "section": "United",
+   "title": "Manchester United",
    "date": "2026-07-20T11:40:00.000Z",
    "link": "https://www.bbc.co.uk/sounds/play/p0nztlp8?at_medium=RSS&at_campaign=rss",
    "desc": "Gaz and Joe rate the United's stars at the World Cup, discuss transfers and pre-season."
@@ -144,14 +152,6 @@
    "date": "2026-07-14T06:00:00.000Z",
    "link": "https://www.bbc.co.uk/sounds/play/p0nyl4lf?at_medium=RSS&at_campaign=rss",
    "desc": "Man Utd fans react to the signing of Andrey Santos and links with Youri Tielemans."
-  },
-  {
-   "src": "BBC",
-   "section": "United",
-   "title": "Manchester United",
-   "date": "2026-07-13T12:32:00.000Z",
-   "link": "https://www.bbc.co.uk/sounds/play/p0nyhysc?at_medium=RSS&at_campaign=rss",
-   "desc": "Joe and Gaz discuss the latest transfer rumours, new stadium plans and the World Cup."
   }
  ]
 }

@@ -1,6 +1,14 @@
 {
- "updated": "2026-07-22T09:57:07.340Z",
+ "updated": "2026-07-22T11:48:36.761Z",
  "items": [
+  {
+   "src": "BBC",
+   "section": "Världen",
+   "title": "Ukrainian drones hit more sites of Russian online retailer Wildberries",
+   "date": "2026-07-22T10:00:04.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/c36de9n4pxpo?at_medium=RSS&at_campaign=rss",
+   "desc": "Logistics hubs belonging to Wildberries in the Krasnodar and Stavropol regions were struck overnight."
+  },
   {
    "src": "BBC",
    "section": "Världen",
@@ -8,14 +16,6 @@
    "date": "2026-07-22T05:37:43.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cyvl35z3917o?at_medium=RSS&at_campaign=rss",
    "desc": "Oleksandr Syrskyi is dismissed after backlash over the removal of popular Defence Minister Mykhailo Fedorov."
-  },
-  {
-   "src": "BBC",
-   "section": "Världen",
-   "title": "Ukrainian drones hit more sites of Russian online retailer Wildberries",
-   "date": "2026-07-22T08:37:13.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/c36de9n4pxpo?at_medium=RSS&at_campaign=rss",
-   "desc": "Logistics hubs belonging to Wildberries in the Krasnodar and Stavropol regions were struck overnight."
   },
   {
    "src": "BBC",
@@ -36,10 +36,18 @@
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "France passes law banning under-15s from social media",
-   "date": "2026-07-22T03:50:55.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cq56l9p4y93o?at_medium=RSS&at_campaign=rss",
-   "desc": "The law will require social media platforms in France to verify all users age from January."
+   "title": "Modelling scout linked to Epstein found dead in Paris suburbs",
+   "date": "2026-07-22T11:38:21.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cp8en38vpd3o?at_medium=RSS&at_campaign=rss",
+   "desc": "Daniel Siad, whose name appears in the Epstein files thousands of times, had previously denied knowledge of the threat Jeffrey Epstein posed."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "15 år sedan terrordåden – Stoltenberg öppnar sina anteckningar",
+   "date": "2026-07-22T10:00:10.000Z",
+   "link": "https://www.svt.se/nyheter/utrikes/15-ar-sedan-terrordaden-stoltenberg-oppnar-sina-anteckningar",
+   "desc": "77 personer dog, över 200 skadades. 15 år efter terrorattentaten i Norge öppnar den dåvarande statsministern, Jens Stoltenberg, sitt anteckningsblock från dagen. – Det är kraftfullt att bläddra igenom, säger han till NRK. Samtidigt varnar norska säkerhetspolisen om ökad radikalisering, och att fler inspireras av gärningsmannen Anders Behring Breivik."
   },
   {
    "src": "SVT",
@@ -72,14 +80,6 @@
    "date": "2026-07-22T08:06:53.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/vasterbotten/personbil-i-diket-vid-rondell-i-umea-korde-in-i-trad",
    "desc": "En personbil har kört in i diket och in i ett träd vid en rondell på Ersboda i Umeå. Ambulans och räddningstjänst larmades till platsen och föraren fördes till sjukhus."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Vanessa Kamgas hyllning till lillasyster Patricia: ”Bättre än jag var”",
-   "date": "2026-07-22T08:06:07.000Z",
-   "link": "https://www.svt.se/sport/friidrott/vanessa-kamgas-hyllning-till-lillasyster-patricia-battre-an-jag-var",
-   "desc": "Vanessa Kamga har fått sällskap i friidrottslandslaget av lillasyster Patricia. Nu skickar hon en hyllning till 20-åringen. – Du är ju en bättre junior än vad jag var, och så är du familjens första olympier, säger Vanessa Kamga."
   },
   {
    "src": "STHLM",

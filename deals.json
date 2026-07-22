@@ -1,17 +1,17 @@
 {
- "updated": "2026-07-21T06:21:52.906Z",
+ "updated": "2026-07-22T06:21:26.329Z",
  "verified": false,
  "deals": [
   {
    "store": "ICA",
-   "item": "Svenska jordgubbar 500g",
-   "price": "25 kr",
+   "item": "Svensk melon",
+   "price": "19 kr/st",
    "url": "https://www.ica.se"
   },
   {
    "store": "ICA",
-   "item": "Kycklingfilé färsk 1kg",
-   "price": "79 kr/kg",
+   "item": "Färsk kycklingfilé 800g",
+   "price": "59 kr",
    "url": "https://www.ica.se"
   },
   {
@@ -22,20 +22,20 @@
   },
   {
    "store": "Lidl",
-   "item": "Halloumi 200g",
+   "item": "Svenska jordgubbar 500g",
    "price": "25 kr",
    "url": "https://www.lidl.se"
   },
   {
    "store": "IKEA",
-   "item": "Glassbägare Daim 4-pack",
-   "price": "39 kr",
+   "item": "Glass Daim 500ml",
+   "price": "15 kr",
    "url": "https://www.ikea.com/se/sv/"
   },
   {
    "store": "Rusta",
-   "item": "Trädgårdsmöbler soffgrupp",
-   "price": "1495 kr",
+   "item": "Utomhuskuddar 2-pack",
+   "price": "99 kr",
    "url": "https://www.rusta.com/se"
   }
  ]

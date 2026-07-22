@@ -1,11 +1,11 @@
 {
- "updated": "2026-07-22T04:16:04.838Z",
+ "updated": "2026-07-22T07:07:51.199Z",
  "items": [
   {
    "src": "BBC",
    "section": "Världen",
    "title": "Zelensky sacks Ukraine's top army commander after days of protests",
-   "date": "2026-07-21T23:59:34.000Z",
+   "date": "2026-07-22T05:37:43.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cyvl35z3917o?at_medium=RSS&at_campaign=rss",
    "desc": "Oleksandr Syrskyi is dismissed after backlash over the removal of popular Defence Minister Mykhailo Fedorov."
   },
@@ -44,6 +44,22 @@
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
+   "title": "Böter och omhändertaganden under Motorveckan",
+   "date": "2026-07-22T06:51:15.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/vasterbotten/boter-och-omhandertaganden-under-motorveckan",
+   "desc": "Det blev en stökig natt i Lycksele där Motorveckan pågår. En tonåring skjutsade personer på motorhuven med en epa och slagsmål utbröt på campingen."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Lastbil blockerade körfält på väg 97 i Luleå",
+   "date": "2026-07-22T04:30:23.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/norrbotten/lastbil-blockerar-korfalt-pa-vag-97-i-lulea",
+   "desc": "En lastbil blockerade körfältet på väg 97 i färdriktningen Luleå mot Boden under onsdagsmorgonen. – Det är helt stopp i ena körfältet tills bärgare har flyttat lastbilen, berättade larmoperatören vid SOS."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
    "title": "Fästingplåga – TBE-fallen skjuter i höjden",
    "date": "2026-07-22T03:56:04.000Z",
    "link": "https://www.svt.se/nyheter/inrikes/fastingplaga-tbe-fallen-skjuter-i-hojden",
@@ -66,20 +82,12 @@
    "desc": "Ett sommarkompisgäng i tonåren åker ut till en ö där en äldre kille har drunknat. På ön hittar de en sjöjungfru som verkar besitta övernaturliga krafter."
   },
   {
-   "src": "SVT",
+   "src": "STHLM",
    "section": "Sverige · Stockholm",
-   "title": "Nytt pollineringsprojekt kartlägger vad svenska bin äter",
-   "date": "2026-07-22T03:30:01.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/varmland/nytt-pollineringsprojekt-kartlagger-vad-svenska-bin-ater",
-   "desc": "Biodlare och naturintresserade samlades nyligen utanför Nybble för att göra en första inventering av blommorna runt gården. Det är en del av ett nytt pollineringsprojekt, där biodlarna i Kristinehamn tillsammans med Sveriges lantbruksuniversitet kartlägger vad bin och andra pollinatörer äter."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Alex gör sitt livs cykelresa – ska trampa jorden runt",
-   "date": "2026-07-22T03:30:01.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/vastmanland/alex-gor-sitt-livs-cykelresa-ska-trampa-jorden-runt",
-   "desc": "För två år sedan träffade vi Alex Hofvander hemma i Västerås i förberedelserna. Nu har han lämnat allt bakom sig för att cykla hela vägen ner genom Europa till Sydafrika, och sen vidare runt planeten. – Jag sliter som en hund när det kommer till backarna. För att de där watten hjälper inte så mycket när man ska cykla uppför. Jag har redan tappat tio kilo sen jag försvann hemifrån, säger Alex Hofvander, från en camping i Montenegro."
+   "title": "Två skadade i brand i flerfamiljshus i Nynäshamn",
+   "date": "2026-07-22T06:17:59.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/stockholm/brand-i-flerfamiljshus-i-nynashamn-lwkygy",
+   "desc": "En lägenhetsbrand har utbrutit i ett flerfamiljshus i Nynäshamn. – Vi är på plats och det är en omfattande lägenhetsbrand på nedre våningen, säger Anders Sessler vakthavande befäl på Södertörns brandförsvarsförbund."
   },
   {
    "src": "STHLM",
@@ -112,14 +120,6 @@
    "date": "2026-07-21T12:03:29.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/forintelsesymbol-anvandes-i-palestinademonstration-anmals-av-polisen",
    "desc": "Portalen för koncentrationslägret Auschwitz är en av de mest kända symbolerna för Förintelsen. Under en Palestinademonstration i Stockholm användes en kopia där orden ”Arbete ger frihet” bytts ut mot ”Gaza”, vilket väckte debatt i sociala medier. Nu har polisen upprättat en anmälan om hets mot folkgrupp och beslagtagit skylten."
-  },
-  {
-   "src": "STHLM",
-   "section": "Sverige · Stockholm",
-   "title": "Kvinna misshandlad i hemmet – man gripen",
-   "date": "2026-07-21T06:02:12.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/stockholm/kvinna-misshandlad-i-hemmet-man-gripen",
-   "desc": "En man i 65-årsåldern ska ha misshandlat en kvinna i hemmet i Råcksta på måndagskvällen. Kvinnan ringde in till polisen medan mannen sov. – Hon uppgav till oss att det hade förekommit även tidigare, säger Marcus Björling hos polisen."
   },
   {
    "src": "BBC",

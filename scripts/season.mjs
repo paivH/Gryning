@@ -29,6 +29,23 @@ const day = Math.floor(Date.now() / 86400000);
 const ingredient = list[day % list.length];
 const monthName = now.toLocaleDateString('sv-SE', { month: 'long' });
 
+function extractJson(s) {
+  const fenced = s.match(/```(?:json)?\s*([\s\S]*?)```/);
+  if (fenced) { try { return JSON.parse(fenced[1]); } catch (e) { /* keep trying */ } }
+  const starts = [];
+  for (let i = 0; i < s.length; i++) if (s[i] === '{') starts.push(i);
+  for (const start of starts) {
+    let depth = 0;
+    for (let j = start; j < s.length; j++) {
+      if (s[j] === '{') depth++;
+      else if (s[j] === '}') { depth--; if (depth === 0) {
+        try { return JSON.parse(s.slice(start, j + 1)); } catch (e) { break; }
+      } }
+    }
+  }
+  return null;
+}
+
 const key = process.env.ANTHROPIC_API_KEY;
 if (!key) {
   console.error('ERROR: ANTHROPIC_API_KEY is empty. Check the secret exists and is named exactly ANTHROPIC_API_KEY in repo Settings > Secrets and variables > Actions.');
@@ -43,7 +60,7 @@ The cook loves: ${STYLE}.
 
 Pick 4 DIFFERENT ingredients from the list (start with ${ingredient}) and write one idea for each (max 22 words, in Swedish). Favour their loved techniques where they fit. Be specific and practical (a real technique or ratio), not generic. Vary the techniques across the four.
 
-Respond ONLY with JSON, no markdown fences:
+Output requirements: respond with a raw JSON object and NOTHING else. No preamble, no explanation, no markdown code fences. The first character of your reply must be { and the last must be }.
 {"items":[{"ingredient":"${ingredient}","idea":"<idea>"},{"ingredient":"<other>","idea":"<idea>"},{"ingredient":"<other>","idea":"<idea>"},{"ingredient":"<other>","idea":"<idea>"}]}`;
 
 try {
@@ -56,7 +73,7 @@ try {
     },
     body: JSON.stringify({
       model: 'claude-sonnet-5',
-      max_tokens: 700,
+      max_tokens: 1500,
       messages: [{ role: 'user', content: prompt }],
     }),
   });
@@ -70,9 +87,14 @@ try {
     process.exit(1);
   }
   const data = await res.json();
+  console.log('stop_reason:', data.stop_reason);
   const text = (data.content || []).filter((b) => b.type === 'text').map((b) => b.text).join('').trim();
-  const clean = text.replace(/```json|```/g, '').trim();
-  const parsed = JSON.parse(clean);
+  const parsed = extractJson(text);
+  if (!parsed) {
+    console.error('Could not parse JSON from model response. stop_reason:', data.stop_reason);
+    console.error('Raw text was:\n', text.slice(0, 1200));
+    process.exit(1);
+  }
   const items = (Array.isArray(parsed.items) ? parsed.items : [])
     .filter((i) => i && i.ingredient && i.idea).slice(0, 4);
   if (!items.length) throw new Error('No items in response');

@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-23T18:11:52.014Z",
+ "updated": "2026-07-23T19:54:47.579Z",
  "items": [
   {
    "src": "BBC",
@@ -29,7 +29,7 @@
    "src": "BBC",
    "section": "Världen",
    "title": "France evacuates 20,000 as wildfires spread in south-west",
-   "date": "2026-07-23T16:41:52.000Z",
+   "date": "2026-07-23T19:17:42.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cy4kmr82n44o?at_medium=RSS&at_campaign=rss",
    "desc": "Most of those evacuated were tourists from campsites around Arcachon Bay in France's Gironde region."
   },
@@ -40,6 +40,14 @@
    "date": "2026-07-23T16:50:59.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cpw9xzx9r4ko?at_medium=RSS&at_campaign=rss",
    "desc": "The Iran-backed group, which previously announced a \"maritime embargo\" against Saudi Arabia, also claims to have hit another vessel."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Sent mål ger Hammarby hopp inför returen i Europa League",
+   "date": "2026-07-23T18:52:48.000Z",
+   "link": "https://www.svt.se/sport/fotboll/sent-mal-ger-hammarby-hopp-infor-returen-i-europa-league",
+   "desc": "En sen kvittering gav Hammarby 1–1 mot Anderlecht och hopp inför returen i kvalet till Europa League. – Vi förtjänade att vinna, säger inhoppande kvitteringsskytten Frank Junior Adjei."
   },
   {
    "src": "SVT",
@@ -74,12 +82,12 @@
    "desc": "Vilgot Axelsson, 19, spelade datorspel hemma i studentlägenheten när han hörde rop och bankande från korridoren. Några minuter senare stod han vid fönstret och funderade på om han borde hoppa. – Man fick ju de här tankarna på vad som händer om jag inte tar mig ut, säger han."
   },
   {
-   "src": "SVT",
+   "src": "STHLM",
    "section": "Sverige · Stockholm",
-   "title": "Polisen räddade en svanfamilj på E4 i Nyköping",
-   "date": "2026-07-23T13:02:56.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/sormland/polisen-raddade-en-svanfamilj-pa-e4-i-nykoping",
-   "desc": "Under onsdagen fick polisen in flera samtal om svanfamilj som befann sig intill motorvägen vid Sillekrog i Nyköping. – Jag har ingen aning om hur de har hamnat där, det är superkonstigt, säger polisen Elin Nilsson."
+   "title": "Nyheter från dagen: 23 juli",
+   "date": "2026-07-23T19:34:41.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/stockholm/nyheter-fran-dagen-23-juli-jftm5z",
+   "desc": "Detta har SVT Nyheter Stockholm rapporterat om under torsdagen den 23 juli."
   },
   {
    "src": "STHLM",
@@ -114,12 +122,12 @@
    "desc": "På hjul tar de sig fram under den tre dagar långa vandringen på Lovön och Ekerö. Projektet ska få ut fler vuxna med funktionsvariationer i naturen. – Det gav mig livet tillbaka, säger Lillemor Lindahl."
   },
   {
-   "src": "STHLM",
-   "section": "Sverige · Stockholm",
-   "title": "Misstänkt mord i Rinkeby – man föll från balkong",
-   "date": "2026-07-22T19:22:15.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/stockholm/misstankt-mord-i-stockholm-man-foll-fran-balkong",
-   "desc": "En man har dött efter att han fallit från en balkong i Rinkeby i Stockholm. Två personer som befann sig i lägenheten har anhållits misstänkta för mord, skriver Expressen."
+   "src": "BBC",
+   "section": "United",
+   "title": "Manchester United",
+   "date": "2026-07-23T18:53:00.000Z",
+   "link": "https://www.bbc.co.uk/sounds/play/p0p0k86b?at_medium=RSS&at_campaign=rss",
+   "desc": "MUST CEO Duncan Drasco on potential bans for season-ticket holders."
   },
   {
    "src": "BBC",
@@ -144,14 +152,6 @@
    "date": "2026-07-21T19:02:00.000Z",
    "link": "https://www.bbc.co.uk/sounds/play/p0p02mj4?at_medium=RSS&at_campaign=rss",
    "desc": "Wes Brown has his say on United's summer recruits"
-  },
-  {
-   "src": "BBC",
-   "section": "United",
-   "title": "Manchester United",
-   "date": "2026-07-20T11:40:00.000Z",
-   "link": "https://www.bbc.co.uk/sounds/play/p0nztlp8?at_medium=RSS&at_campaign=rss",
-   "desc": "Gaz and Joe rate the United's stars at the World Cup, discuss transfers and pre-season."
   }
  ]
 }

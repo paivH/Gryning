@@ -1,29 +1,37 @@
 {
- "updated": "2026-07-23T12:57:20.893Z",
+ "updated": "2026-07-23T15:10:18.045Z",
  "items": [
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "US signs landmark nuclear deal with Saudi Arabia",
-   "date": "2026-07-23T09:17:50.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cj03r59z73po?at_medium=RSS&at_campaign=rss",
-   "desc": "The US Department of Energy says the \"peaceful\" co-operation agreement will give US firms \"great access\" to the Saudi nuclear energy programme."
+   "title": "Oil prices hit $100 for the first time since May",
+   "date": "2026-07-23T14:50:03.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss",
+   "desc": "The price of Brent crude rose more than 5% on Thursday as the war in the Middle East continues to escalate."
   },
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "Houthis claim attack on oil tankers as US launches more strikes on Iran",
-   "date": "2026-07-23T03:48:27.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cpw9xzx9r4ko?at_medium=RSS&at_campaign=rss",
-   "desc": "The Houthi attacks would be the first in the Red Sea since the Iran-backed group announced a \"maritime embargo\" against Saudi Arabia."
+   "title": "Saudis must recognise Israel for nuclear deal, says Trump",
+   "date": "2026-07-23T15:05:47.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cwye71yq8wwo?at_medium=RSS&at_campaign=rss",
+   "desc": "The US president says the landmark agreement to help Saudis develop nuclear energy is dependent on it joining the Abraham Accords."
   },
   {
    "src": "BBC",
    "section": "Världen",
    "title": "France evacuates 20,000 as wildfires spread in south-west",
-   "date": "2026-07-23T12:17:13.000Z",
+   "date": "2026-07-23T13:25:02.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cy4kmr82n44o?at_medium=RSS&at_campaign=rss",
    "desc": "Most of those evacuated were tourists from campsites around Arcachon Bay in France's Gironde region."
+  },
+  {
+   "src": "BBC",
+   "section": "Världen",
+   "title": "Yemen's Houthis attack Saudi tanker as US launches more Iran strikes",
+   "date": "2026-07-23T14:18:13.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cpw9xzx9r4ko?at_medium=RSS&at_campaign=rss",
+   "desc": "The Iran-backed group, which previously announced a \"maritime embargo\" against Saudi Arabia, also claims to have hit another vessel."
   },
   {
    "src": "BBC",
@@ -34,12 +42,28 @@
    "desc": "Sonam Wangchuk has been the main draw at the Cockroach Janta Party (CJP) protest in Delhi."
   },
   {
-   "src": "BBC",
-   "section": "Världen",
-   "title": "Canada's 'powerful' dairy sector is in Trump's trade crosshairs",
-   "date": "2026-07-23T00:15:12.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/ce8kvm84lxmo?at_medium=RSS&at_campaign=rss",
-   "desc": "Canada's dairy supply management system is in the spotlight after the US president singled it out as one of three main irritants used to justify new tariffs."
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Tidigare kyrkoanställd åtalas för barnpornografibrott",
+   "date": "2026-07-23T13:55:34.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/norrbotten/tidigare-kyrkoanstalld-atalas-for-barnpornografibrott",
+   "desc": "En tidigare kyrkoanställd i Norrbotten åtalas för barnpornografibrott. Mannen jobbade i samma församling som den präst som står åtalad för grovt barnpornografibrott. – Det är fruktansvärt, säger församlingens chef."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Vilgot överlevde branden på studentboendet i Karlstad",
+   "date": "2026-07-23T13:11:06.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/varmland/vilgot-overlevde-branden-pa-studentboendet-i-karlstad",
+   "desc": "Vilgot Axelsson, 19, spelade datorspel hemma i studentlägenheten när han hörde rop och bankande från korridoren. Några minuter senare stod han vid fönstret och funderade på om han borde hoppa. – Man fick ju de här tankarna på vad som händer om jag inte tar mig ut, säger han."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Polisen räddade en svanfamilj på E4 i Nyköping",
+   "date": "2026-07-23T13:02:56.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/sormland/polisen-raddade-en-svanfamilj-pa-e4-i-nykoping",
+   "desc": "Under onsdagen fick polisen in flera samtal om svanfamilj som befann sig intill motorvägen vid Sillekrog i Nyköping. – Jag har ingen aning om hur de har hamnat där, det är superkonstigt, säger polisen Elin Nilsson."
   },
   {
    "src": "SVT",
@@ -56,30 +80,6 @@
    "date": "2026-07-23T12:11:46.000Z",
    "link": "https://www.svt.se/nyheter/uutiset/svenska/vem-var-eeva-kilpi",
    "desc": "Eeva Kilpi, som avled den 27 juni, var en av Finlands mest älskade författare. Kilpi, som blev 98 år gammal, skapade under sitt liv ett omfattande författarskap bestående av poesi, noveller och romaner. Hon behandlade teman som flyktingskap samt relationen mellan människan och naturen."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Din Pokémon Go-data kan användas till militära drönare",
-   "date": "2026-07-23T12:08:37.000Z",
-   "link": "https://www.svt.se/kultur/din-pokemon-go-data-kan-anvandas-till-militara-dronare",
-   "desc": "Miljontals Pokémon Go-spelare har genom åren skannat verkliga platser för att få belöningar i spelet. Nu visar det sig att skanningarna använts för att träna AI-teknik som i framtiden kan hjälpa militära drönare att navigera i områden där gps inte fungerar, rapporterar The Guardian."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Lada fullt övertänd utanför Sala – elden sprider sig till skog och mark",
-   "date": "2026-07-23T11:09:44.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/vastmanland/lada-fullt-overtand-i-brand-utanfor-sala-elden-sprider-sig-till-skog-och-mark",
-   "desc": "En fullt utvecklad brand har brutit ut i en lada och spridit sig till andra byggnader i Salbohed utanför Sala. Lågorna har även spridit sig till närliggande skog och mark. – Det brinner ordentligt, säger Mathias Häglund på räddningstjänsten."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Rysslandsexperten Martin Kragh är död",
-   "date": "2026-07-23T10:57:01.000Z",
-   "link": "https://www.svt.se/nyheter/inrikes/rysslandsexperten-martin-kragh-ar-dod",
-   "desc": "Martin Kragh, Rysslandsexpert och senior forskare vid Utrikespolitiska institutet, har avlidit efter en tids sjukdom. – Sverige har förlorat en stark röst, säger Jakob Hallgren, chef vid Utrikespolitiska institutet."
   },
   {
    "src": "STHLM",

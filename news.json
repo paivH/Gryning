@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-23T22:10:17.115Z",
+ "updated": "2026-07-23T23:27:14.715Z",
  "items": [
   {
    "src": "BBC",
@@ -44,6 +44,14 @@
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
+   "title": "Tiotusentals flyr bränderna i södra Europa",
+   "date": "2026-07-23T22:25:34.000Z",
+   "link": "https://www.svt.se/nyheter/utrikes/tiotusentals-flyr-branderna-i-sodra-europa",
+   "desc": "Flera skogsbränder härjar i södra Europa, vilket fått tiotusentals att fly sina hem. – Vi har packat våra väskor, säger Sofia Krigsman, som befinner sig i Frankrike på semester."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
    "title": "Sent mål ger Hammarby hopp inför returen i Europa League",
    "date": "2026-07-23T18:52:48.000Z",
    "link": "https://www.svt.se/sport/fotboll/sent-mal-ger-hammarby-hopp-infor-returen-i-europa-league",
@@ -72,14 +80,6 @@
    "date": "2026-07-23T13:55:34.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/norrbotten/tidigare-kyrkoanstalld-atalas-for-barnpornografibrott",
    "desc": "En tidigare kyrkoanställd i Norrbotten åtalas för barnpornografibrott. Mannen jobbade i samma församling som den präst som står åtalad för grovt barnpornografibrott. – Det är fruktansvärt, säger församlingens chef."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Vilgot överlevde branden på studentboendet i Karlstad",
-   "date": "2026-07-23T13:11:06.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/varmland/vilgot-overlevde-branden-pa-studentboendet-i-karlstad",
-   "desc": "Vilgot Axelsson, 19, spelade datorspel hemma i studentlägenheten när han hörde rop och bankande från korridoren. Några minuter senare stod han vid fönstret och funderade på om han borde hoppa. – Man fick ju de här tankarna på vad som händer om jag inte tar mig ut, säger han."
   },
   {
    "src": "STHLM",

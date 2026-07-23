@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-23T06:27:43.094Z",
+ "updated": "2026-07-23T09:08:30.422Z",
  "items": [
   {
    "src": "BBC",
@@ -20,6 +20,14 @@
   {
    "src": "BBC",
    "section": "Världen",
+   "title": "'I am still alive': Indian activist on hunger strike for 26 days loses 11kg",
+   "date": "2026-07-23T06:37:23.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/ce34n7kqr5ko?at_medium=RSS&at_campaign=rss",
+   "desc": "Sonam Wangchuk has been the main draw at the Cockroach Janta Party (CJP) protest in Delhi."
+  },
+  {
+   "src": "BBC",
+   "section": "Världen",
    "title": "Tankers make sharp U-turns after Houthi shipping threat",
    "date": "2026-07-22T14:42:49.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cn0n127lpzgo?at_medium=RSS&at_campaign=rss",
@@ -28,58 +36,50 @@
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "Russia's businesses under strain from Ukraine's attacks on Wildberries",
-   "date": "2026-07-23T06:15:35.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cvg9n2y61w6o?at_medium=RSS&at_campaign=rss",
-   "desc": "Ukrainian drones have hit several retail warehouses belonging to Russia's biggest online retailer Wildberries in a matter of days."
-  },
-  {
-   "src": "BBC",
-   "section": "Världen",
-   "title": "Fire kills 10 members of same family in Peru, police say",
-   "date": "2026-07-22T20:56:26.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cm2g11ng7j2o?at_medium=RSS&at_campaign=rss",
-   "desc": "Authorities are investigating the cause of the blaze in Lima as local media report it may have been arson."
+   "title": "Canada's 'powerful' dairy sector is in Trump's trade crosshairs",
+   "date": "2026-07-23T00:15:12.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/ce8kvm84lxmo?at_medium=RSS&at_campaign=rss",
+   "desc": "Canada's dairy supply management system is in the spotlight after the US president singled it out as one of three main irritants used to justify new tariffs."
   },
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
-   "title": "Stort slagsmål på stranden i Varberg",
-   "date": "2026-07-23T06:19:22.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/halland/stort-slagsmal-pa-stranden-i-varberg",
-   "desc": "Ett flertal personer ska ha slagits i Kärleksparken i Varberg under onsdagskvällen. Åtminstone en person uppges ha misshandlats."
+   "title": "Arbetare skickades hem efter nytt gaslarm på SSAB i Luleå",
+   "date": "2026-07-23T08:46:16.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/norrbotten/arbetare-skickades-hem-efter-nytt-gaslarm-pa-ssab",
+   "desc": "Efter ett nytt gaslarm fick anställda vid SSAB:s stålverksbygge i Luleå gå hem tidigare under onsdagseftermiddagen – men i dag startar arbetet upp igen. – Det handlar om ett isolerat område på byggarbetsplatsen, säger Martin Gidlund, kommunikationsansvarig för SSAB:s omställning i Luleå."
   },
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
-   "title": "Person anhållen efter misstänkt grovt brott i Kungsör",
-   "date": "2026-07-23T05:25:38.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/vastmanland/person-anhallen-efter-misstankt-grovt-brott-i-kungsor",
-   "desc": "En person har anhållits efter ett misstänkt grovt brott i Kungsör. Polisen är förtegen om vad som har hänt."
+   "title": "Tränaren pekar ut detaljen bakom Daniel Ståhls framgångar: ”Är briljant”",
+   "date": "2026-07-23T08:42:49.000Z",
+   "link": "https://www.svt.se/sport/friidrott/forklaringen-bakom-daniel-stahls-framgangar-briljant",
+   "desc": "Regerande världsmästaren Daniel Ståhl kastar ofta längst av alla på mästerskap. En stor del bakom framgångarna ligger i svenska diskusstjärnans fötter. – Det är Daniel briljant på, säger Ståhls tränare Staffan Jönsson."
   },
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
-   "title": "Över 1000 döda i ebola i Kongo-Kinshasa",
-   "date": "2026-07-23T05:14:46.000Z",
-   "link": "https://www.svt.se/nyheter/utrikes/over-1000-doda-i-ebola-i-kongo-kinshasa",
-   "desc": "Antalet bekräftade döda i ebolautbrottet i Kongo-Kinshasa är nu 1033 personer. Samtidigt uppskattas mörkertalet vara stort."
+   "title": "Kvinna i Mora kommun misstänks för mord",
+   "date": "2026-07-23T07:59:16.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/dalarna/kvinna-i-mora-kommun-misstanks-for-mord",
+   "desc": "En kvinna misstänks på sannolika skäl för mord efter en polisinsats i Mora kommun. Det rapporterar Mora Tidning."
   },
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
-   "title": "Het debatt om AC i Frankrike – efterfrågan skjuter i höjden",
-   "date": "2026-07-23T03:49:50.000Z",
-   "link": "https://www.svt.se/nyheter/utrikes/het-debatt-om-ac-i-frankrike-efterfragan-skjuter-i-hojden",
-   "desc": "Sommarens värmebölja i Frankrike har väckt liv i debatten om luftkonditionering. Marine Le Pen och högernationalistiska Nationell samling kräver en nationell plan för att förse fler hus med AC-system – och i den tryckande hettan har även några av de mest hårdföra kritikerna börjat mjukna."
+   "title": "Stora protester i Albanien",
+   "date": "2026-07-23T07:28:37.000Z",
+   "link": "https://www.svt.se/nyheter/utrikes/stora-protester-i-albanien",
+   "desc": "Det har sedan en tid pågått stora protester i Albanien kopplade till bygget av ett megaprojekt värt 43 miljarder. Under torsdagen ägde den största hittills rum och polis besprutade folkhavet med vatten, en demonstrant ska har förts till sjukhus. Även flera poliser ska ha skadats. Mitt under SVT:s sändning träffades reportern och fick flytta på sig."
   },
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
-   "title": "Emelie från Olofström laddar inför Nordens största cosplay-konvent",
-   "date": "2026-07-23T03:30:07.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/blekinge/emelie-fran-olofstrom-laddar-infor-nordens-storsta-cosplay-konvent",
-   "desc": "NärCon sommar närmar sig och Emelie Johnsson från Olofström har varit på vartenda konvent sedan 2017. I år har hon laddat med tre olika utklädnader, som hon tillverkat själv."
+   "title": "Högg kvinna i halsen med kniv – man åtalas för mord i Skellefteå",
+   "date": "2026-07-23T07:19:45.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/vasterbotten/hogg-kvinna-i-halsen-med-kniv-man-atalas-for-mord-i-skelleftea",
+   "desc": "En man i 35-årsåldern åtalas för mord i Skellefteå. Mannen högg en kvinna i halsen med kniv enligt åtalet. – Kvinnan befann sig hemma hos gärningsmannen när det oprovocerade angreppet skedde, säger kammaråklagare Anna Lundberg."
   },
   {
    "src": "STHLM",
@@ -95,7 +95,7 @@
    "title": "Misstänkt mord i Rinkeby – man föll från balkong",
    "date": "2026-07-22T19:22:15.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/misstankt-mord-i-stockholm-man-foll-fran-balkong",
-   "desc": "En man har dött efter att han fallit från en balkong i Rinkeby i Stockholm. Två personer som befann sig i lägenheten har gripits."
+   "desc": "En man har dött efter att han fallit från en balkong i Rinkeby i Stockholm. Två personer som befann sig i lägenheten har anhållits misstänkta för mord, skriver Expressen."
   },
   {
    "src": "STHLM",

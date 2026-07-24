@@ -1,11 +1,11 @@
 {
- "updated": "2026-07-24T13:28:46.966Z",
+ "updated": "2026-07-24T15:13:54.771Z",
  "items": [
   {
    "src": "BBC",
    "section": "Världen",
    "title": "Tens of thousands evacuated from French tourist spot and near Madrid as wildfires spread",
-   "date": "2026-07-24T11:50:17.000Z",
+   "date": "2026-07-24T14:59:24.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cdx82rl5g0do?at_medium=RSS&at_campaign=rss",
    "desc": "The fire has raged in the region for several days with officials now ordering the evacuation of the entire Cap Ferret peninsula."
   },
@@ -29,7 +29,7 @@
    "src": "BBC",
    "section": "Världen",
    "title": "Indonesian babies were trafficked to Singapore. What happens to them now?",
-   "date": "2026-07-23T23:19:58.000Z",
+   "date": "2026-07-24T13:33:06.000Z",
    "link": "https://www.bbc.co.uk/news/articles/c7vgeredvlgo?at_medium=RSS&at_campaign=rss",
    "desc": "At least 12 babies have been trafficked from Indonesia to Singapore, but what will happen to them remains unclear."
   },
@@ -40,6 +40,22 @@
    "date": "2026-07-24T11:53:49.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cwymj9lkx13o?at_medium=RSS&at_campaign=rss",
    "desc": "Ramaphosa has faced scrutiny following the theft of large sums of cash from his private farm in 2020."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Myndigheten för civilt försvar: Fyra flyg till skogsbränderna i södra Europa",
+   "date": "2026-07-24T14:17:00.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/varmland/myndigheten-for-civilt-forsvar-fyra-flyg-till-skogsbranderna-i-sodra-europa",
+   "desc": "Stora bränder härjar i Frankrike och Spanien. Myndigheten för civilt försvar förbereder nu för att skicka ner fyra skopande plan för att stötta släckningsarbetet. – Det kan tyckas vara väldigt lite men det är kraftfulla resurser, säger Anders Edstam, enhetschef på MCF."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Fängelse efter rattfylleri i bil – körde även åkgräsklippare alkoholpåverkad",
+   "date": "2026-07-24T14:04:18.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/smaland/fangelse-efter-rattfylla-pa-akgrasklippare",
+   "desc": "En 64-årig man från Kalmar län döms till fängelse för bland annat rattfylleri efter att ha kört en åkgräsklippare alkoholpåverkad."
   },
   {
    "src": "SVT",
@@ -64,22 +80,6 @@
    "date": "2026-07-24T11:56:20.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/ost/kallaren-full-med-stinkande-avloppsvatten-sanering-drojer",
    "desc": "Återkommande problem med en avloppsledning vid ett hyreshus i Marielund i Norrköping har gjort att källaren översvämmats med stinkande avloppsvatten."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "En till sjukhus efter drunkningslarm i Varberg",
-   "date": "2026-07-24T11:08:09.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/halland/en-till-sjukhus-efter-drunkningslarm-i-varberg",
-   "desc": "En person har hittats i vattnet vid Getterön i Varberg runt lunchtid på fredagen. Räddningstjänst, ambulans och polis var på plats. En har förts till sjukhus med oklart skadeläge."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Håkan Hellström fansen samlade i Kalmar – köat i timmar",
-   "date": "2026-07-24T10:38:37.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/smaland/hakan-hellstrom-fansen-samlade-i-kalmar-koat-i-timmar",
-   "desc": "På fredagen spelar Håkan Hellström på Fredriksskans i Kalmar. Men redan vid lunchtid dagen innan var de första fansen på plats i kön. – Egentligen spelar det ingen roll om man är först i kön utan jag kom bara hit för att umgås med alla kö-kompisar, säger Nina Leoni, som är just först i kön."
   },
   {
    "src": "STHLM",

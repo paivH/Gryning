@@ -1,11 +1,11 @@
 {
- "updated": "2026-07-24T11:39:03.913Z",
+ "updated": "2026-07-24T13:28:46.966Z",
  "items": [
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "Tens of thousands evacuated from French tourist spot as wildfires spread",
-   "date": "2026-07-24T10:50:26.000Z",
+   "title": "Tens of thousands evacuated from French tourist spot and near Madrid as wildfires spread",
+   "date": "2026-07-24T11:50:17.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cdx82rl5g0do?at_medium=RSS&at_campaign=rss",
    "desc": "The fire has raged in the region for several days with officials now ordering the evacuation of the entire Cap Ferret peninsula."
   },
@@ -13,7 +13,7 @@
    "src": "BBC",
    "section": "Världen",
    "title": "US hits dozens of countries with new wave of tariffs",
-   "date": "2026-07-24T08:59:31.000Z",
+   "date": "2026-07-24T12:40:44.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
    "desc": "Imposed citing forced labour concerns, the levies replace a temporary global duty brought in after the US Supreme Court struck down tariffs in February."
   },
@@ -37,9 +37,33 @@
    "src": "BBC",
    "section": "Världen",
    "title": "South Africa's president wins bid to temporarily halt impeachment inquiry over 'Farmgate'",
-   "date": "2026-07-24T10:34:04.000Z",
+   "date": "2026-07-24T11:53:49.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cwymj9lkx13o?at_medium=RSS&at_campaign=rss",
    "desc": "Ramaphosa has faced scrutiny following the theft of large sums of cash from his private farm in 2020."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "SD vill att alla lagar landsbygdstestas – inledde valturné i Söderköping",
+   "date": "2026-07-24T13:02:52.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/ost/sd-vill-att-alla-lagar-landsbygdstestas-inledde-valturne-i-soderkoping",
+   "desc": "Nu inleder Sverigedemokraterna sin valspurt i valrörelsen – och det gör man med en turné längs Göta kanal. Vid första stoppet i Söderköping var det fokus på landsbygdsfrågor. – Den viktigaste reformen vi presenterat idag är att alla beslut ska utvärderas utifrån hur de påverkar landsbygden, säger Jimmie Åkesson (SD)."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Vildsvinsjägare sköt varg i fårhage i Vaggeryd",
+   "date": "2026-07-24T12:35:23.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/jonkoping/varg-skjuten-i-vaggeryd",
+   "desc": "Under natten till fredagen fälldes en varg vid ett pågående angrepp i Vaggeryds kommun. En jägare ska först ha försökt skrämma vargen men inte lyckats."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Källaren full med stinkande avloppsvatten – sanering dröjer",
+   "date": "2026-07-24T11:56:20.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/ost/kallaren-full-med-stinkande-avloppsvatten-sanering-drojer",
+   "desc": "Återkommande problem med en avloppsledning vid ett hyreshus i Marielund i Norrköping har gjort att källaren översvämmats med stinkande avloppsvatten."
   },
   {
    "src": "SVT",
@@ -56,30 +80,6 @@
    "date": "2026-07-24T10:38:37.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/smaland/hakan-hellstrom-fansen-samlade-i-kalmar-koat-i-timmar",
    "desc": "På fredagen spelar Håkan Hellström på Fredriksskans i Kalmar. Men redan vid lunchtid dagen innan var de första fansen på plats i kön. – Egentligen spelar det ingen roll om man är först i kön utan jag kom bara hit för att umgås med alla kö-kompisar, säger Nina Leoni, som är just först i kön."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Nu ska igelkotten fridlysas – Ingrida har en hel familj i trädgården",
-   "date": "2026-07-24T10:02:33.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/sormland/nu-ska-igelkotten-fridlysas-ingrida-har-en-hel-familj-i-tradgarden-otrolig-stor-gladje",
-   "desc": "Igelkotten är en djurart som från och med i höst förklaras som fridlyst. I en radhuslänga i Nävertorp i Katrineholm har en hel familj med igelkottar bosatt sig under altanen hos Ingrida Johansson och hennes familj."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Gömde flera kilo narkotika i Luleårestaurang – nu väntar år i fängelse",
-   "date": "2026-07-24T09:22:05.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/norrbotten/gomde-flera-kilo-narkotika-i-lulearestaurang-nu-vantar-ar-i-fangelse",
-   "desc": "När polisen hittade två kilo amfetamin i en bil ledde spåren till en restaurang i Luleå. Vid en husrannsakan i krögarens lokaler upptäcktes ytterligare flera kilo amfetamin och andra narkotiska preparat."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Värnamobo krävs på 700 000 kronor efter felaktig sjukpenning i flera år",
-   "date": "2026-07-24T08:00:51.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/jonkoping/varnamobo-kravs-pa-700-000-kronor-efter-felaktig-sjukpenning-i-flera-ar",
-   "desc": "En Värnamobo har fått ett återbetalningskrav på 694 200 kronor från Försäkringskassan. Personen har haft sjukpenning sedan 2022, men nu dras den tillbaka, eftersom personen både utbildat sig och sökt nya jobb under tiden."
   },
   {
    "src": "STHLM",

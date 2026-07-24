@@ -1,13 +1,13 @@
 {
- "updated": "2026-07-24T04:12:46.155Z",
+ "updated": "2026-07-24T07:05:02.719Z",
  "items": [
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "US imposes tariffs on dozens of trade partners, citing forced labour concerns",
-   "date": "2026-07-24T02:10:00.000Z",
+   "title": "US hits dozens of trading partners with new wave of tariffs",
+   "date": "2026-07-24T06:47:08.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
-   "desc": "The tariffs target 60 trading partners over claims they failed to properly stop forced labour."
+   "desc": "Imposed citing forced labour concerns, the levies replace a temporary global duty brought in after the US Supreme Court struck down tariffs in February."
   },
   {
    "src": "BBC",
@@ -44,6 +44,14 @@
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
+   "title": "Triathlon trendar – fler unga kvinnor vill tävla",
+   "date": "2026-07-24T03:30:04.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/smaland/triathlon-trendar-fler-unga-kvinnor-vill-tavla",
+   "desc": "Triathlon har blivit trendigt bland unga kvinnor. 21-åriga Elsa Öhman från Kalmar ska göra sina debut i triathlon på Ironman Kalmar – där trenden syns tydligt. – Jag tycker det är viktigt att unga tjejer vågar sätta sin fot i en annars ganska mansdominerad sport, säger hon."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
    "title": "Fotbolls-VM är över – krögaren Önder i Västerås summerar: ”Ledsamt”",
    "date": "2026-07-24T03:30:04.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/vastmanland/fotbolls-vm-ar-over-krogaren-onder-i-vasteras-summerar-ledsamt",
@@ -68,18 +76,10 @@
   {
    "src": "SVT",
    "section": "Sverige · Stockholm",
-   "title": "Tiotusentals flyr bränderna i södra Europa",
+   "title": "Tiotusentals flyr bränderna i södra Europa – nödläge i Spanien",
    "date": "2026-07-23T22:25:34.000Z",
    "link": "https://www.svt.se/nyheter/utrikes/tiotusentals-flyr-branderna-i-sodra-europa",
-   "desc": "Flera skogsbränder härjar i södra Europa, vilket fått tiotusentals att fly sina hem. – Vi har packat våra väskor, säger Sofia Krigsman, som befinner sig i Frankrike på semester. Landet ber nu EU om stöd och i delar av Spanien har nödläge utlysts."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Trump inför nya tullar mot 60 länder",
-   "date": "2026-07-23T21:22:38.000Z",
-   "link": "https://www.svt.se/nyheter/ekonomi/trump-infor-nya-tullar-pa-60-lander",
-   "desc": "USA inför nya tullar mot en lång rad länder från och med fredagen – i samband med att de gamla tullarna löper ut. ”Utfallet för EU blir snarlikt om inte identiskt”, säger bistånds- och utrikeshandelsminister Benjamin Dousa (M) i en skriftlig kommentar."
+   "desc": "Flera skogsbränder härjar i södra Europa, vilket fått tiotusentals att fly sina hem. – Vi har packat våra väskor, säger Sofia Krigsman, som befinner sig i Frankrike på semester. Landet begär nu EU-hjälp, och Spanien har utlyst nationellt nödläge, enligt RTVE."
   },
   {
    "src": "STHLM",

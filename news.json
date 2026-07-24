@@ -1,11 +1,11 @@
 {
- "updated": "2026-07-24T09:43:05.935Z",
+ "updated": "2026-07-24T11:39:03.913Z",
  "items": [
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "France orders evacuation of tourist spot as hundreds flee wildfires by boat",
-   "date": "2026-07-24T09:22:11.000Z",
+   "title": "Tens of thousands evacuated from French tourist spot as wildfires spread",
+   "date": "2026-07-24T10:50:26.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cdx82rl5g0do?at_medium=RSS&at_campaign=rss",
    "desc": "The fire has raged in the region for several days with officials now ordering the evacuation of the entire Cap Ferret peninsula."
   },
@@ -28,18 +28,42 @@
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "Oil prices hit $100 for the first time since May",
-   "date": "2026-07-23T15:31:00.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss",
-   "desc": "The price of Brent crude rose more than 6% on Thursday as the war in the Middle East continues to escalate."
-  },
-  {
-   "src": "BBC",
-   "section": "Världen",
    "title": "Indonesian babies were trafficked to Singapore. What happens to them now?",
    "date": "2026-07-23T23:19:58.000Z",
    "link": "https://www.bbc.co.uk/news/articles/c7vgeredvlgo?at_medium=RSS&at_campaign=rss",
    "desc": "At least 12 babies have been trafficked from Indonesia to Singapore, but what will happen to them remains unclear."
+  },
+  {
+   "src": "BBC",
+   "section": "Världen",
+   "title": "South Africa's president wins bid to temporarily halt impeachment inquiry over 'Farmgate'",
+   "date": "2026-07-24T10:34:04.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cwymj9lkx13o?at_medium=RSS&at_campaign=rss",
+   "desc": "Ramaphosa has faced scrutiny following the theft of large sums of cash from his private farm in 2020."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "En till sjukhus efter drunkningslarm i Varberg",
+   "date": "2026-07-24T11:08:09.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/halland/en-till-sjukhus-efter-drunkningslarm-i-varberg",
+   "desc": "En person har hittats i vattnet vid Getterön i Varberg runt lunchtid på fredagen. Räddningstjänst, ambulans och polis var på plats. En har förts till sjukhus med oklart skadeläge."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Håkan Hellström fansen samlade i Kalmar – köat i timmar",
+   "date": "2026-07-24T10:38:37.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/smaland/hakan-hellstrom-fansen-samlade-i-kalmar-koat-i-timmar",
+   "desc": "På fredagen spelar Håkan Hellström på Fredriksskans i Kalmar. Men redan vid lunchtid dagen innan var de första fansen på plats i kön. – Egentligen spelar det ingen roll om man är först i kön utan jag kom bara hit för att umgås med alla kö-kompisar, säger Nina Leoni, som är just först i kön."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Nu ska igelkotten fridlysas – Ingrida har en hel familj i trädgården",
+   "date": "2026-07-24T10:02:33.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/sormland/nu-ska-igelkotten-fridlysas-ingrida-har-en-hel-familj-i-tradgarden-otrolig-stor-gladje",
+   "desc": "Igelkotten är en djurart som från och med i höst förklaras som fridlyst. I en radhuslänga i Nävertorp i Katrineholm har en hel familj med igelkottar bosatt sig under altanen hos Ingrida Johansson och hennes familj."
   },
   {
    "src": "SVT",
@@ -56,30 +80,6 @@
    "date": "2026-07-24T08:00:51.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/jonkoping/varnamobo-kravs-pa-700-000-kronor-efter-felaktig-sjukpenning-i-flera-ar",
    "desc": "En Värnamobo har fått ett återbetalningskrav på 694 200 kronor från Försäkringskassan. Personen har haft sjukpenning sedan 2022, men nu dras den tillbaka, eftersom personen både utbildat sig och sökt nya jobb under tiden."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Kyla dödar fler än värme – men det kommer förändras",
-   "date": "2026-07-24T05:58:24.000Z",
-   "link": "https://www.svt.se/nyheter/inrikes/kyla-dodar-fler-an-varme-men-det-kommer-forandras",
-   "desc": "Värmeböljan i slutet av juni i år krävde över 10 000 fler liv än normalt i Europa. Sedan dess har extremvärmen fortsatt på många håll. Ändå dör det varje år betydligt fler människor i världen av kyla än av värme. Men detta väntas förändras i takt med att jorden blir allt varmare."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Triathlon trendar – fler unga kvinnor vill tävla",
-   "date": "2026-07-24T03:30:04.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/smaland/triathlon-trendar-fler-unga-kvinnor-vill-tavla",
-   "desc": "Triathlon har blivit trendigt bland unga kvinnor. 21-åriga Elsa Öhman från Kalmar ska göra sina debut i triathlon på Ironman Kalmar – där trenden syns tydligt. – Jag tycker det är viktigt att unga tjejer vågar sätta sin fot i en annars ganska mansdominerad sport, säger hon."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Fotbolls-VM är över – krögaren Önder i Västerås summerar: ”Ledsamt”",
-   "date": "2026-07-24T03:30:04.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/vastmanland/fotbolls-vm-ar-over-krogaren-onder-i-vasteras-summerar-ledsamt",
-   "desc": "Efter 39 dagar av fotbollsfest är det tillbaka till vardagen igen för Västmanlands krögare. Trots flera utsålda matcher blev inte VM någon ekonomisk succé för sportbaren Allstar i Västerås. – Intäkterna och utgifterna har typ gått hand i hand, säger sportbarens ägare Önder Alagöz."
   },
   {
    "src": "STHLM",

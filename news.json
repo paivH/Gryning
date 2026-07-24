@@ -1,14 +1,6 @@
 {
- "updated": "2026-07-24T15:13:54.771Z",
+ "updated": "2026-07-24T17:03:24.955Z",
  "items": [
-  {
-   "src": "BBC",
-   "section": "Världen",
-   "title": "Tens of thousands evacuated from French tourist spot and near Madrid as wildfires spread",
-   "date": "2026-07-24T14:59:24.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cdx82rl5g0do?at_medium=RSS&at_campaign=rss",
-   "desc": "The fire has raged in the region for several days with officials now ordering the evacuation of the entire Cap Ferret peninsula."
-  },
   {
    "src": "BBC",
    "section": "Världen",
@@ -21,7 +13,7 @@
    "src": "BBC",
    "section": "Världen",
    "title": "US and Iran trade more strikes in Gulf as fears of escalation mount",
-   "date": "2026-07-24T09:20:07.000Z",
+   "date": "2026-07-24T15:22:40.000Z",
    "link": "https://www.bbc.co.uk/news/articles/c05ql5llj4do?at_medium=RSS&at_campaign=rss",
    "desc": "It comes as Iran condemned the US plan to use frozen Iranian assets to pay for war damages."
   },
@@ -40,6 +32,22 @@
    "date": "2026-07-24T11:53:49.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cwymj9lkx13o?at_medium=RSS&at_campaign=rss",
    "desc": "Ramaphosa has faced scrutiny following the theft of large sums of cash from his private farm in 2020."
+  },
+  {
+   "src": "BBC",
+   "section": "Världen",
+   "title": "Four Palestinians and two Israelis killed in West Bank shooting",
+   "date": "2026-07-24T16:37:17.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cx2rxmye4k3o?at_medium=RSS&at_campaign=rss",
+   "desc": "Palestinians say villagers came under attack by settlers, while the Israeli military says a Palestinian stole a weapon and opened fire on hikers."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Efter skjutningen: Nu arrangeras galamiddagen på nytt",
+   "date": "2026-07-24T16:59:36.000Z",
+   "link": "https://www.svt.se/nyheter/utrikes/efter-skjutningen-nu-arrangeras-galamiddagen-pa-nytt",
+   "desc": "Efter vårens skottlossning på en galamiddag i Washington D.C. får Vita huset-journalisterna och Donald Trump nu revansch. På fredagskvällen, lokal tid, arrangeras galan på nytt – men nu med stärkt säkerhet."
   },
   {
    "src": "SVT",
@@ -72,14 +80,6 @@
    "date": "2026-07-24T12:35:23.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/jonkoping/varg-skjuten-i-vaggeryd",
    "desc": "Under natten till fredagen fälldes en varg vid ett pågående angrepp i Vaggeryds kommun. En jägare ska först ha försökt skrämma vargen men inte lyckats."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Källaren full med stinkande avloppsvatten – sanering dröjer",
-   "date": "2026-07-24T11:56:20.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/ost/kallaren-full-med-stinkande-avloppsvatten-sanering-drojer",
-   "desc": "Återkommande problem med en avloppsledning vid ett hyreshus i Marielund i Norrköping har gjort att källaren översvämmats med stinkande avloppsvatten."
   },
   {
    "src": "STHLM",

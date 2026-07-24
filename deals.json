@@ -1,23 +1,23 @@
 {
- "updated": "2026-07-23T06:23:31.632Z",
+ "updated": "2026-07-24T06:18:37.367Z",
  "verified": false,
  "deals": [
   {
    "store": "ICA",
-   "item": "Färska svenska jordgubbar 500g",
+   "item": "Svenska jordgubbar 500g",
    "price": "25 kr",
    "url": "https://www.ica.se"
   },
   {
    "store": "ICA",
-   "item": "Grillat kycklinglårfilé 1kg",
-   "price": "69 kr/kg",
+   "item": "Kycklingfilé 1kg",
+   "price": "69 kr",
    "url": "https://www.ica.se"
   },
   {
    "store": "Lidl",
-   "item": "Vattenmelon hel",
-   "price": "19 kr/st",
+   "item": "Vattenmelon per styck",
+   "price": "19 kr",
    "url": "https://www.lidl.se"
   },
   {
@@ -34,8 +34,8 @@
   },
   {
    "store": "Rusta",
-   "item": "Utomhuskudde till loungemöbler",
-   "price": "99 kr",
+   "item": "Utomhuskuddar 2-pack",
+   "price": "79 kr",
    "url": "https://www.rusta.com/se"
   }
  ]

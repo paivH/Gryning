@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-24T18:56:43.453Z",
+ "updated": "2026-07-24T20:19:54.306Z",
  "items": [
   {
    "src": "BBC",
@@ -13,7 +13,7 @@
    "src": "BBC",
    "section": "Världen",
    "title": "Trump vows to investigate EU over fining of US tech companies",
-   "date": "2026-07-24T18:35:15.000Z",
+   "date": "2026-07-24T18:57:39.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cvgjenp4680o?at_medium=RSS&at_campaign=rss",
    "desc": "The US president says fines against Google, as well as Apple, Meta and Amazon, should be \"entirely reversed.\""
   },
@@ -28,18 +28,26 @@
   {
    "src": "BBC",
    "section": "Världen",
+   "title": "ICC top prosecutor removed over sexual misconduct allegations",
+   "date": "2026-07-24T19:57:04.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cqjxddx12qqo?at_medium=RSS&at_campaign=rss",
+   "desc": "Karim Khan denies allegations of engaging in an improper sexual relationship with a junior ICC staff member and seeking to stop her pursuing her complaint."
+  },
+  {
+   "src": "BBC",
+   "section": "Världen",
    "title": "Indonesian babies were trafficked to Singapore. What happens to them now?",
    "date": "2026-07-24T13:33:06.000Z",
    "link": "https://www.bbc.co.uk/news/articles/c7vgeredvlgo?at_medium=RSS&at_campaign=rss",
    "desc": "At least 12 babies have been trafficked from Indonesia to Singapore, but what will happen to them remains unclear."
   },
   {
-   "src": "BBC",
-   "section": "Världen",
-   "title": "South Africa's president wins bid to temporarily halt impeachment inquiry over 'Farmgate'",
-   "date": "2026-07-24T11:53:49.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cwymj9lkx13o?at_medium=RSS&at_campaign=rss",
-   "desc": "Ramaphosa has faced scrutiny following the theft of large sums of cash from his private farm in 2020."
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Kraftig brand i Ronneby",
+   "date": "2026-07-24T19:23:25.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/blekinge/kraftig-brand-i-ronneby",
+   "desc": "Just nu brinner det kraftigt i en byggnad på Fornanäsvägen i södra delarna av Ronneby."
   },
   {
    "src": "SVT",
@@ -74,12 +82,12 @@
    "desc": "Nu inleder Sverigedemokraterna sin valspurt i valrörelsen – och det gör man med en turné längs Göta kanal. Vid första stoppet i Söderköping var det fokus på landsbygdsfrågor. – Den viktigaste reformen vi presenterat idag är att alla beslut ska utvärderas utifrån hur de påverkar landsbygden, säger Jimmie Åkesson (SD)."
   },
   {
-   "src": "SVT",
+   "src": "STHLM",
    "section": "Sverige · Stockholm",
-   "title": "Vildsvinsjägare sköt varg i fårhage i Vaggeryd",
-   "date": "2026-07-24T12:35:23.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/jonkoping/varg-skjuten-i-vaggeryd",
-   "desc": "Under natten till fredagen fälldes en varg vid ett pågående angrepp i Vaggeryds kommun. En jägare ska först ha försökt skrämma vargen men inte lyckats."
+   "title": "Nyheter från dagen: 24 juli",
+   "date": "2026-07-24T19:21:39.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/stockholm/nyheter-fran-dagen-24-juli-sd8oz4",
+   "desc": "Detta har SVT Nyheter Stockholm rapporterat om under fredagen den 24 juli."
   },
   {
    "src": "STHLM",
@@ -87,7 +95,7 @@
    "title": "Man skjuten i Hässelby – oklart skadeläge",
    "date": "2026-07-24T18:04:36.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/man-skjuten-i-hasselby-qoltlx",
-   "desc": "En man har skjutits utomhus i Hässelby. Skadeläget är oklart. – Vi har ännu ingen gripen, säger polisens presstalesperson Anna Lärk."
+   "desc": "En man har skjutits utomhus i Hässelby. Enligt polisen fördes mannen till sjukhus med ambulanshelikopter men skadeläget är fortfarande oklart. – Vi kommer att göra en teknisk undersökning och har spärrat av, säger polisens presstalesperson Anna Lärk."
   },
   {
    "src": "STHLM",
@@ -112,14 +120,6 @@
    "date": "2026-07-23T16:01:46.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/butikspersonal-slog-vapen-ur-ranares-hand-snattade-godis",
    "desc": "Personal i en butik i Årsta skulle kontrollera en godistjuv. Då valde mannen att dra fram ett vapen. Personalen lyckades slå vapnet ur handen på mannen i 35-årsåldern som flydde kort därefter."
-  },
-  {
-   "src": "STHLM",
-   "section": "Sverige · Stockholm",
-   "title": "Så gick det med utökade serveringstillstånd i Stockholm under fotbolls-VM",
-   "date": "2026-07-23T10:00:05.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/stockholm/sa-gick-det-med-utokade-serveringstillstand-i-stockholm-under-fotbolls-vm",
-   "desc": "I samband med herrarnas fotbolls-VM valde Stockholms stad att låta krogar ha extraöppet under matcherna, som ibland ägde rum mitt i natten. Men hur har det gått? Enligt polisen har stöket uteblivit – trots det unika beslutet."
   },
   {
    "src": "BBC",

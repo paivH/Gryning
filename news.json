@@ -1,13 +1,29 @@
 {
- "updated": "2026-07-24T07:05:02.719Z",
+ "updated": "2026-07-24T09:43:05.935Z",
  "items": [
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "US hits dozens of trading partners with new wave of tariffs",
-   "date": "2026-07-24T06:47:08.000Z",
+   "title": "France orders evacuation of tourist spot as hundreds flee wildfires by boat",
+   "date": "2026-07-24T09:22:11.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cdx82rl5g0do?at_medium=RSS&at_campaign=rss",
+   "desc": "The fire has raged in the region for several days with officials now ordering the evacuation of the entire Cap Ferret peninsula."
+  },
+  {
+   "src": "BBC",
+   "section": "Världen",
+   "title": "US hits dozens of countries with new wave of tariffs",
+   "date": "2026-07-24T08:59:31.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
    "desc": "Imposed citing forced labour concerns, the levies replace a temporary global duty brought in after the US Supreme Court struck down tariffs in February."
+  },
+  {
+   "src": "BBC",
+   "section": "Världen",
+   "title": "US and Iran trade more strikes in Gulf as fears of escalation mount",
+   "date": "2026-07-24T09:20:07.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/c05ql5llj4do?at_medium=RSS&at_campaign=rss",
+   "desc": "It comes as Iran condemned the US plan to use frozen Iranian assets to pay for war damages."
   },
   {
    "src": "BBC",
@@ -26,20 +42,28 @@
    "desc": "At least 12 babies have been trafficked from Indonesia to Singapore, but what will happen to them remains unclear."
   },
   {
-   "src": "BBC",
-   "section": "Världen",
-   "title": "Saudis must recognise Israel for nuclear deal, says Trump",
-   "date": "2026-07-23T17:58:02.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cwye71yq8wwo?at_medium=RSS&at_campaign=rss",
-   "desc": "The US president says the landmark agreement to help Saudis develop nuclear energy is dependent on it joining the Abraham Accords."
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Gömde flera kilo narkotika i Luleårestaurang – nu väntar år i fängelse",
+   "date": "2026-07-24T09:22:05.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/norrbotten/gomde-flera-kilo-narkotika-i-lulearestaurang-nu-vantar-ar-i-fangelse",
+   "desc": "När polisen hittade två kilo amfetamin i en bil ledde spåren till en restaurang i Luleå. Vid en husrannsakan i krögarens lokaler upptäcktes ytterligare flera kilo amfetamin och andra narkotiska preparat."
   },
   {
-   "src": "BBC",
-   "section": "Världen",
-   "title": "France evacuates 20,000 as wildfires spread in south-west",
-   "date": "2026-07-23T19:17:42.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cy4kmr82n44o?at_medium=RSS&at_campaign=rss",
-   "desc": "Most of those evacuated were tourists from campsites around Arcachon Bay in France's Gironde region."
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Värnamobo krävs på 700 000 kronor efter felaktig sjukpenning i flera år",
+   "date": "2026-07-24T08:00:51.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/jonkoping/varnamobo-kravs-pa-700-000-kronor-efter-felaktig-sjukpenning-i-flera-ar",
+   "desc": "En Värnamobo har fått ett återbetalningskrav på 694 200 kronor från Försäkringskassan. Personen har haft sjukpenning sedan 2022, men nu dras den tillbaka, eftersom personen både utbildat sig och sökt nya jobb under tiden."
+  },
+  {
+   "src": "SVT",
+   "section": "Sverige · Stockholm",
+   "title": "Kyla dödar fler än värme – men det kommer förändras",
+   "date": "2026-07-24T05:58:24.000Z",
+   "link": "https://www.svt.se/nyheter/inrikes/kyla-dodar-fler-an-varme-men-det-kommer-forandras",
+   "desc": "Värmeböljan i slutet av juni i år krävde över 10 000 fler liv än normalt i Europa. Sedan dess har extremvärmen fortsatt på många håll. Ändå dör det varje år betydligt fler människor i världen av kyla än av värme. Men detta väntas förändras i takt med att jorden blir allt varmare."
   },
   {
    "src": "SVT",
@@ -58,28 +82,12 @@
    "desc": "Efter 39 dagar av fotbollsfest är det tillbaka till vardagen igen för Västmanlands krögare. Trots flera utsålda matcher blev inte VM någon ekonomisk succé för sportbaren Allstar i Västerås. – Intäkterna och utgifterna har typ gått hand i hand, säger sportbarens ägare Önder Alagöz."
   },
   {
-   "src": "SVT",
+   "src": "STHLM",
    "section": "Sverige · Stockholm",
-   "title": "Dåligt väder i Norge – nytt rekord för Pite havsbad: ”Hoppas på sol”",
-   "date": "2026-07-24T03:30:04.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/norrbotten/daligt-vader-i-norge-nytt-rekord-for-pite-havsbad-hoppas-pa-sol",
-   "desc": "Norrmännen flyr survädret i Nordnorge och väljer Norrbottenskusten. En regnig försommar i norra Norge hjälper Pite havsbad att slå förra årets rekordsifffror."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Nyköping inför nya regler för ljudmätning vid konserter",
-   "date": "2026-07-24T03:30:04.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/sormland/nykoping-infor-nya-regler-for-ljudmatning-vid-konserter",
-   "desc": "De senaste åren har det klagats på höga ljudnivåer från musikevenemang i centrala Nyköping. Men nu hoppas kommunen kunna underlätta för de olika parterna i konflikten – med nya riktlinjer."
-  },
-  {
-   "src": "SVT",
-   "section": "Sverige · Stockholm",
-   "title": "Tiotusentals flyr bränderna i södra Europa – nödläge i Spanien",
-   "date": "2026-07-23T22:25:34.000Z",
-   "link": "https://www.svt.se/nyheter/utrikes/tiotusentals-flyr-branderna-i-sodra-europa",
-   "desc": "Flera skogsbränder härjar i södra Europa, vilket fått tiotusentals att fly sina hem. – Vi har packat våra väskor, säger Sofia Krigsman, som befinner sig i Frankrike på semester. Landet begär nu EU-hjälp, och Spanien har utlyst nationellt nödläge, enligt RTVE."
+   "title": "Man försökte dränka exflickvän – misstänkt mordförsök",
+   "date": "2026-07-24T09:01:42.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/stockholm/man-forsokte-dranka-exflickvan-misstankt-mordforsok",
+   "desc": "En kvinna larmade under fredagsnatten polis efter att hennes expojkvän ska ha försökt dränka henne i Långbro. Mannen misstänks nu för mordförsök."
   },
   {
    "src": "STHLM",
@@ -95,7 +103,7 @@
    "title": "Butikspersonal slog vapen ur rånares hand i butik i Årsta",
    "date": "2026-07-23T16:01:46.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/butikspersonal-slog-vapen-ur-ranares-hand-snattade-godis",
-   "desc": "Personal i en butik i Årsta skulle kontrollera en godistjuv. Då valde mannen att dra fram ett vapen. Personalen lyckades slå vapnet ur handen på mannen som flydde kort därefter."
+   "desc": "Personal i en butik i Årsta skulle kontrollera en godistjuv. Då valde mannen att dra fram ett vapen. Personalen lyckades slå vapnet ur handen på mannen i 35-årsåldern som flydde kort därefter."
   },
   {
    "src": "STHLM",
@@ -114,20 +122,12 @@
    "desc": "En man döms till fängelse i 10 år för att ha försökt mörda sin elvaåriga son i Jordbro. Pappan lät sina hundar attackera sonen och ska ha försökt kasta honom från balkongen."
   },
   {
-   "src": "STHLM",
-   "section": "Sverige · Stockholm",
-   "title": "Här ger de sig ut på långvandring – i rullstol",
-   "date": "2026-07-23T03:30:07.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/stockholm/har-ger-de-sig-ut-pa-langvandring-i-rullstol",
-   "desc": "På hjul tar de sig fram under den tre dagar långa vandringen på Lovön och Ekerö. Projektet ska få ut fler vuxna med funktionsvariationer i naturen. – Det gav mig livet tillbaka, säger Lillemor Lindahl."
-  },
-  {
    "src": "BBC",
    "section": "United",
    "title": "Manchester United",
    "date": "2026-07-23T18:53:00.000Z",
    "link": "https://www.bbc.co.uk/sounds/play/p0p0k86b?at_medium=RSS&at_campaign=rss",
-   "desc": "MUST CEO Duncan Drasco on potential bans for season-ticket holders."
+   "desc": "MUST CEO Duncan Drasdo on potential bans for season-ticket holders."
   },
   {
    "src": "BBC",

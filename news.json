@@ -1,19 +1,27 @@
 {
- "updated": "2026-07-24T17:03:24.955Z",
+ "updated": "2026-07-24T18:56:43.453Z",
  "items": [
   {
    "src": "BBC",
    "section": "Världen",
-   "title": "US hits dozens of countries with new wave of tariffs",
-   "date": "2026-07-24T12:40:44.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
-   "desc": "Imposed citing forced labour concerns, the levies replace a temporary global duty brought in after the US Supreme Court struck down tariffs in February."
+   "title": "Ten killed in Russian attack on drone exhibition near Kyiv",
+   "date": "2026-07-24T18:51:17.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&at_campaign=rss",
+   "desc": "The event, attended by prominent members of the Ukrainian defence industry, was hit by ballistic missiles in the middle of the day."
+  },
+  {
+   "src": "BBC",
+   "section": "Världen",
+   "title": "Trump vows to investigate EU over fining of US tech companies",
+   "date": "2026-07-24T18:35:15.000Z",
+   "link": "https://www.bbc.co.uk/news/articles/cvgjenp4680o?at_medium=RSS&at_campaign=rss",
+   "desc": "The US president says fines against Google, as well as Apple, Meta and Amazon, should be \"entirely reversed.\""
   },
   {
    "src": "BBC",
    "section": "Världen",
    "title": "US and Iran trade more strikes in Gulf as fears of escalation mount",
-   "date": "2026-07-24T15:22:40.000Z",
+   "date": "2026-07-24T18:13:02.000Z",
    "link": "https://www.bbc.co.uk/news/articles/c05ql5llj4do?at_medium=RSS&at_campaign=rss",
    "desc": "It comes as Iran condemned the US plan to use frozen Iranian assets to pay for war damages."
   },
@@ -32,14 +40,6 @@
    "date": "2026-07-24T11:53:49.000Z",
    "link": "https://www.bbc.co.uk/news/articles/cwymj9lkx13o?at_medium=RSS&at_campaign=rss",
    "desc": "Ramaphosa has faced scrutiny following the theft of large sums of cash from his private farm in 2020."
-  },
-  {
-   "src": "BBC",
-   "section": "Världen",
-   "title": "Four Palestinians and two Israelis killed in West Bank shooting",
-   "date": "2026-07-24T16:37:17.000Z",
-   "link": "https://www.bbc.co.uk/news/articles/cx2rxmye4k3o?at_medium=RSS&at_campaign=rss",
-   "desc": "Palestinians say villagers came under attack by settlers, while the Israeli military says a Palestinian stole a weapon and opened fire on hikers."
   },
   {
    "src": "SVT",
@@ -84,6 +84,14 @@
   {
    "src": "STHLM",
    "section": "Sverige · Stockholm",
+   "title": "Man skjuten i Hässelby – oklart skadeläge",
+   "date": "2026-07-24T18:04:36.000Z",
+   "link": "https://www.svt.se/nyheter/lokalt/stockholm/man-skjuten-i-hasselby-qoltlx",
+   "desc": "En man har skjutits utomhus i Hässelby. Skadeläget är oklart. – Vi har ännu ingen gripen, säger polisens presstalesperson Anna Lärk."
+  },
+  {
+   "src": "STHLM",
+   "section": "Sverige · Stockholm",
    "title": "Man försökte dränka exflickvän – misstänkt mordförsök",
    "date": "2026-07-24T09:01:42.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/man-forsokte-dranka-exflickvan-misstankt-mordforsok",
@@ -112,14 +120,6 @@
    "date": "2026-07-23T10:00:05.000Z",
    "link": "https://www.svt.se/nyheter/lokalt/stockholm/sa-gick-det-med-utokade-serveringstillstand-i-stockholm-under-fotbolls-vm",
    "desc": "I samband med herrarnas fotbolls-VM valde Stockholms stad att låta krogar ha extraöppet under matcherna, som ibland ägde rum mitt i natten. Men hur har det gått? Enligt polisen har stöket uteblivit – trots det unika beslutet."
-  },
-  {
-   "src": "STHLM",
-   "section": "Sverige · Stockholm",
-   "title": "Man döms för mordförsök på sin son – lät hundarna attackera",
-   "date": "2026-07-23T09:19:20.000Z",
-   "link": "https://www.svt.se/nyheter/lokalt/stockholm/man-doms-for-mordforsok-pa-sin-son-lat-hundarna-attackera",
-   "desc": "En man döms till fängelse i 10 år för att ha försökt mörda sin elvaåriga son i Jordbro. Pappan lät sina hundar attackera sonen och ska ha försökt kasta honom från balkongen."
   },
   {
    "src": "BBC",
